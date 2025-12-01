@@ -46,7 +46,7 @@ def title_to_letterboxd_slug(title: str) -> str:
     title = re.sub(r'\s*\(\d{4}\)\s*$', '', title)
     # Convert to lowercase, replace spaces/special chars with hyphens
     slug = title.lower()
-    slug = re.sub(r'[:\''""!?,.]', '', slug)  # Remove punctuation
+    slug = re.sub(r"[:'\"!?,.]", '', slug)  # Remove punctuation
     slug = re.sub(r'[–—]', '-', slug)  # Normalize dashes
     slug = re.sub(r'\s+', '-', slug)  # Spaces to hyphens
     slug = re.sub(r'-+', '-', slug)  # Multiple hyphens to single
