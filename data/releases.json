@@ -1,1 +1,435 @@
-{}
+{
+  "last_updated": "2025-12-01T19:51:54.043394",
+  "months": [
+    {
+      "name": "December",
+      "year": 2025
+    },
+    {
+      "name": "January",
+      "year": 2026
+    }
+  ],
+  "releases": [
+    {
+      "title": "The Merchants Of Joy",
+      "date": "2025-12-01",
+      "platform": "Prime Video",
+      "synopsis": "In the city that never sleeps, five families hustle each winter to turn sidewalks into holiday outposts. The Merchants of Joy follows these Christmas die-hards as they source, sell, and safeguard a family tradition at risk. It\u2019s a warm, grounded port...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-merchants-of-joy/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Troll 2",
+      "date": "2025-12-01",
+      "platform": "Netflix",
+      "synopsis": "When a dangerous new troll is awakened, unleashing devastation across Norway, beloved adventurers Nora, Andreas and Captain Kris are thrust into their most perilous mission yet.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/troll-2-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Bau: Artist At War",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "Based on the true story of Joseph and Rebecca Bau whose wedding took place in the Plaszow concentration camp during WW2. Using his artistic skills in the camps, Joseph stays alive and helps hundreds to escape. Miraculously, he finds love in the midst...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/bau-artist-at-war/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Griffin In Summer",
+      "date": "2025-12-02",
+      "platform": "Hulu",
+      "synopsis": "Griffin (Everett Blunck) is the most ambitious playwright of his generation. He\u2019s also fourteen years old. When his mom (Melanie Lynskey) hires a handsome 25-year-old handyman (Owen Teague), Griffin\u2019s life and his new play take an inspired turn.",
+      "type": "streaming",
+      "letterboxd_rating": 3.56,
+      "letterboxd_url": "https://letterboxd.com/film/griffin-in-summer/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Tapawingo",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "Nate and Will are just two cool dudes who kill time between the local rec center and the Elk\u2019s Lodge to take in a few hours of bingo. The beer is plentiful and the crowd is wild\u2026 well, old, but wild.When they\u2019re not hanging loose, they\u2019re training. T...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/tapawingo/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Trap House",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "In El Paso, Texas an undercover DEA agent and his partner embark on a game of cat and mouse with an audacious group of thieves: their own rebellious teenagers. The teens begin to rob from a dangerous cartel, using their parents\u2019 tactics and top-secre...",
+      "type": "streaming",
+      "letterboxd_rating": 3.13,
+      "letterboxd_url": "https://letterboxd.com/film/trap-house-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Tron: Ares",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind\u2019s first encounter with A.I. beings.",
+      "type": "streaming",
+      "letterboxd_rating": 2.71,
+      "letterboxd_url": "https://letterboxd.com/film/tron-ares/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "My Secret Santa",
+      "date": "2025-12-03",
+      "platform": "Netflix",
+      "synopsis": "A vivacious single mom in need of a job decides to disguise herself as a man in order to get hired as the seasonal Santa at a luxury ski resort. But when she starts to fall in love with the hotel manager, complications develop that could ruin everyth...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/my-secret-santa/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Oh. What. Fun.",
+      "date": "2025-12-03",
+      "platform": "Prime Video",
+      "synopsis": "Claire Clauster (Michelle Pfeiffer) is the glue that holds her chaotic, lovable family together every holiday season. From perfectly frosted cookies to meticulously wrapped gifts, no one decks the halls quite like Claire. But this year, as her grown ...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/oh-what-fun/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Architecton",
+      "date": "2025-12-04",
+      "platform": "HBO Max",
+      "synopsis": "An extraordinary journey through the material that makes up our habitat: concrete, and its ancestor, stone. Victor Kossakovsky raises a fundamental question: how do we inhabit the world of tomorrow?",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/architecton/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "It\u2019S Never Over, Jeff Buckley",
+      "date": "2025-12-04",
+      "platform": "HBO Max",
+      "synopsis": "Rising musician Jeff Buckley had only released one album when he died suddenly in 1997. Now, never-before-seen footage, exclusive voice messages, and accounts from those closest to him offer a portrait of the captivating singer.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "Mission: Impossible \u2013 The Final Reckoning",
+      "date": "2025-12-04",
+      "platform": "Paramount+",
+      "synopsis": "After escaping a calamitous train crash, Ethan realizes The Entity is stashed aboard an old Russian submarine, but a foe from his past named Gabriel is also on the trail.",
+      "type": "streaming",
+      "letterboxd_rating": 3.47,
+      "letterboxd_url": "https://letterboxd.com/film/mission-impossible-the-final-reckoning/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "The Family Mcmullen",
+      "date": "2025-12-05",
+      "platform": "HBO Max",
+      "synopsis": "30 years after the events of The Brothers McMullen, romantic entanglements plague a now fiftysomething Barry McMullen and his twentysomething kids, as well as his brother Patrick and widowed sister-in-law Molly, who are also facing similar unexpected...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-family-mcmullen/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Jay Kelly",
+      "date": "2025-12-05",
+      "platform": "Netflix",
+      "synopsis": "Famous movie actor Jay Kelly and his devoted manager Ron embark on a whirlwind and unexpectedly profound journey through Europe. Along the way, both men are forced to confront the choices they\u2019ve made, the relationships with their loved ones, and the...",
+      "type": "streaming",
+      "letterboxd_rating": 3.4,
+      "letterboxd_url": "https://letterboxd.com/film/jay-kelly/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Man Finds Tape",
+      "date": "2025-12-05",
+      "platform": "VOD/Digital",
+      "synopsis": "Pulled in by a series of strange and unexplainable video clips, a brother and sister team up to investigate the events captured in the footage, only to discover a shocking secret that\u2019s overtaking their small-town Texas community.",
+      "type": "streaming",
+      "letterboxd_rating": 3.09,
+      "letterboxd_url": "https://letterboxd.com/film/man-finds-tape/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Muzzle 2: City Of Wolves",
+      "date": "2025-12-05",
+      "platform": "VOD/Digital",
+      "synopsis": "LAPD officer Jake Rosser endeavors to lead a peaceful life with his family and retired K-9 officer, Socks. However, tranquility dissolves into chaos when a gang targets them in a brutal attack. Alongside his new K-9 partner Argos, Jake launches into ...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "The New Yorker At 100",
+      "date": "2025-12-05",
+      "platform": "Netflix",
+      "synopsis": "It is considered one of the most culturally significant magazines of all time. Now, as\u00a0The New Yorker\u00a0marks its centennial, the iconic publication is granting unprecedented access to its inner workings, its contributors, and its archives. This docume...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-new-yorker-at-100/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Reflection In A Dead Diamond",
+      "date": "2025-12-05",
+      "platform": "Shudder",
+      "synopsis": "When the mysterious woman in the room next door disappears, a debonair 70-year-old ex-spy living in a luxury hotel on the C\u00f4te d\u2019Azur is confronted by the demons and darlings of a lurid past in which moviemaking, memories and madness collide.",
+      "type": "streaming",
+      "letterboxd_rating": 3.49,
+      "letterboxd_url": "https://letterboxd.com/film/reflection-in-a-dead-diamond/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Predators",
+      "date": "2025-12-08",
+      "platform": "Paramount+",
+      "synopsis": "\u201cTo Catch a Predator\u201d was a popular television show designed to hunt down child predators and lure them to a film set, where they would be interviewed and eventually arrested. An exploration of the scintillating rise and staggering fall of the show a...",
+      "type": "streaming",
+      "letterboxd_rating": 3.77,
+      "letterboxd_url": "https://letterboxd.com/film/predators-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "The Carpenter\u2019S Son",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "A remote village in Roman-era Egypt explodes into spiritual warfare when a carpenter, his wife and their child are targeted by supernatural forces.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "Christy",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "Christy Martin never imagined life beyond her small-town roots in West Virginia\u2014until she discovered a knack for punching people. Fueled by grit, raw determination, and an unshakable desire to win, she charges into the world of boxing under the guida...",
+      "type": "streaming",
+      "letterboxd_rating": 3.69,
+      "letterboxd_url": "https://letterboxd.com/film/christy-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Little Am\u00e9lie Or The Character Of Rain",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "The world is a perplexing, peaceful mystery to Am\u00e9lie until a miraculous encounter with chocolate ignites her wild sense of curiosity. As she develops a deep attachment to her family\u2019s housekeeper, Nishio-san, Am\u00e9lie discovers the wonders of nature a...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "A Savage Art: The Life & Cartoons Of Pat Oliphant",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "Patrick Oliphant was a giant slayer, bravely taking on presidents, popes and the American corporate class with his mighty pen. An Australian transplant, Oliphant became America\u2019s most renowned and feared political cartoonist for five decades. With hi...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "Merv",
+      "date": "2025-12-10",
+      "platform": "Prime Video",
+      "synopsis": "When their beloved dog Merv loses his spark after their split, Anna (Zooey Deschanel) and Russ (Charlie Cox) are forced into the world\u2019s most awkward co-parenting arrangement. Hoping to shake Merv out of his funk, Russ takes him to Florida for a much...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/merv-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "F1 The Movie",
+      "date": "2025-12-12",
+      "platform": "Apple TV",
+      "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
+      "type": "streaming",
+      "letterboxd_rating": 3.72,
+      "letterboxd_url": "https://letterboxd.com/film/f1-the-movie/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Influencers",
+      "date": "2025-12-12",
+      "platform": "Shudder",
+      "synopsis": "In Southern France, a young woman\u2019s chilling fascination with murder and identity theft sends her life into a whirlwind of chaos.",
+      "type": "streaming",
+      "letterboxd_rating": 3.46,
+      "letterboxd_url": "https://letterboxd.com/film/influencers-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Modi",
+      "date": "2025-12-12",
+      "platform": "VOD/Digital",
+      "synopsis": "A 72-hour whirlwind in the life of bohemian artist Amedeo Modigliani, known as Modi to his friends, follows a chaotic series of events through the streets of war torn Paris in 1916. On the run from the police, his desire to end his career and leave t...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/modi/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Spinal Tap Ii: The End Continues",
+      "date": "2025-12-12",
+      "platform": "HBO Max",
+      "synopsis": "Spinal Tap, England\u2019s loudest and most punctual band, reunite following a 15-year hiatus for one final concert.",
+      "type": "streaming",
+      "letterboxd_rating": 3.14,
+      "letterboxd_url": "https://letterboxd.com/film/spinal-tap-ii-the-end-continues/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "date": "2025-12-12",
+      "platform": "Netflix",
+      "synopsis": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it\u2019s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts loc...",
+      "type": "streaming",
+      "letterboxd_rating": 4.04,
+      "letterboxd_url": "https://letterboxd.com/film/wake-up-dead-man-a-knives-out-mystery/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Eye For An Eye",
+      "date": "2025-12-15",
+      "platform": "Starz",
+      "synopsis": "Anna, grieving the sudden death of her parents, relocates from New York to a small Florida town to live with the grandmother she has never met. Isolated, vulnerable, and in need of friends, she finds brief solace in the company of two local teens. Bu...",
+      "type": "streaming",
+      "letterboxd_rating": 2.73,
+      "letterboxd_url": "https://letterboxd.com/film/eye-for-an-eye-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Put Your Soul On Your Hand And Walk",
+      "date": "2025-12-16",
+      "platform": "VOD/Digital",
+      "synopsis": "Put Your Soul on Your Hand and Walk\u00a0offers an intimate, first-hand perspective on life under siege in Gaza, captured through video calls between director Sepideh Farsi and 25-year-old Palestinian photojournalist and poet Fatma Hassona. Combining raw ...",
+      "type": "streaming",
+      "letterboxd_rating": 4.08,
+      "letterboxd_url": "https://letterboxd.com/film/put-your-soul-on-your-hand-and-walk/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Queens Of The Dead",
+      "date": "2025-12-19",
+      "platform": "Shudder",
+      "synopsis": "When a zombie apocalypse breaks out in Brooklyn on the night of a giant warehouse party, an eclectic group of drag queens, club kids, & frenemies must put aside their drama and use their unique skills to fight against the brain-thirsty, scrolling und...",
+      "type": "streaming",
+      "letterboxd_rating": 3.27,
+      "letterboxd_url": "https://letterboxd.com/film/queens-of-the-dead/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Relay",
+      "date": "2025-12-19",
+      "platform": "Netflix",
+      "synopsis": "Tom, a world class \u201cfixer\u201d, specializes in brokering lucrative payoffs between corrupt corporations and the individuals who threaten their ruin. He keeps his identity a secret through meticulous planning and always follows an exacting set of rules. B...",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/relay-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Aztec Batman: Clash Of Empires",
+      "date": "2025-12-22",
+      "platform": "HBO Max",
+      "synopsis": "In the time of the Aztec Empire, Yohualli Coatl \u2013 a young Aztec boy \u2013 experiences tragedy when his father and village leader, Toltecatzin, is murdered by Spanish Conquistadors. Yohualli escapes to Tenochtitlan to warn King Moctezuma and his high prie...",
+      "type": "streaming",
+      "letterboxd_rating": 3.02,
+      "letterboxd_url": "https://letterboxd.com/film/aztec-batman-clash-of-empires/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Eden",
+      "date": "2025-12-23",
+      "platform": "Netflix",
+      "synopsis": "A group of people is fueled by a profound desire for change. In order to turn their back to society they leave everything behind and set their futures on the harsh landscape of the Galapagos.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/eden-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Strange Harvest",
+      "date": "2025-12-23",
+      "platform": "Hulu",
+      "synopsis": "Detectives are thrust into a chilling hunt for \u201cMr. Shiny\u201d\u2014a sadistic serial killer from the past whose return marks the beginning of a new wave of grotesque, otherworldly crimes tied to a dark cosmic force.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/strange-harvest/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Goodbye June",
+      "date": "2025-12-24",
+      "platform": "Netflix",
+      "synopsis": "Four siblings\u2019 lives change drastically when their ailing mother takes a turn for the worse over the holiday season.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/goodbye-june/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Ne Zha Ii",
+      "date": "2025-12-24",
+      "platform": "HBO Max",
+      "synopsis": "A rebellious young boy, Ne Zha, is feared by the gods and born to mortal parents with wild, uncontrolled powers. Now he\u2019s faced with an ancient force intent on destroying humanity, he must grow up to become the hero the world needs.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
+      "title": "Cover-Up",
+      "date": "2025-12-26",
+      "platform": "Netflix",
+      "synopsis": "For the past six decades, Seymour Hersh has been at the front lines of political journalism in the U.S. This arresting documentary, released at a crucial moment for the freedom of the press, tells the wide-ranging story of this breakthrough reporter.",
+      "type": "streaming",
+      "letterboxd_rating": 3.82,
+      "letterboxd_url": "https://letterboxd.com/film/cover-up-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "The Jester 2",
+      "date": "2025-12-26",
+      "platform": "Shudder",
+      "synopsis": "On Halloween night, the Jester, a malevolent supernatural trickster, crosses paths with Max, a 15-year-old girl, forcing her into an uneasy alliance for the evening. Max must use all her wits to try and outsmart a dangerous magician who is truly magi...",
+      "type": "streaming",
+      "letterboxd_rating": 2.49,
+      "letterboxd_url": "https://letterboxd.com/film/the-jester-2/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "The Life Of Chuck",
+      "date": "2025-12-26",
+      "platform": "Hulu",
+      "synopsis": "In this extraordinary story of an ordinary man, Charles \u2018Chuck\u2019 Krantz experiences the wonder of love, the heartbreak of loss, and the multitudes contained in all of us.",
+      "type": "streaming",
+      "letterboxd_rating": 3.69,
+      "letterboxd_url": "https://letterboxd.com/film/the-life-of-chuck/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    },
+    {
+      "title": "Together",
+      "date": "2025-12-31",
+      "platform": "Hulu",
+      "synopsis": "With a move to the countryside already testing the limits of a couple\u2019s relationship, a supernatural encounter begins an extreme transformation of their love, their lives, and their flesh.",
+      "type": "streaming",
+      "letterboxd_rating": 3.32,
+      "letterboxd_url": "https://letterboxd.com/film/together-2025/",
+      "poster": "https://s.ltrbxd.com/static/img/empty-poster-1000-D9cprv0m.png"
+    }
+  ]
+}
