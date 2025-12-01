@@ -57,6 +57,63 @@ def title_to_letterboxd_slug(title: str) -> str:
     slug = slug.strip('-')
     return slug
 
+def get_tmdb_theatrical_releases(start_date: str, end_date: str) -> list:
+    """Fetch theatrical releases from TMDB for a date range."""
+    releases = []
+    page = 1
+    
+    while page <= 5:  # Max 5 pages to avoid too many requests
+        url = f"https://api.themoviedb.org/3/discover/movie?api_key={TMDB_API_KEY}"
+        url += f"&region=US&with_release_type=2|3"  # 2=Limited, 3=Theatrical
+        url += f"&release_date.gte={start_date}&release_date.lte={end_date}"
+        url += f"&sort_by=release_date.asc&page={page}"
+        
+        try:
+            response = requests.get(url, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                
+                for movie in data.get('results', []):
+                    # Get release date for US
+                    release_date = movie.get('release_date', '')
+                    if not release_date:
+                        continue
+                    
+                    # Get poster
+                    poster_path = movie.get('poster_path')
+                    poster_url = f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else None
+                    
+                    # Determine if wide or limited based on popularity/vote count
+                    vote_count = movie.get('vote_count', 0)
+                    popularity = movie.get('popularity', 0)
+                    release_type = "Wide Release" if popularity > 50 or vote_count > 100 else "Limited"
+                    
+                    releases.append({
+                        'title': movie.get('title', ''),
+                        'date': release_date,
+                        'platform': release_type,
+                        'synopsis': movie.get('overview', '')[:200] + '...' if len(movie.get('overview', '')) > 200 else movie.get('overview', ''),
+                        'type': 'theatrical',
+                        'poster': poster_url,
+                        'tmdb_id': movie.get('id'),
+                        'letterboxd_rating': None,
+                        'letterboxd_url': None
+                    })
+                
+                if page >= data.get('total_pages', 1):
+                    break
+                page += 1
+            else:
+                break
+        except Exception as e:
+            print(f"Error fetching TMDB page {page}: {e}")
+            break
+        
+        time.sleep(0.25)  # Rate limiting
+    
+    return releases
+
+
 def get_tmdb_poster(title: str, year: str = None) -> str:
     """Fetch poster URL from TMDB."""
     try:
@@ -280,8 +337,52 @@ def main():
     data = {
         "last_updated": datetime.now().isoformat(),
         "months": [{"name": m.title(), "year": y} for m, y in months],
-        "releases": unique
+        "releases": unique,
+        "theatrical": []
     }
+    
+    # Fetch theatrical releases from TMDB
+    print("\nFetching theatrical releases from TMDB...")
+    theatrical_releases = []
+    for month_name, year in months:
+        month_num = MONTHS.index(month_name.lower()) + 1
+        # Get first and last day of month
+        start_date = f"{year}-{month_num:02d}-01"
+        if month_num == 12:
+            end_date = f"{year}-12-31"
+        else:
+            end_date = f"{year}-{month_num:02d}-28"  # Safe end date
+        
+        month_releases = get_tmdb_theatrical_releases(start_date, end_date)
+        theatrical_releases.extend(month_releases)
+        print(f"  Found {len(month_releases)} theatrical releases for {month_name.title()} {year}")
+    
+    # Deduplicate theatrical
+    seen_theatrical = set()
+    unique_theatrical = []
+    for r in theatrical_releases:
+        key = (r['title'].lower(), r['date'])
+        if key not in seen_theatrical:
+            seen_theatrical.add(key)
+            unique_theatrical.append(r)
+    
+    unique_theatrical.sort(key=lambda x: x['date'])
+    
+    # Fetch Letterboxd ratings for theatrical releases
+    print("\nFetching Letterboxd ratings for theatrical releases...")
+    for i, release in enumerate(unique_theatrical):
+        year = release['date'][:4] if release.get('date') else None
+        rating_info = get_letterboxd_rating(release['title'], year)
+        
+        if rating_info:
+            release['letterboxd_rating'] = rating_info.get('rating')
+            release['letterboxd_url'] = rating_info.get('url')
+        
+        if (i + 1) % 10 == 0:
+            print(f"  [{i + 1}/{len(unique_theatrical)} complete]")
+    
+    data["theatrical"] = unique_theatrical
+    print(f"  Total theatrical: {len(unique_theatrical)}")
     
     output_file = output_dir / "releases.json"
     with open(output_file, 'w') as f:
