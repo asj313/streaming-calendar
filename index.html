@@ -428,6 +428,7 @@
         const data = await res.json();
         
         allData.streaming = data.releases || [];
+        allData.theatrical = data.theatrical || [];
         
         // Update last updated time
         if (data.last_updated) {
