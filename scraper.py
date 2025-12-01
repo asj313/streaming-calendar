@@ -19,6 +19,10 @@ MONTHS = [
     "july", "august", "september", "october", "november", "december"
 ]
 
+# TMDB API for posters
+TMDB_API_KEY = "3f9482f67e4249d66b4df84f2fa62c99"
+TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w154"
+
 PLATFORM_PATTERNS = {
     "Netflix": r"\(Netflix\)",
     "Prime Video": r"\(Prime Video\)",
@@ -52,6 +56,26 @@ def title_to_letterboxd_slug(title: str) -> str:
     slug = re.sub(r'-+', '-', slug)  # Multiple hyphens to single
     slug = slug.strip('-')
     return slug
+
+def get_tmdb_poster(title: str, year: str = None) -> str:
+    """Fetch poster URL from TMDB."""
+    try:
+        # Search for the movie
+        search_url = f"https://api.themoviedb.org/3/search/movie?api_key={TMDB_API_KEY}&query={requests.utils.quote(title)}"
+        if year:
+            search_url += f"&year={year}"
+        
+        response = requests.get(search_url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            if data.get('results') and len(data['results']) > 0:
+                poster_path = data['results'][0].get('poster_path')
+                if poster_path:
+                    return f"{TMDB_IMAGE_BASE}{poster_path}"
+    except Exception as e:
+        pass
+    
+    return None
 
 def get_letterboxd_rating(title: str, year: str = None) -> dict:
     """Fetch Letterboxd rating and poster for a movie."""
@@ -226,23 +250,28 @@ def main():
     
     unique.sort(key=lambda x: x['date'])
     
-    # Fetch Letterboxd ratings for each movie
-    print("\nFetching Letterboxd ratings and posters...")
+    # Fetch Letterboxd ratings and TMDB posters for each movie
+    print("\nFetching Letterboxd ratings and TMDB posters...")
     for i, release in enumerate(unique):
         # Extract year from date
         year = release['date'][:4] if release.get('date') else None
-        rating_info = get_letterboxd_rating(release['title'], year)
         
+        # Get Letterboxd rating
+        rating_info = get_letterboxd_rating(release['title'], year)
         if rating_info:
             release['letterboxd_rating'] = rating_info.get('rating')
             release['letterboxd_url'] = rating_info.get('url')
-            release['poster'] = rating_info.get('poster')
-            print(f"  {release['title']}: {rating_info.get('rating', 'no rating')} {'✓ poster' if rating_info.get('poster') else ''}")
         else:
             release['letterboxd_rating'] = None
             release['letterboxd_url'] = None
-            release['poster'] = None
-            print(f"  {release['title']}: not found")
+        
+        # Get TMDB poster
+        poster_url = get_tmdb_poster(release['title'], year)
+        release['poster'] = poster_url
+        
+        rating_str = str(rating_info.get('rating')) if rating_info and rating_info.get('rating') else 'no rating'
+        poster_str = '✓ poster' if poster_url else 'no poster'
+        print(f"  {release['title']}: {rating_str}, {poster_str}")
         
         # Progress indicator
         if (i + 1) % 10 == 0:
