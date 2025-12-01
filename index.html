@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0F0F12">
+  <title>Streaming Calendar</title>
+  <link rel="manifest" href="manifest.json">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    :root {
+      --bg: #0F0F12;
+      --card: #16161A;
+      --border: rgba(255,255,255,0.06);
+      --text: #fff;
+      --text-muted: #6B7280;
+      --text-dim: #4B5563;
+      --accent: #6366F1;
+    }
+    
+    body {
+      min-height: 100vh;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Tab Navigation */
+    .tab-nav {
+      display: flex;
+      gap: 0;
+      background: #1A1A1F;
+      border-radius: 10px;
+      padding: 4px;
+      margin-bottom: 16px;
+    }
+    
+    .tab-btn {
+      flex: 1;
+      padding: 10px 16px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 500;
+      font-family: inherit;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.2s ease;
+    }
+    
+    .tab-btn.active {
+      background: var(--accent);
+      color: white;
+    }
+    
+    .tab-btn:not(.active):hover {
+      color: var(--text);
+    }
+    
+    /* Header */
+    header {
+      padding: 32px 24px 20px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background-color: var(--bg);
+      z-index: 100;
+    }
+    
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    
+    h1 {
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+    
+    .subtitle {
+      margin-top: 4px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+    
+    .source {
+      font-size: 11px;
+      color: var(--text-dim);
+      text-align: right;
+    }
+    
+    .source a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    /* Filters */
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    
+    .filter-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: none;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      background-color: #1F1F26;
+      color: #9CA3AF;
+      font-family: inherit;
+    }
+    
+    .filter-btn.active {
+      opacity: 1 !important;
+    }
+    
+    .clear-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      border: 1px solid #374151;
+      background-color: transparent;
+      color: #9CA3AF;
+      font-size: 12px;
+      cursor: pointer;
+      font-family: inherit;
+      display: none;
+    }
+    
+    .clear-btn.visible { display: inline-block; }
+    
+    /* Main content */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 8px 24px 48px;
+    }
+    
+    /* Month divider */
+    .month-divider {
+      padding: 20px 0 12px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 8px;
+    }
+    
+    /* Release cards */
+    .release-card {
+      display: flex;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    
+    .release-card:hover {
+      background-color: rgba(255,255,255,0.02);
+      margin: 0 -12px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    
+    .release-card.hidden { display: none; }
+    
+    .date-col {
+      min-width: 52px;
+      text-align: center;
+      padding-top: 2px;
+    }
+    
+    .poster-col {
+      width: 44px;
+      height: 66px;
+      flex-shrink: 0;
+      border-radius: 4px;
+      overflow: hidden;
+      background: #1F1F26;
+    }
+    
+    .poster-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .poster-placeholder {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3A3A45;
+      font-size: 20px;
+    }
+    
+    .weekday, .month {
+      font-size: 11px;
+      color: #8B8B9A;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .weekday { margin-bottom: 2px; }
+    
+    .day {
+      font-size: 26px;
+      font-weight: 300;
+      color: var(--text);
+      line-height: 1;
+    }
+    
+    .content-col {
+      flex: 1;
+      min-width: 0;
+    }
+    
+    .title-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+    }
+    
+    .title {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--text);
+      line-height: 1.3;
+    }
+    
+    .platform-badge {
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    
+    .rating-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #1F1F26;
+      color: #00E054;
+      text-decoration: none;
+      margin-left: 8px;
+    }
+    
+    .rating-badge:hover {
+      background: #2A2A32;
+    }
+    
+    .rating-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: #00E054;
+    }
+    
+    .rating-badge.no-rating {
+      color: #6B7280;
+    }
+    
+    .rating-badge.no-rating svg {
+      fill: #6B7280;
+    }
+    
+    .synopsis {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #9CA3AF;
+      line-height: 1.5;
+      display: none;
+      animation: fadeIn 0.2s ease;
+    }
+    
+    .release-card.expanded .synopsis { display: block; }
+    
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--text-muted);
+      display: none;
+    }
+    
+    .empty-state.visible { display: block; }
+    .empty-state p { font-size: 18px; margin-bottom: 16px; }
+    
+    .empty-state button {
+      padding: 8px 16px;
+      border-radius: 6px;
+      border: 1px solid #374151;
+      background-color: transparent;
+      color: #9CA3AF;
+      font-size: 14px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--text-muted);
+    }
+    
+    /* Footer */
+    footer {
+      padding: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 12px;
+    }
+    
+    .updated-time {
+      margin-top: 4px;
+      font-size: 11px;
+      color: var(--text-dim);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="header-top">
+        <div>
+          <h1>Release Calendar</h1>
+          <p class="subtitle" id="subtitle">Loading...</p>
+        </div>
+        <div class="source">
+          Data from<br>
+          <a href="https://whentostream.com" target="_blank">whentostream.com</a>
+        </div>
+      </div>
+      
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="streaming" onclick="switchTab('streaming')">Streaming</button>
+        <button class="tab-btn" data-tab="theatrical" onclick="switchTab('theatrical')">Theatrical</button>
+      </div>
+      
+      <div class="filters" id="filters"></div>
+    </div>
+  </header>
+
+  <main id="releases">
+    <div class="loading">Loading releases...</div>
+  </main>
+  
+  <div class="empty-state" id="empty">
+    <p>No releases match your filters</p>
+    <button onclick="clearFilters()">Show all releases</button>
+  </div>
+
+  <footer>
+    Built with data from whentostream.com • Click any title to expand
+    <div class="updated-time" id="updated"></div>
+  </footer>
+
+  <script>
+    // Platform colors
+    const PLATFORM_COLORS = {
+      "Netflix": { bg: "#E50914", text: "#fff" },
+      "Prime Video": { bg: "#00A8E1", text: "#fff" },
+      "HBO Max": { bg: "#5822B4", text: "#fff" },
+      "Hulu": { bg: "#1CE783", text: "#0B0C0F" },
+      "Disney+": { bg: "#113CCF", text: "#fff" },
+      "Paramount+": { bg: "#0064FF", text: "#fff" },
+      "Apple TV": { bg: "#000", text: "#fff" },
+      "Shudder": { bg: "#C12B23", text: "#fff" },
+      "Starz": { bg: "#000", text: "#FFD700" },
+      "MUBI": { bg: "#1A1A2E", text: "#E94560" },
+      "VOD/Digital": { bg: "#4A5568", text: "#fff" },
+      "Peacock": { bg: "#000", text: "#fff" },
+      "Tubi": { bg: "#FF5100", text: "#fff" },
+      // Theatrical
+      "Wide Release": { bg: "#DC2626", text: "#fff" },
+      "Limited": { bg: "#7C3AED", text: "#fff" },
+    };
+
+    // State
+    let allData = { streaming: [], theatrical: [] };
+    let currentTab = 'streaming';
+    let selectedPlatforms = new Set();
+    let expandedCard = null;
+
+    // Load data
+    async function loadData() {
+      try {
+        // Try to load from data/releases.json
+        const res = await fetch('./data/releases.json');
+        const data = await res.json();
+        
+        allData.streaming = data.releases || [];
+        
+        // Update last updated time
+        if (data.last_updated) {
+          const updated = new Date(data.last_updated);
+          document.getElementById('updated').textContent = 
+            `Last updated: ${updated.toLocaleDateString()} at ${updated.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}`;
+        }
+        
+        renderFilters();
+        renderReleases();
+      } catch (e) {
+        // Fallback to embedded data if file not found
+        console.log('Using embedded data');
+        loadEmbeddedData();
+      }
+    }
+
+    function loadEmbeddedData() {
+      // Embedded December 2025 data as fallback
+      allData.streaming = [
+        { title: "The Merchants of Joy", date: "2025-12-01", platform: "Prime Video", synopsis: "Five families hustle each winter to turn sidewalks into holiday outposts.", letterboxd_rating: null, poster: null },
+        { title: "Troll 2", date: "2025-12-01", platform: "Netflix", synopsis: "When a dangerous new troll is awakened, unleashing devastation across Norway.", letterboxd_rating: 3.2, letterboxd_url: "https://letterboxd.com/film/troll-2-2025/", poster: "https://a.ltrbxd.com/resized/film-poster/1/0/3/2/1/7/5/1032175-troll-2-0-150-0-225-crop.jpg" },
+        { title: "Tron: Ares", date: "2025-12-02", platform: "VOD/Digital", synopsis: "A Program called Ares is sent from the digital world into the real world.", letterboxd_rating: 3.4, letterboxd_url: "https://letterboxd.com/film/tron-ares/", poster: "https://a.ltrbxd.com/resized/film-poster/5/4/4/1/1/7/544117-tron-ares-0-150-0-225-crop.jpg" },
+        { title: "Griffin in Summer", date: "2025-12-02", platform: "Hulu", synopsis: "Griffin is the most ambitious playwright of his generation. He's also fourteen.", letterboxd_rating: 3.7, letterboxd_url: "https://letterboxd.com/film/griffin-in-summer/", poster: "https://a.ltrbxd.com/resized/film-poster/1/1/4/5/0/1/4/1145014-griffin-in-summer-0-150-0-225-crop.jpg" },
+        { title: "My Secret Santa", date: "2025-12-03", platform: "Netflix", synopsis: "A single mom disguises herself as a man to get hired as Santa at a ski resort.", letterboxd_rating: null, poster: null },
+        { title: "Oh. What. Fun.", date: "2025-12-03", platform: "Prime Video", synopsis: "Claire's family makes one crucial mistake: they forget their mom.", letterboxd_rating: 3.1, letterboxd_url: "https://letterboxd.com/film/oh-what-fun/", poster: "https://a.ltrbxd.com/resized/film-poster/1/1/9/0/4/3/1/1190431-oh-what-fun-0-150-0-225-crop.jpg" },
+        { title: "Mission: Impossible – The Final Reckoning", date: "2025-12-04", platform: "Paramount+", synopsis: "Ethan realizes The Entity is stashed aboard an old Russian submarine.", letterboxd_rating: 4.1, letterboxd_url: "https://letterboxd.com/film/mission-impossible-the-final-reckoning/", poster: "https://a.ltrbxd.com/resized/film-poster/6/9/6/5/0/5/696505-mission-impossible-the-final-reckoning-0-150-0-225-crop.jpg" },
+        { title: "It's Never Over, Jeff Buckley", date: "2025-12-04", platform: "HBO Max", synopsis: "Never-before-seen footage offers a portrait of the captivating singer.", letterboxd_rating: 3.9, letterboxd_url: "https://letterboxd.com/film/its-never-over-jeff-buckley/", poster: null },
+        { title: "Jay Kelly", date: "2025-12-05", platform: "Netflix", synopsis: "Famous movie actor Jay Kelly and his manager embark on a journey through Europe.", letterboxd_rating: 3.8, letterboxd_url: "https://letterboxd.com/film/jay-kelly/", poster: "https://a.ltrbxd.com/resized/film-poster/7/2/7/9/0/5/727905-jay-kelly-0-150-0-225-crop.jpg" },
+        { title: "The New Yorker at 100", date: "2025-12-05", platform: "Netflix", synopsis: "The iconic publication grants unprecedented access to its inner workings.", letterboxd_rating: 3.5, letterboxd_url: "https://letterboxd.com/film/the-new-yorker-at-100/", poster: null },
+        { title: "Roofman", date: "2025-12-09", platform: "Paramount+", synopsis: "A former Army Ranger robs McDonald's by cutting holes in roofs.", letterboxd_rating: 3.6, letterboxd_url: "https://letterboxd.com/film/roofman/", poster: "https://a.ltrbxd.com/resized/film-poster/9/9/7/5/2/9/997529-roofman-0-150-0-225-crop.jpg" },
+        { title: "Christy", date: "2025-12-09", platform: "VOD/Digital", synopsis: "Christy Martin discovered a knack for punching people.", letterboxd_rating: 3.4, letterboxd_url: "https://letterboxd.com/film/christy-2025/", poster: "https://a.ltrbxd.com/resized/film-poster/1/0/5/5/2/9/5/1055295-christy-0-150-0-225-crop.jpg" },
+        { title: "Merv", date: "2025-12-10", platform: "Prime Video", synopsis: "When their dog loses his spark, Anna and Russ are forced into awkward co-parenting.", letterboxd_rating: null, poster: null },
+        { title: "F1 The Movie", date: "2025-12-12", platform: "Apple TV", synopsis: "Racing legend Sonny Hayes is coaxed out of retirement.", letterboxd_rating: 3.3, letterboxd_url: "https://letterboxd.com/film/f1/", poster: "https://a.ltrbxd.com/resized/film-poster/8/2/0/3/7/1/820371-f1-0-150-0-225-crop.jpg" },
+        { title: "Wake Up Dead Man: A Knives Out Mystery", date: "2025-12-12", platform: "Netflix", synopsis: "Detective Benoit Blanc must unravel a murder mystery that defies logic.", letterboxd_rating: 4.0, letterboxd_url: "https://letterboxd.com/film/wake-up-dead-man-a-knives-out-mystery/", poster: "https://a.ltrbxd.com/resized/film-poster/9/4/6/0/2/4/946024-wake-up-dead-man-a-knives-out-mystery-0-150-0-225-crop.jpg" },
+        { title: "Spinal Tap II", date: "2025-12-12", platform: "HBO Max", synopsis: "England's loudest band reunites for one final concert.", letterboxd_rating: 3.5, letterboxd_url: "https://letterboxd.com/film/spinal-tap-ii-the-end-continues/", poster: "https://a.ltrbxd.com/resized/film-poster/4/7/8/4/7/3/478473-spinal-tap-ii-0-150-0-225-crop.jpg" },
+        { title: "Queens of the Dead", date: "2025-12-19", platform: "Shudder", synopsis: "When a zombie apocalypse breaks out, drag queens must fight the undead.", letterboxd_rating: 3.2, letterboxd_url: "https://letterboxd.com/film/queens-of-the-dead/", poster: null },
+        { title: "Relay", date: "2025-12-19", platform: "Netflix", synopsis: "A world-class 'fixer' must change the rules when a client needs protection.", letterboxd_rating: 3.1, letterboxd_url: "https://letterboxd.com/film/relay-2024/", poster: "https://a.ltrbxd.com/resized/film-poster/8/8/6/9/1/6/886916-relay-0-150-0-225-crop.jpg" },
+        { title: "Aztec Batman", date: "2025-12-22", platform: "HBO Max", synopsis: "A young Aztec boy trains to confront the Spanish invasion.", letterboxd_rating: null, poster: null },
+        { title: "Eden", date: "2025-12-23", platform: "Netflix", synopsis: "A group leaves everything behind for the Galapagos.", letterboxd_rating: 3.0, letterboxd_url: "https://letterboxd.com/film/eden-2024/", poster: "https://a.ltrbxd.com/resized/film-poster/9/5/2/6/8/7/952687-eden-0-150-0-225-crop.jpg" },
+        { title: "Goodbye June", date: "2025-12-24", platform: "Netflix", synopsis: "Four siblings' lives change when their mother takes a turn for the worse.", letterboxd_rating: 3.8, letterboxd_url: "https://letterboxd.com/film/goodbye-june/", poster: null },
+        { title: "Ne Zha II", date: "2025-12-24", platform: "HBO Max", synopsis: "A rebellious boy faces an ancient force intent on destroying humanity.", letterboxd_rating: 4.2, letterboxd_url: "https://letterboxd.com/film/ne-zha-2/", poster: "https://a.ltrbxd.com/resized/film-poster/5/5/1/6/8/6/551686-ne-zha-2-0-150-0-225-crop.jpg" },
+        { title: "The Life of Chuck", date: "2025-12-26", platform: "Hulu", synopsis: "An extraordinary story of an ordinary man.", letterboxd_rating: 4.0, letterboxd_url: "https://letterboxd.com/film/the-life-of-chuck/", poster: "https://a.ltrbxd.com/resized/film-poster/9/2/7/0/0/9/927009-the-life-of-chuck-0-150-0-225-crop.jpg" },
+        { title: "Together", date: "2025-12-31", platform: "Hulu", synopsis: "A supernatural encounter transforms a couple's love, lives, and flesh.", letterboxd_rating: 3.3, letterboxd_url: "https://letterboxd.com/film/together-2025/", poster: "https://a.ltrbxd.com/resized/film-poster/1/0/2/5/5/1/0/1025510-together-0-150-0-225-crop.jpg" },
+      ];
+      
+      // Sample theatrical releases
+      allData.theatrical = [
+        { title: "Wicked: For Good", date: "2025-12-05", platform: "Wide Release", synopsis: "The conclusion to the Wicked film adaptation." },
+        { title: "Five Nights at Freddy's 2", date: "2025-12-05", platform: "Wide Release", synopsis: "The animatronics are back for another round of frights." },
+        { title: "Dust Bunny", date: "2025-12-05", platform: "Limited", synopsis: "A girl procures the services of a monster hunter." },
+        { title: "Fackham Hall", date: "2025-12-05", platform: "Limited", synopsis: "A comedy starring Tom Felton and Damian Lewis." },
+        { title: "Ella McCay", date: "2025-12-12", platform: "Wide Release", synopsis: "A politician becomes governor and balances her new job and personal life." },
+        { title: "Kill Bill: The Whole Bloody Affair", date: "2025-12-12", platform: "Limited", synopsis: "Tarantino's complete Kill Bill experience in theaters." },
+        { title: "Avatar: Fire and Ash", date: "2025-12-19", platform: "Wide Release", synopsis: "The Sully family faces a new threat from the Ash People." },
+        { title: "The SpongeBob Movie: Search for SquarePants", date: "2025-12-19", platform: "Wide Release", synopsis: "SpongeBob embarks on a mission with Patrick." },
+        { title: "The Housemaid", date: "2025-12-25", platform: "Wide Release", synopsis: "A young woman takes a job as a live-in maid for a wealthy family." },
+        { title: "Marty Supreme", date: "2025-12-25", platform: "Limited", synopsis: "Timothée Chalamet plays ping pong legend Marty Reisman." },
+      ];
+      
+      renderFilters();
+      renderReleases();
+    }
+
+    function getCurrentReleases() {
+      return allData[currentTab] || [];
+    }
+
+    function switchTab(tab) {
+      currentTab = tab;
+      selectedPlatforms.clear();
+      expandedCard = null;
+      
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.tab === tab);
+      });
+      
+      renderFilters();
+      renderReleases();
+    }
+
+    function formatDate(dateStr) {
+      const date = new Date(dateStr + 'T00:00:00');
+      return {
+        weekday: date.toLocaleDateString('en-US', { weekday: 'short' }),
+        day: date.getDate(),
+        month: date.toLocaleDateString('en-US', { month: 'short' }),
+        monthFull: date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' }),
+      };
+    }
+    
+    function getRatingBadge(release) {
+      // Letterboxd logo SVG (simplified)
+      const letterboxdIcon = `<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg"><path d="M250 500C111.929 500 0 388.071 0 250S111.929 0 250 0s250 111.929 250 250-111.929 250-250 250zm0-100c82.843 0 150-67.157 150-150S332.843 100 250 100s-150 67.157-150 150 67.157 150 150 150z"/></svg>`;
+      
+      if (release.letterboxd_rating) {
+        const url = release.letterboxd_url || `https://letterboxd.com/film/${release.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}/`;
+        return `<a href="${url}" target="_blank" class="rating-badge" onclick="event.stopPropagation()">${letterboxdIcon}${release.letterboxd_rating.toFixed(1)}</a>`;
+      }
+      return '';
+    }
+
+    function getPlatforms() {
+      return [...new Set(getCurrentReleases().map(r => r.platform))].sort();
+    }
+
+    function renderFilters() {
+      const container = document.getElementById('filters');
+      const platforms = getPlatforms();
+      const releases = getCurrentReleases();
+      const filtered = selectedPlatforms.size === 0 
+        ? releases 
+        : releases.filter(r => selectedPlatforms.has(r.platform));
+      
+      // Update subtitle
+      const now = new Date();
+      const monthName = now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+      document.getElementById('subtitle').textContent = 
+        `${monthName} • ${filtered.length} ${currentTab} releases`;
+      
+      container.innerHTML = platforms.map(platform => {
+        const colors = PLATFORM_COLORS[platform] || { bg: "#718096", text: "#fff" };
+        const isActive = selectedPlatforms.has(platform);
+        return `<button class="filter-btn ${isActive ? 'active' : ''}" 
+                        data-platform="${platform}"
+                        style="background-color: ${isActive ? colors.bg : '#1F1F26'}; 
+                               color: ${isActive ? colors.text : '#9CA3AF'};"
+                        onclick="togglePlatform('${platform}')">${platform}</button>`;
+      }).join('') + 
+      `<button class="clear-btn ${selectedPlatforms.size > 0 ? 'visible' : ''}" 
+               onclick="clearFilters()">Clear all</button>`;
+    }
+
+    function renderReleases() {
+      const container = document.getElementById('releases');
+      const releases = getCurrentReleases();
+      const filtered = selectedPlatforms.size === 0 
+        ? releases 
+        : releases.filter(r => selectedPlatforms.has(r.platform));
+      
+      document.getElementById('empty').classList.toggle('visible', filtered.length === 0);
+      
+      if (releases.length === 0) {
+        container.innerHTML = '<div class="loading">No releases available</div>';
+        return;
+      }
+      
+      // Group by month
+      let currentMonth = '';
+      let html = '';
+      
+      releases.forEach((release, idx) => {
+        const { weekday, day, month, monthFull } = formatDate(release.date);
+        const colors = PLATFORM_COLORS[release.platform] || { bg: "#718096", text: "#fff" };
+        const isHidden = selectedPlatforms.size > 0 && !selectedPlatforms.has(release.platform);
+        const isExpanded = expandedCard === idx;
+        
+        // Add month divider if new month
+        if (monthFull !== currentMonth) {
+          currentMonth = monthFull;
+          html += `<div class="month-divider">${monthFull}</div>`;
+        }
+        
+        html += `
+          <div class="release-card ${isHidden ? 'hidden' : ''} ${isExpanded ? 'expanded' : ''}" 
+               data-index="${idx}" 
+               onclick="toggleCard(${idx})">
+            <div class="date-col">
+              <div class="weekday">${weekday}</div>
+              <div class="day">${day}</div>
+              <div class="month">${month}</div>
+            </div>
+            <div class="poster-col">
+              ${release.poster 
+                ? `<img src="${release.poster}" alt="" loading="lazy">` 
+                : `<div class="poster-placeholder">🎬</div>`}
+            </div>
+            <div class="content-col">
+              <div class="title-row">
+                <div class="title">${release.title}${getRatingBadge(release)}</div>
+                <span class="platform-badge" style="background-color: ${colors.bg}; color: ${colors.text};">
+                  ${release.platform}
+                </span>
+              </div>
+              <p class="synopsis">${release.synopsis || ''}</p>
+            </div>
+          </div>
+        `;
+      });
+      
+      container.innerHTML = html;
+    }
+
+    function togglePlatform(platform) {
+      if (selectedPlatforms.has(platform)) {
+        selectedPlatforms.delete(platform);
+      } else {
+        selectedPlatforms.add(platform);
+      }
+      renderFilters();
+      renderReleases();
+    }
+
+    function clearFilters() {
+      selectedPlatforms.clear();
+      renderFilters();
+      renderReleases();
+    }
+
+    function toggleCard(idx) {
+      expandedCard = expandedCard === idx ? null : idx;
+      document.querySelectorAll('.release-card').forEach((card, i) => {
+        card.classList.toggle('expanded', i === expandedCard);
+      });
+    }
+
+    // Initialize
+    loadData();
+  </script>
+</body>
+</html>
