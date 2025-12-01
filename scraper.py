@@ -44,6 +44,9 @@ PLATFORM_PATTERNS = {
 def get_preview_url(month: str, year: int) -> str:
     return f"https://whentostream.com/when-to-streams-{month}-{year}-preview/"
 
+def get_calendar_url(month: str, year: int) -> str:
+    return f"https://whentostream.com/streaming-{month}-{year}/"
+
 def title_to_letterboxd_slug(title: str) -> str:
     """Convert movie title to Letterboxd URL slug."""
     # Remove year if present at end
@@ -60,33 +63,61 @@ def title_to_letterboxd_slug(title: str) -> str:
 def get_tmdb_theatrical_releases(start_date: str, end_date: str) -> list:
     """Fetch theatrical releases from TMDB for a date range."""
     releases = []
-    page = 1
     
-    while page <= 5:  # Max 5 pages to avoid too many requests
-        url = f"https://api.themoviedb.org/3/discover/movie?api_key={TMDB_API_KEY}"
-        url += f"&region=US&with_release_type=2|3"  # 2=Limited, 3=Theatrical
-        url += f"&release_date.gte={start_date}&release_date.lte={end_date}"
-        url += f"&sort_by=release_date.asc&page={page}"
+    # Get the year from start_date to filter out re-releases
+    target_year = int(start_date[:4])
+    
+    # Sort by popularity to get the notable releases first
+    url = f"https://api.themoviedb.org/3/discover/movie?api_key={TMDB_API_KEY}"
+    url += f"&region=US&with_release_type=2|3"  # 2=Limited, 3=Theatrical
+    url += f"&release_date.gte={start_date}&release_date.lte={end_date}"
+    url += f"&sort_by=popularity.desc"
+    
+    page = 1
+    while page <= 3:  # Get top 60 most popular
+        page_url = url + f"&page={page}"
         
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(page_url, timeout=10)
             if response.status_code == 200:
                 data = response.json()
                 
                 for movie in data.get('results', []):
-                    # Get release date for US
                     release_date = movie.get('release_date', '')
                     if not release_date:
+                        continue
+                    
+                    # Skip re-releases: if the movie's release year is more than 1 year before target
+                    movie_year = int(release_date[:4]) if release_date else 0
+                    original_date = movie.get('release_date', '')
+                    
+                    # Use primary_release_date or check if it's an old movie
+                    # TMDB doesn't always have original release, so check popularity pattern
+                    # Old classics being re-released tend to have high vote counts but dates don't match
+                    vote_count = movie.get('vote_count', 0)
+                    
+                    # If vote_count is very high (>1000) but the movie is "releasing" now,
+                    # it's likely a re-release of a classic
+                    if vote_count > 1000 and movie_year >= target_year:
+                        # Check if this seems like an old movie by looking at vote patterns
+                        # New movies don't have thousands of votes before release
+                        print(f"  Skipping likely re-release: {movie.get('title')} (votes: {vote_count})")
                         continue
                     
                     # Get poster
                     poster_path = movie.get('poster_path')
                     poster_url = f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else None
                     
-                    # Determine if wide or limited based on popularity/vote count
-                    vote_count = movie.get('vote_count', 0)
+                    # Better wide vs limited detection based on popularity
                     popularity = movie.get('popularity', 0)
-                    release_type = "Wide Release" if popularity > 50 or vote_count > 100 else "Limited"
+                    # Wide releases typically have popularity > 10 before release
+                    # Major blockbusters have 30+
+                    if popularity > 25:
+                        release_type = "Wide Release"
+                    elif popularity > 8:
+                        release_type = "Wide Release"  # Moderate wide releases
+                    else:
+                        release_type = "Limited"
                     
                     releases.append({
                         'title': movie.get('title', ''),
@@ -203,16 +234,28 @@ def parse_date_header(text: str) -> str:
 
 def scrape_streaming_month(month: str, year: int) -> list:
     """Scrape streaming releases for a given month."""
-    url = get_preview_url(month, year)
-    print(f"Fetching streaming: {url}")
+    # Try preview URL first, then calendar URL
+    urls_to_try = [
+        get_preview_url(month, year),
+        get_calendar_url(month, year)
+    ]
     
-    try:
-        response = requests.get(url, timeout=30, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'
-        })
-        response.raise_for_status()
-    except Exception as e:
-        print(f"Error: {e}")
+    response = None
+    for url in urls_to_try:
+        print(f"Fetching streaming: {url}")
+        try:
+            response = requests.get(url, timeout=30, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'
+            })
+            response.raise_for_status()
+            print(f"  Success!")
+            break
+        except Exception as e:
+            print(f"  Failed: {e}")
+            response = None
+    
+    if not response:
+        print(f"  Could not fetch {month} {year}")
         return []
     
     soup = BeautifulSoup(response.text, 'html.parser')
