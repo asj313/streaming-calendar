@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T20:42:59.159790",
+  "last_updated": "2025-12-01T20:54:05.915843",
   "months": [
     {
       "name": "December",
@@ -430,6 +430,26 @@
       "letterboxd_rating": 3.32,
       "letterboxd_url": "https://letterboxd.com/film/together-2025/",
       "poster": "https://image.tmdb.org/t/p/w154/m52XidzKx94bKlToZfEXUnL3pdy.jpg"
+    },
+    {
+      "title": "People We Meet On Vacation",
+      "date": "2026-01-09",
+      "platform": "Netflix",
+      "synopsis": "Free-spirited Poppy and routine-loving Alex have been unlikely best friends for a decade, living in different cities but spending every summer vacation together. The careful balance of their friendship is put to the test when they begin to question what has been obvious to everyone else \u2014 could they",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/people-we-meet-on-vacation/",
+      "poster": "https://image.tmdb.org/t/p/w154/xzZaU0MN6L9oc1pl0RUXSB7hWwD.jpg"
+    },
+    {
+      "title": "The Rip",
+      "date": "2026-01-16",
+      "platform": "Netflix",
+      "synopsis": "Upon discovering millions in cash in a derelict stash house, trust among a team of Miami cops begins to fray. As outside forces learn about the size of the seizure, everything is called into question \u2014 including who they can rely on.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-rip-2026/",
+      "poster": "https://image.tmdb.org/t/p/w154/cC3RawQQdjlUc0j1ULrURqs4bTh.jpg"
     }
   ],
   "theatrical": [
@@ -683,7 +703,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/dOMsyboGMCVgG3PAidO5EQ9sFKl.jpg",
       "tmdb_id": 1588237,
-      "letterboxd_rating": 3.37,
+      "letterboxd_rating": 3.35,
       "letterboxd_url": "https://letterboxd.com/film/the-lost-chapter-yukis-revenge/"
     },
     {
@@ -804,7 +824,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
       "tmdb_id": 801937,
-      "letterboxd_rating": 3.26,
+      "letterboxd_rating": 3.25,
       "letterboxd_url": "https://letterboxd.com/film/silent-night-deadly-night-2025/"
     },
     {
