@@ -232,32 +232,114 @@ def parse_date_header(text: str) -> str:
     except:
         return None
 
-def scrape_streaming_month(month: str, year: int) -> list:
-    """Scrape streaming releases for a given month."""
-    # Try preview URL first, then calendar URL
-    urls_to_try = [
-        get_preview_url(month, year),
-        get_calendar_url(month, year)
-    ]
+def scrape_movie_page(url: str) -> dict:
+    """Scrape individual movie page for details."""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'}
+        response = requests.get(url, timeout=30, headers=headers)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        text = soup.get_text()
+        lines = [l.strip() for l in text.split('\n') if l.strip()]
+        
+        info = {'url': url}
+        
+        for line in lines:
+            # Look for SVOD release date with platform
+            if 'SVOD Release Date:' in line:
+                # Parse "SVOD Release Date: January 9, 2026 (Netflix)"
+                match = re.search(r'SVOD Release Date:\s*(\w+ \d+, \d+)\s*\(([^)]+)\)', line)
+                if match:
+                    date_str = match.group(1)
+                    platform = match.group(2)
+                    try:
+                        dt = datetime.strptime(date_str, "%B %d, %Y")
+                        info['date'] = dt.strftime("%Y-%m-%d")
+                        info['platform'] = platform
+                    except:
+                        pass
+            
+            if 'Synopsis:' in line:
+                info['synopsis'] = line.replace('Synopsis:', '').strip()[:300]
+        
+        return info
+    except Exception as e:
+        print(f"    Error fetching {url}: {e}")
+        return None
+
+def scrape_calendar_page(month: str, year: int) -> list:
+    """Scrape the calendar-style page for movie links, then fetch each movie page."""
+    url = get_calendar_url(month, year)
+    print(f"Fetching calendar page: {url}")
     
-    response = None
-    for url in urls_to_try:
-        print(f"Fetching streaming: {url}")
-        try:
-            response = requests.get(url, timeout=30, headers={
-                'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'
-            })
-            response.raise_for_status()
-            print(f"  Success!")
-            break
-        except Exception as e:
-            print(f"  Failed: {e}")
-            response = None
-    
-    if not response:
-        print(f"  Could not fetch {month} {year}")
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'}
+        response = requests.get(url, timeout=30, headers=headers)
+        response.raise_for_status()
+    except Exception as e:
+        print(f"  Failed: {e}")
         return []
     
+    soup = BeautifulSoup(response.text, 'html.parser')
+    
+    # Find movie page links (they have year in URL but aren't calendar pages)
+    movie_urls = []
+    for link in soup.find_all('a', href=True):
+        href = link.get('href', '')
+        if f'-{year}/' in href and 'streaming-' not in href and 'theaters-' not in href and 'whentostream.com' in href:
+            if href not in movie_urls:
+                movie_urls.append(href)
+    
+    print(f"  Found {len(movie_urls)} movie links")
+    
+    releases = []
+    for movie_url in movie_urls:
+        # Extract title from URL
+        title = movie_url.split('/')[-2]
+        title = re.sub(r'-\d{4}$', '', title)  # Remove year
+        title = title.replace('-', ' ').title()
+        
+        print(f"    Fetching: {title}")
+        movie_info = scrape_movie_page(movie_url)
+        
+        if movie_info and movie_info.get('date') and movie_info.get('platform'):
+            releases.append({
+                'title': title,
+                'date': movie_info['date'],
+                'platform': movie_info['platform'],
+                'synopsis': movie_info.get('synopsis', ''),
+                'type': 'streaming'
+            })
+        
+        time.sleep(0.3)  # Rate limiting
+    
+    return releases
+
+def scrape_streaming_month(month: str, year: int) -> list:
+    """Scrape streaming releases for a given month."""
+    # Try preview URL first
+    url = get_preview_url(month, year)
+    print(f"Fetching streaming preview: {url}")
+    
+    response = None
+    try:
+        response = requests.get(url, timeout=30, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'
+        })
+        response.raise_for_status()
+        
+        # Check if we got actual content (not just homepage)
+        if 'Synopsis:' not in response.text:
+            print(f"  Preview page has no movie data, trying calendar...")
+            response = None
+    except Exception as e:
+        print(f"  Preview failed: {e}")
+        response = None
+    
+    # If preview didn't work, try calendar-style page
+    if not response:
+        return scrape_calendar_page(month, year)
+    
+    print(f"  Success! Parsing preview page...")
     soup = BeautifulSoup(response.text, 'html.parser')
     text = soup.get_text()
     lines = [l.strip() for l in text.split('\n') if l.strip()]
