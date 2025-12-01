@@ -87,20 +87,15 @@ def get_tmdb_theatrical_releases(start_date: str, end_date: str) -> list:
                     if not release_date:
                         continue
                     
-                    # Skip re-releases: if the movie's release year is more than 1 year before target
+                    # Skip any movie not from current/next year
                     movie_year = int(release_date[:4]) if release_date else 0
-                    original_date = movie.get('release_date', '')
+                    if movie_year < 2025:
+                        print(f"  Skipping old movie: {movie.get('title')} ({movie_year})")
+                        continue
                     
-                    # Use primary_release_date or check if it's an old movie
-                    # TMDB doesn't always have original release, so check popularity pattern
-                    # Old classics being re-released tend to have high vote counts but dates don't match
+                    # Skip re-releases: high vote count means it's an old classic
                     vote_count = movie.get('vote_count', 0)
-                    
-                    # If vote_count is very high (>1000) but the movie is "releasing" now,
-                    # it's likely a re-release of a classic
-                    if vote_count > 1000 and movie_year >= target_year:
-                        # Check if this seems like an old movie by looking at vote patterns
-                        # New movies don't have thousands of votes before release
+                    if vote_count > 1000:
                         print(f"  Skipping likely re-release: {movie.get('title')} (votes: {vote_count})")
                         continue
                     
@@ -123,7 +118,7 @@ def get_tmdb_theatrical_releases(start_date: str, end_date: str) -> list:
                         'title': movie.get('title', ''),
                         'date': release_date,
                         'platform': release_type,
-                        'synopsis': movie.get('overview', '')[:200] + '...' if len(movie.get('overview', '')) > 200 else movie.get('overview', ''),
+                        'synopsis': movie.get('overview', ''),
                         'type': 'theatrical',
                         'poster': poster_url,
                         'tmdb_id': movie.get('id'),
@@ -259,7 +254,7 @@ def scrape_movie_page(url: str) -> dict:
                         pass
             
             if 'Synopsis:' in line:
-                info['synopsis'] = line.replace('Synopsis:', '').strip()[:300]
+                info['synopsis'] = line.replace('Synopsis:', '').strip()
         
         return info
     except Exception as e:
@@ -389,7 +384,7 @@ def scrape_streaming_month(month: str, year: int) -> list:
                     "title": title.title() if title.isupper() else title,
                     "date": current_date,
                     "platform": platform_match,
-                    "synopsis": synopsis[:250] + "..." if len(synopsis) > 250 else synopsis,
+                    "synopsis": synopsis,
                     "type": "streaming"
                 })
         
