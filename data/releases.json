@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T21:38:22.754442",
+  "last_updated": "2025-12-02T10:49:10.993227",
   "months": [
     {
       "name": "December",
@@ -29,7 +29,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/troll-2-2025/",
-      "poster": "https://image.tmdb.org/t/p/w154/plyEn5uDNXXDYihF8Z7YOe2PVKE.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/p6xAExLNFbHcLfvSuvLPoM8aqZU.jpg"
     },
     {
       "title": "Bau: Artist At War",
@@ -299,7 +299,7 @@
       "type": "streaming",
       "letterboxd_rating": 4.04,
       "letterboxd_url": "https://letterboxd.com/film/wake-up-dead-man-a-knives-out-mystery/",
-      "poster": "https://image.tmdb.org/t/p/w154/s353N9qz0RvmwGT8v8jDRQz0T9i.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg"
     },
     {
       "title": "Eye For An Eye",
@@ -476,6 +476,17 @@
       "letterboxd_url": "https://letterboxd.com/film/the-secret-agent-2025/"
     },
     {
+      "title": "Fackham Hall",
+      "date": "2025-12-01",
+      "platform": "Wide Release",
+      "synopsis": "A new porter embarks on an unlikely relationship with the youngest daughter of a prominent English family. Simultaneously, rivalries are spilling over in the Davenport family, led by the Lord and Lady as they also weather the epic failure of the wedding of their eldest daughter to her caddish cousin.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg",
+      "tmdb_id": 1175174,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/fackham-hall/"
+    },
+    {
       "title": "The Dreamer Cinderella",
       "date": "2025-12-01",
       "platform": "Limited",
@@ -531,17 +542,6 @@
       "letterboxd_url": "https://letterboxd.com/film/la-grazia/"
     },
     {
-      "title": "Fackham Hall",
-      "date": "2025-12-05",
-      "platform": "Limited",
-      "synopsis": "A new porter embarks on an unlikely relationship with the youngest daughter of a prominent English family. Simultaneously, rivalries are spilling over in the Davenport family, led by the Lord and Lady as they also weather the epic failure of the wedding of their eldest daughter to her caddish cousin.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg",
-      "tmdb_id": 1175174,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/fackham-hall/"
-    },
-    {
       "title": "Starbright",
       "date": "2025-12-05",
       "platform": "Limited",
@@ -560,7 +560,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/aZUUqYHRapGTwAQjc9ZHkP72M63.jpg",
       "tmdb_id": 1354518,
-      "letterboxd_rating": 3.37,
+      "letterboxd_rating": 3.28,
       "letterboxd_url": "https://letterboxd.com/film/100-nights-of-hero/"
     },
     {
@@ -569,7 +569,7 @@
       "platform": "Limited",
       "synopsis": "Set in the world of Indian intelligence, a mysterious traveler infiltrates the Karachi mafia and becomes embroiled in a web of political corruption.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qdtm0wQmLmAYmj2QZI9EDInZ6uG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
       "tmdb_id": 1291608,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/dhurandhar/"
@@ -648,7 +648,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/dOMsyboGMCVgG3PAidO5EQ9sFKl.jpg",
       "tmdb_id": 1588237,
-      "letterboxd_rating": 3.35,
+      "letterboxd_rating": 3.31,
       "letterboxd_url": "https://letterboxd.com/film/the-lost-chapter-yukis-revenge/"
     },
     {
@@ -731,13 +731,24 @@
     {
       "title": "Goodbye June",
       "date": "2025-12-12",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Four siblings' lives change drastically when their ailing mother takes a turn for the worse over the holiday season.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xJ4SNjqfS8DyCOoxK0KD3e1b2JB.jpg",
       "tmdb_id": 1435092,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/goodbye-june/"
+    },
+    {
+      "title": "Silent Night, Deadly Night",
+      "date": "2025-12-12",
+      "platform": "Limited",
+      "synopsis": "After witnessing his parents\u2019 brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "tmdb_id": 801937,
+      "letterboxd_rating": 3.24,
+      "letterboxd_url": "https://letterboxd.com/film/silent-night-deadly-night-2025/"
     },
     {
       "title": "Dust Bunny",
@@ -747,7 +758,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/jMcT1Quf34qZWNNE1rAqep8f9DW.jpg",
       "tmdb_id": 1043197,
-      "letterboxd_rating": 3.4,
+      "letterboxd_rating": 3.37,
       "letterboxd_url": "https://letterboxd.com/film/dust-bunny/"
     },
     {
@@ -758,19 +769,8 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/2kuh8g1JLwI5RAqATUhcAkyaLw3.jpg",
       "tmdb_id": 878608,
-      "letterboxd_rating": 3.88,
+      "letterboxd_rating": 3.89,
       "letterboxd_url": "https://letterboxd.com/film/resurrection-2025/"
-    },
-    {
-      "title": "Silent Night, Deadly Night",
-      "date": "2025-12-12",
-      "platform": "Limited",
-      "synopsis": "After witnessing his parents\u2019 brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
-      "tmdb_id": 801937,
-      "letterboxd_rating": 3.25,
-      "letterboxd_url": "https://letterboxd.com/film/silent-night-deadly-night-2025/"
     },
     {
       "title": "Atropia",
@@ -835,7 +835,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/8qW2gvAhs4ywQJvbT3DnqTip7Rr.jpg",
       "tmdb_id": 896096,
-      "letterboxd_rating": 3.76,
+      "letterboxd_rating": 3.77,
       "letterboxd_url": "https://letterboxd.com/film/the-mysterious-gaze-of-the-flamingo/"
     },
     {
@@ -910,7 +910,7 @@
       "platform": "Wide Release",
       "synopsis": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/g96wHxU7EnoIFwemb2RgohIXrgW.jpg",
       "tmdb_id": 83533,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/avatar-fire-and-ash/"
@@ -930,11 +930,11 @@
       "title": "Marty Supreme",
       "date": "2025-12-19",
       "platform": "Wide Release",
-      "synopsis": "A ping pong drama set in New York City during the 1950s where up-and-coming table tennis star Marty Mauser goes to hell and back in pursuit of greatness.",
+      "synopsis": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/firAhZA0uQvRL2slp7v3AnOj0ZX.jpg",
       "tmdb_id": 1317288,
-      "letterboxd_rating": 4.23,
+      "letterboxd_rating": 4.24,
       "letterboxd_url": "https://letterboxd.com/film/marty-supreme/"
     },
     {
@@ -1028,7 +1028,7 @@
     {
       "title": "The Testament of Ann Lee",
       "date": "2025-12-25",
-      "platform": "Wide Release",
+      "platform": "Limited",
       "synopsis": "The extraordinary true legend of Ann Lee, founder of the devotional sect known as the Shakers.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/1wleWp6BCniE9RSeaUjUezwZdF8.jpg",
@@ -1059,15 +1059,15 @@
       "letterboxd_url": "https://letterboxd.com/film/the-choral/"
     },
     {
-      "title": "Mendocino",
-      "date": "2025-12-31",
+      "title": "#RUNSEOKJIN_EP.TOUR THE MOVIE",
+      "date": "2025-12-27",
       "platform": "Limited",
-      "synopsis": "A lawyer faces ancestral violence and haunting memories in a California farmhouse, exploring guilt and redemption.",
+      "synopsis": "Spanning 10 cities and 20 performances, the most thrilling moments of Jin's first solo fan concert world tour are now ready to unfold on the big screen. With \"challenge\" as its theme, the show sees \"Worldwide Handsome\" Jin bring his signature energy to the stage, laughing, singing, and completing missions with ARMY across five energetic rounds. From his first solo album, \"Happy,\" backed by a live band, to his second mini-album, \"Echo,\" and a special medley of BTS songs, the concert unfolds as a panorama of diverse music and emotion, captivating both eyes and ears.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/jJyVkcV4ZMciHjx0mGJldfQbiHe.jpg",
-      "tmdb_id": 1580280,
+      "poster": "https://image.tmdb.org/t/p/w154/1GZ75yVI8KTT10IG2sEkxbY9rhr.jpg",
+      "tmdb_id": 1575712,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/mendocino/"
+      "letterboxd_url": null
     },
     {
       "title": "The Animated Mind of Oliver Sacks",
@@ -1268,17 +1268,6 @@
       "letterboxd_url": "https://letterboxd.com/film/greenland-2-migration/"
     },
     {
-      "title": "Magellan",
-      "date": "2026-01-09",
-      "platform": "Wide Release",
-      "synopsis": "In the 16th century, Ferdinand Magellan, a young and ambitious Portuguese navigator, rebels against the power of the King of Portugal, who doesn\u2019t support his dream of discovering the world, and persuades the Spanish monarchy to fund his bold expedition to the fabled lands of the East.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/kA5trayJ6UICmTvSGrtWRftNRUJ.jpg",
-      "tmdb_id": 975335,
-      "letterboxd_rating": 2.87,
-      "letterboxd_url": "https://letterboxd.com/film/magellan/"
-    },
-    {
       "title": "SOULM8TE",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1310,6 +1299,17 @@
       "tmdb_id": 1315303,
       "letterboxd_rating": 3.3,
       "letterboxd_url": "https://letterboxd.com/film/primate-2026/"
+    },
+    {
+      "title": "Magellan",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "In the 16th century, Ferdinand Magellan, a young and ambitious Portuguese navigator, rebels against the power of the King of Portugal, who doesn\u2019t support his dream of discovering the world, and persuades the Spanish monarchy to fund his bold expedition to the fabled lands of the East.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/kA5trayJ6UICmTvSGrtWRftNRUJ.jpg",
+      "tmdb_id": 975335,
+      "letterboxd_rating": 2.87,
+      "letterboxd_url": "https://letterboxd.com/film/magellan/"
     },
     {
       "title": "Dead Man's Wire",
