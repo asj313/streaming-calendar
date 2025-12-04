@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T10:51:54.446701",
+  "last_updated": "2025-12-04T10:50:47.685497",
   "months": [
     {
       "name": "December",
@@ -27,7 +27,7 @@
       "platform": "Netflix",
       "synopsis": "When a dangerous new troll is awakened, unleashing devastation across Norway, beloved adventurers Nora, Andreas and Captain Kris are thrust into their most perilous mission yet.",
       "type": "streaming",
-      "letterboxd_rating": 2.49,
+      "letterboxd_rating": 2.46,
       "letterboxd_url": "https://letterboxd.com/film/troll-2-2025/",
       "poster": "https://image.tmdb.org/t/p/w154/p6xAExLNFbHcLfvSuvLPoM8aqZU.jpg"
     },
@@ -67,7 +67,7 @@
       "platform": "VOD/Digital",
       "synopsis": "In El Paso, Texas an undercover DEA agent and his partner embark on a game of cat and mouse with an audacious group of thieves: their own rebellious teenagers. The teens begin to rob from a dangerous cartel, using their parents\u2019 tactics and top-secret intel.",
       "type": "streaming",
-      "letterboxd_rating": 3.11,
+      "letterboxd_rating": 3.06,
       "letterboxd_url": "https://letterboxd.com/film/trap-house-2025/",
       "poster": "https://image.tmdb.org/t/p/w154/ctU9S47MoJDN9CB7SCaitcfyyIu.jpg"
     },
@@ -89,7 +89,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/my-secret-santa/",
-      "poster": "https://image.tmdb.org/t/p/w154/a1ElufTHnBkFL6kpkm9PTcUg9n.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/y3kM10ksmRFVA3ylCVBAlukPhKC.jpg"
     },
     {
       "title": "Oh. What. Fun.",
@@ -97,7 +97,7 @@
       "platform": "Prime Video",
       "synopsis": "Claire Clauster (Michelle Pfeiffer) is the glue that holds her chaotic, lovable family together every holiday season. From perfectly frosted cookies to meticulously wrapped gifts, no one decks the halls quite like Claire. But this year, as her grown kids and distracted husband get swept up in their own seasonal dramas, they make one crucial mistake: they forget their mom. By the time they realize she\u2019s missing, Claire\u2019s already set off on a festive adventure of her own \u2013 one that doesn\u2019t involve cooking, cleaning, or coordinating anyone else\u2019s chaos. As her family scrambles to find her and salvage their Christmas, Claire rediscovers what the holidays mean when you\u2019re finally free to put yourself first.",
       "type": "streaming",
-      "letterboxd_rating": null,
+      "letterboxd_rating": 2.83,
       "letterboxd_url": "https://letterboxd.com/film/oh-what-fun/",
       "poster": "https://image.tmdb.org/t/p/w154/qynCyBKCJUUcj4wo4PE2aQVvote.jpg"
     },
@@ -279,7 +279,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/modi/",
-      "poster": "https://image.tmdb.org/t/p/w154/K5hGnee6HSq7YoJZPSY1TbsBMv.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/kJwPFeJRigreFdSTVWkdkVRAGwq.jpg"
     },
     {
       "title": "Spinal Tap Ii: The End Continues",
@@ -297,7 +297,7 @@
       "platform": "Netflix",
       "synopsis": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it\u2019s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic.",
       "type": "streaming",
-      "letterboxd_rating": 4.04,
+      "letterboxd_rating": 4.03,
       "letterboxd_url": "https://letterboxd.com/film/wake-up-dead-man-a-knives-out-mystery/",
       "poster": "https://image.tmdb.org/t/p/w154/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg"
     },
@@ -483,7 +483,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg",
       "tmdb_id": 1175174,
-      "letterboxd_rating": null,
+      "letterboxd_rating": 3.01,
       "letterboxd_url": "https://letterboxd.com/film/fackham-hall/"
     },
     {
@@ -536,9 +536,9 @@
       "platform": "Wide Release",
       "synopsis": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth about what transpired kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the true origin of Freddy's, and unleash a long-forgotten horror hidden away for decades.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/bYdANgEjbb3L1k1KpprAeZ6a5HN.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/am6O7221qGtb5ba5uJKw7PfPZkJ.jpg",
       "tmdb_id": 1228246,
-      "letterboxd_rating": null,
+      "letterboxd_rating": 3.01,
       "letterboxd_url": "https://letterboxd.com/film/five-nights-at-freddys-2/"
     },
     {
@@ -549,8 +549,19 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/lnPGzi7BNc17WtxXso16CjNjT5K.jpg",
       "tmdb_id": 1397364,
-      "letterboxd_rating": 3.69,
+      "letterboxd_rating": 3.68,
       "letterboxd_url": "https://letterboxd.com/film/la-grazia/"
+    },
+    {
+      "title": "Dhurandhar",
+      "date": "2025-12-05",
+      "platform": "Limited",
+      "synopsis": "After the hijacking of IC-814 in 1999 and the Parliament attack in 2001, India\u2019s Intelligence Bureau Chief, Ajay Sanyal devised an indomitable mission to intrude and rupture the terrorist network in Pakistan, by infiltrating the underworld mafia of Karachi. A 20-year-old boy from Punjab, held captive for a revenge crime, is identified by Sanyal to execute his elaborate plan.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/q7gD37kEOmzOeGXwhbYvfpwl9kU.jpg",
+      "tmdb_id": 1291608,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/dhurandhar/"
     },
     {
       "title": "100 Nights of Hero",
@@ -560,19 +571,8 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/aZUUqYHRapGTwAQjc9ZHkP72M63.jpg",
       "tmdb_id": 1354518,
-      "letterboxd_rating": 3.27,
+      "letterboxd_rating": 3.26,
       "letterboxd_url": "https://letterboxd.com/film/100-nights-of-hero/"
-    },
-    {
-      "title": "Dhurandhar",
-      "date": "2025-12-05",
-      "platform": "Limited",
-      "synopsis": "Set in the world of Indian intelligence, a mysterious traveler infiltrates the Karachi mafia and becomes embroiled in a web of political corruption.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/7gdKTeECwlUzy3OnHk5wU7SBYIH.jpg",
-      "tmdb_id": 1291608,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/dhurandhar/"
     },
     {
       "title": "Starbright",
@@ -586,10 +586,21 @@
       "letterboxd_url": "https://letterboxd.com/film/starbright/"
     },
     {
+      "title": "The Lost Chapter: Yuki's Revenge",
+      "date": "2025-12-05",
+      "platform": "Limited",
+      "synopsis": "Visionary director Quentin Tarantino had a dream of a Kill Bill chapter that never made it to the silver screen, a chapter known as \u201cYuki\u2019s Revenge.\u201d Over 20 years later, Tarantino and Epic have come together to bring the story to life in Fortnite.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/dOMsyboGMCVgG3PAidO5EQ9sFKl.jpg",
+      "tmdb_id": 1588237,
+      "letterboxd_rating": 3.22,
+      "letterboxd_url": "https://letterboxd.com/film/the-lost-chapter-yukis-revenge/"
+    },
+    {
       "title": "Akhanda 2: Thaandavam",
       "date": "2025-12-05",
       "platform": "Limited",
-      "synopsis": "When all hope died, Akhanda arrived. He saved his family, protected his people, killed the wrong doers, and went back into isolation. But years later, new threats have emerged putting the world in danger. And as the world burns, Akhanda returns.",
+      "synopsis": "When all hope dies, Akhanda arrives. He saves his family, protects his people, kills the wrongdoers, and retreats into isolation. But years later, new threats emerge, putting the world in danger. And as the world burns, Akhanda returns.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/2RGcVKH22rPBN21bq4nlx8wBUD6.jpg",
       "tmdb_id": 1372588,
@@ -604,19 +615,8 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/8h3uNPMdQKr7ffwAjU0aURFqIK.jpg",
       "tmdb_id": 1306400,
-      "letterboxd_rating": 3.7,
+      "letterboxd_rating": 3.71,
       "letterboxd_url": "https://letterboxd.com/film/merrily-we-roll-along-2025/"
-    },
-    {
-      "title": "The Chronology of Water",
-      "date": "2025-12-05",
-      "platform": "Limited",
-      "synopsis": "Growing up in an environment torn apart by violence and alcohol, a young woman finds her voice through the written word and her salvation as a swimmer.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/aqYIGdhDjWF1wKl2GTuRy1XtbkI.jpg",
-      "tmdb_id": 524635,
-      "letterboxd_rating": 3.35,
-      "letterboxd_url": "https://letterboxd.com/film/the-chronology-of-water/"
     },
     {
       "title": "Frontier Crucible",
@@ -630,15 +630,15 @@
       "letterboxd_url": "https://letterboxd.com/film/frontier-crucible/"
     },
     {
-      "title": "The Lost Chapter: Yuki's Revenge",
+      "title": "The Chronology of Water",
       "date": "2025-12-05",
       "platform": "Limited",
-      "synopsis": "Visionary director Quentin Tarantino had a dream of a Kill Bill chapter that never made it to the silver screen, a chapter known as \u201cYuki\u2019s Revenge.\u201d Over 20 years later, Tarantino and Epic have come together to bring the story to life in Fortnite.",
+      "synopsis": "Growing up in an environment torn apart by violence and alcohol, a young woman finds her voice through the written word and her salvation as a swimmer.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/dOMsyboGMCVgG3PAidO5EQ9sFKl.jpg",
-      "tmdb_id": 1588237,
-      "letterboxd_rating": 3.26,
-      "letterboxd_url": "https://letterboxd.com/film/the-lost-chapter-yukis-revenge/"
+      "poster": "https://image.tmdb.org/t/p/w154/aqYIGdhDjWF1wKl2GTuRy1XtbkI.jpg",
+      "tmdb_id": 524635,
+      "letterboxd_rating": 3.36,
+      "letterboxd_url": "https://letterboxd.com/film/the-chronology-of-water/"
     },
     {
       "title": "Man Finds Tape",
@@ -652,17 +652,6 @@
       "letterboxd_url": "https://letterboxd.com/film/man-finds-tape/"
     },
     {
-      "title": "Rosemead",
-      "date": "2025-12-05",
-      "platform": "Limited",
-      "synopsis": "In a race against time, an ailing woman discovers her teenage son's violent obsessions and must go to great lengths to protect him, and possibly others, in this portrait of a Chinese American family. Inspired by true events.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/uVilyfKrB5ZkhXh7MMaIaevzueR.jpg",
-      "tmdb_id": 766520,
-      "letterboxd_rating": 3.44,
-      "letterboxd_url": "https://letterboxd.com/film/rosemead/"
-    },
-    {
       "title": "This Ordinary Thing",
       "date": "2025-12-05",
       "platform": "Limited",
@@ -674,15 +663,15 @@
       "letterboxd_url": "https://letterboxd.com/film/this-ordinary-thing/"
     },
     {
-      "title": "Speed Train",
+      "title": "Rosemead",
       "date": "2025-12-05",
       "platform": "Limited",
-      "synopsis": "When a futuristic train journey turns chaotic due to a tech genius's malevolent hacking of brain-implanted passengers, a group of disparate travelers must band together to regain control, confronting not only immediate dangers but also the darker implications of unchecked technology.",
+      "synopsis": "In a race against time, an ailing woman discovers her teenage son's violent obsessions and must go to great lengths to protect him, and possibly others, in this portrait of a Chinese American family. Inspired by true events.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/d6LkmLq2DcDIu1ctygYINGMMyUR.jpg",
-      "tmdb_id": 1543831,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/speed-train/"
+      "poster": "https://image.tmdb.org/t/p/w154/uVilyfKrB5ZkhXh7MMaIaevzueR.jpg",
+      "tmdb_id": 766520,
+      "letterboxd_rating": 3.44,
+      "letterboxd_url": "https://letterboxd.com/film/rosemead/"
     },
     {
       "title": "My First of May",
@@ -694,6 +683,17 @@
       "tmdb_id": 1071646,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/my-first-of-may/"
+    },
+    {
+      "title": "Speed Train",
+      "date": "2025-12-05",
+      "platform": "Limited",
+      "synopsis": "When a futuristic train journey turns chaotic due to a tech genius's malevolent hacking of brain-implanted passengers, a group of disparate travelers must band together to regain control, confronting not only immediate dangers but also the darker implications of unchecked technology.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/d6LkmLq2DcDIu1ctygYINGMMyUR.jpg",
+      "tmdb_id": 1543831,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/speed-train/"
     },
     {
       "title": "Come Closer",
@@ -729,7 +729,7 @@
       "letterboxd_url": "https://letterboxd.com/film/rebbeca/"
     },
     {
-      "title": "The Cure: The Show Of A Lost World",
+      "title": "The Cure: The Show of a Lost World",
       "date": "2025-12-11",
       "platform": "Limited",
       "synopsis": "Concert film of The Cure\u2019s November 1st (2024) performance at London\u2019s Troy.",
@@ -762,15 +762,15 @@
       "letterboxd_url": "https://letterboxd.com/film/goodbye-june/"
     },
     {
-      "title": "Silent Night, Deadly Night",
+      "title": "Resurrection",
       "date": "2025-12-12",
       "platform": "Limited",
-      "synopsis": "After witnessing his parents\u2019 brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
+      "synopsis": "In a world where humanity has lost the ability to dream, one creature remains entranced by the fading illusions of the dreamworld. This monster, adrift in reverie, clings to visions no one else can see \u2014 until a woman appears. Gifted with the rare power to perceive these illusions for what they truly are, she chooses to enter the monster\u2019s dreams, determined to uncover the truth that lies hidden within.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
-      "tmdb_id": 801937,
-      "letterboxd_rating": 3.23,
-      "letterboxd_url": "https://letterboxd.com/film/silent-night-deadly-night-2025/"
+      "poster": "https://image.tmdb.org/t/p/w154/wBXvXc7CoE1TCEL96VzMkMQKYG9.jpg",
+      "tmdb_id": 878608,
+      "letterboxd_rating": 3.89,
+      "letterboxd_url": "https://letterboxd.com/film/resurrection-2025/"
     },
     {
       "title": "Dust Bunny",
@@ -780,19 +780,19 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/jMcT1Quf34qZWNNE1rAqep8f9DW.jpg",
       "tmdb_id": 1043197,
-      "letterboxd_rating": 3.37,
+      "letterboxd_rating": 3.36,
       "letterboxd_url": "https://letterboxd.com/film/dust-bunny/"
     },
     {
-      "title": "Resurrection",
+      "title": "Silent Night, Deadly Night",
       "date": "2025-12-12",
       "platform": "Limited",
-      "synopsis": "In a world where humanity has lost the ability to dream, one creature remains entranced by the fading illusions of the dreamworld. This monster, adrift in reverie, clings to visions no one else can see \u2014 until a woman appears. Gifted with the rare power to perceive these illusions for what they truly are, she chooses to enter the monster\u2019s dreams, determined to uncover the truth that lies hidden within.",
+      "synopsis": "After witnessing his parents\u2019 brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/2kuh8g1JLwI5RAqATUhcAkyaLw3.jpg",
-      "tmdb_id": 878608,
-      "letterboxd_rating": 3.88,
-      "letterboxd_url": "https://letterboxd.com/film/resurrection-2025/"
+      "poster": "https://image.tmdb.org/t/p/w154/xCdSd7NnRdnL8DGLVhI95WhUNoi.jpg",
+      "tmdb_id": 801937,
+      "letterboxd_rating": 3.23,
+      "letterboxd_url": "https://letterboxd.com/film/silent-night-deadly-night-2025/"
     },
     {
       "title": "Atropia",
@@ -806,17 +806,6 @@
       "letterboxd_url": "https://letterboxd.com/film/atropia/"
     },
     {
-      "title": "Not Without Hope",
-      "date": "2025-12-12",
-      "platform": "Limited",
-      "synopsis": "A group of friends' fishing boat capsizes off the coast of Mexico and they're left alone stranded at sea and struggling for survival.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/6NXonER0WWIq13I0nlOkivhSj8i.jpg",
-      "tmdb_id": 339849,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/not-without-hope/"
-    },
-    {
       "title": "Scarlet",
       "date": "2025-12-12",
       "platform": "Limited",
@@ -828,15 +817,15 @@
       "letterboxd_url": "https://letterboxd.com/film/scarlet-2025/"
     },
     {
-      "title": "Turbulence",
+      "title": "Not Without Hope",
       "date": "2025-12-12",
       "platform": "Limited",
-      "synopsis": "Young married couple Zach and Emmy decide to take a hot air balloon trip across the Italian Dolomites to rekindle their relationship. When they and pilot Harry are joined by a third passenger, Julia, events unfold in ways they could never imagine five thousand meters in the air.",
+      "synopsis": "A group of friends' fishing boat capsizes off the coast of Mexico and they're left alone stranded at sea and struggling for survival.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/4DmmVlYv7r1tjlqn8RyIYkO84ZQ.jpg",
-      "tmdb_id": 1401778,
+      "poster": "https://image.tmdb.org/t/p/w154/6NXonER0WWIq13I0nlOkivhSj8i.jpg",
+      "tmdb_id": 339849,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/turbulence-2025/"
+      "letterboxd_url": "https://letterboxd.com/film/not-without-hope/"
     },
     {
       "title": "Little Trouble Girls",
@@ -850,12 +839,23 @@
       "letterboxd_url": "https://letterboxd.com/film/little-trouble-girls/"
     },
     {
+      "title": "Turbulence",
+      "date": "2025-12-12",
+      "platform": "Limited",
+      "synopsis": "Young married couple Zach and Emmy decide to take a hot air balloon trip across the Italian Dolomites to rekindle their relationship. When they and pilot Harry are joined by a third passenger, Julia, events unfold in ways they could never imagine five thousand meters in the air.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/4DmmVlYv7r1tjlqn8RyIYkO84ZQ.jpg",
+      "tmdb_id": 1401778,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/turbulence-2025/"
+    },
+    {
       "title": "The Mysterious Gaze of the Flamingo",
       "date": "2025-12-12",
       "platform": "Limited",
       "synopsis": "As an unknown and deadly disease begins to spread, legend has it that it is transmitted between two men, through a simple glance, when they fall in love. While people are accusing her family, Lidia must find out whether this myth is real or not.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/pmvApkuCKV6iOVz3PNgj9aXQuvD.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/8qW2gvAhs4ywQJvbT3DnqTip7Rr.jpg",
       "tmdb_id": 896096,
       "letterboxd_rating": 3.77,
       "letterboxd_url": "https://letterboxd.com/film/the-mysterious-gaze-of-the-flamingo/"
@@ -916,17 +916,6 @@
       "letterboxd_url": "https://letterboxd.com/film/avatar-fire-and-ash/"
     },
     {
-      "title": "The Housemaid",
-      "date": "2025-12-19",
-      "platform": "Wide Release",
-      "synopsis": "A woman with a troubled past accepts a job as a live-in maid for a wealthy, seemingly perfect family.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qwc6wH49pDytMsYGtcaVM1haYIr.jpg",
-      "tmdb_id": 1368166,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-housemaid-2025/"
-    },
-    {
       "title": "Marty Supreme",
       "date": "2025-12-19",
       "platform": "Wide Release",
@@ -936,6 +925,17 @@
       "tmdb_id": 1317288,
       "letterboxd_rating": 4.24,
       "letterboxd_url": "https://letterboxd.com/film/marty-supreme/"
+    },
+    {
+      "title": "The Housemaid",
+      "date": "2025-12-19",
+      "platform": "Wide Release",
+      "synopsis": "A woman with a troubled past accepts a job as a live-in maid for a wealthy, seemingly perfect family.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/s2UHXR5Z42tTTN6f9JdmR9YRGk3.jpg",
+      "tmdb_id": 1368166,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-housemaid-2025/"
     },
     {
       "title": "The SpongeBob Movie: Search for SquarePants",
@@ -956,7 +956,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/iTEKiQKtYfIjAPkSOaDps3pScsS.jpg",
       "tmdb_id": 1140498,
-      "letterboxd_rating": 3.59,
+      "letterboxd_rating": 3.58,
       "letterboxd_url": "https://letterboxd.com/film/is-this-thing-on-2025/"
     },
     {
@@ -978,7 +978,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/e4aBtGkDgAbwcbT4TxW8kj7yCeq.jpg",
       "tmdb_id": 1370814,
-      "letterboxd_rating": 3.8,
+      "letterboxd_rating": 3.79,
       "letterboxd_url": "https://letterboxd.com/film/the-plague-2025/"
     },
     {
@@ -1035,6 +1035,17 @@
       "tmdb_id": 1262815,
       "letterboxd_rating": 3.02,
       "letterboxd_url": "https://letterboxd.com/film/the-choral/"
+    },
+    {
+      "title": "The Testament of Ann Lee",
+      "date": "2025-12-25",
+      "platform": "Limited",
+      "synopsis": "The extraordinary true legend of Ann Lee, founder of the devotional sect known as the Shakers.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/1wleWp6BCniE9RSeaUjUezwZdF8.jpg",
+      "tmdb_id": 1401281,
+      "letterboxd_rating": 3.59,
+      "letterboxd_url": "https://letterboxd.com/film/the-testament-of-ann-lee/"
     },
     {
       "title": "Song Sung Blue",
@@ -1268,17 +1279,6 @@
       "letterboxd_url": "https://letterboxd.com/film/greenland-2-migration/"
     },
     {
-      "title": "Primate",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "Home from college, Lucy reunites with family including pet chimp Ben. Ben contracts rabies during a pool party and turns aggressive. Lucy and friends barricade in pool, devising ways to survive the vicious chimp.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
-      "tmdb_id": 1315303,
-      "letterboxd_rating": 3.29,
-      "letterboxd_url": "https://letterboxd.com/film/primate-2026/"
-    },
-    {
       "title": "All That's Left of You",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1290,15 +1290,26 @@
       "letterboxd_url": "https://letterboxd.com/film/all-thats-left-of-you/"
     },
     {
-      "title": "Magellan",
+      "title": "Primate",
       "date": "2026-01-09",
       "platform": "Limited",
-      "synopsis": "In the 16th century, Ferdinand Magellan, a young and ambitious Portuguese navigator, rebels against the power of the King of Portugal, who doesn\u2019t support his dream of discovering the world, and persuades the Spanish monarchy to fund his bold expedition to the fabled lands of the East.",
+      "synopsis": "Home from college, Lucy reunites with family including pet chimp Ben. Ben contracts rabies during a pool party and turns aggressive. Lucy and friends barricade in pool, devising ways to survive the vicious chimp.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/kA5trayJ6UICmTvSGrtWRftNRUJ.jpg",
-      "tmdb_id": 975335,
-      "letterboxd_rating": 2.87,
-      "letterboxd_url": "https://letterboxd.com/film/magellan/"
+      "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
+      "tmdb_id": 1315303,
+      "letterboxd_rating": 3.29,
+      "letterboxd_url": "https://letterboxd.com/film/primate-2026/"
+    },
+    {
+      "title": "SOULM8TE",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "A man acquires an artificially intelligent android to cope with the loss of his recently deceased wife, but in an attempt to create a truly sentient partner, he inadvertently turns a harmless lovebot into a deadly soulmate.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/q0XwYzZywCbuVVcillmLXABw9Ax.jpg",
+      "tmdb_id": 1307118,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/soulm8te/"
     },
     {
       "title": "Dead Man's Wire",
@@ -1312,15 +1323,15 @@
       "letterboxd_url": "https://letterboxd.com/film/dead-mans-wire/"
     },
     {
-      "title": "SOULM8TE",
+      "title": "Magellan",
       "date": "2026-01-09",
       "platform": "Limited",
-      "synopsis": "A man acquires an artificially intelligent android to cope with the loss of his recently deceased wife, but in an attempt to create a truly sentient partner, he inadvertently turns a harmless lovebot into a deadly soulmate.",
+      "synopsis": "In the 16th century, Ferdinand Magellan, a young and ambitious Portuguese navigator, rebels against the power of the King of Portugal, who doesn\u2019t support his dream of discovering the world, and persuades the Spanish monarchy to fund his bold expedition to the fabled lands of the East.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/q0XwYzZywCbuVVcillmLXABw9Ax.jpg",
-      "tmdb_id": 1307118,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/soulm8te/"
+      "poster": "https://image.tmdb.org/t/p/w154/kA5trayJ6UICmTvSGrtWRftNRUJ.jpg",
+      "tmdb_id": 975335,
+      "letterboxd_rating": 2.87,
+      "letterboxd_url": "https://letterboxd.com/film/magellan/"
     },
     {
       "title": "OBEX",
@@ -1358,7 +1369,7 @@
     {
       "title": "28 Years Later: The Bone Temple",
       "date": "2026-01-16",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/j44XuLdsoSnlSuMgdKmcju4vM95.jpg",
@@ -1389,17 +1400,6 @@
       "letterboxd_url": "https://letterboxd.com/film/night-patrol/"
     },
     {
-      "title": "ALL YOU NEED IS KILL",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/y8mUXNllYasEJ37IsZaLrrR2yaW.jpg",
-      "tmdb_id": 1432547,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/all-you-need-is-kill/"
-    },
-    {
       "title": "Charlie the Wonderdog",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -1420,6 +1420,17 @@
       "tmdb_id": 424853,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/b-roll/"
+    },
+    {
+      "title": "ALL YOU NEED IS KILL",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/y8mUXNllYasEJ37IsZaLrrR2yaW.jpg",
+      "tmdb_id": 1432547,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/all-you-need-is-kill/"
     },
     {
       "title": "A Useful Ghost",
@@ -1526,7 +1537,7 @@
       "platform": "Limited",
       "synopsis": "Fresh out of prison, Ava's attempt to reclaim her drug operation collapses when she witnesses a brutal crime, forcing her to flee into a nightmarish underworld where allies are scarce and enemies multiply by the minute.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/mMs9fpTt6agjQHpXkRqoiDEQ8El.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/jPKvBBG8vloHCKFcX4T0pkPhJEA.jpg",
       "tmdb_id": 1128377,
       "letterboxd_rating": 3.29,
       "letterboxd_url": "https://letterboxd.com/film/in-cold-light/"
@@ -1565,17 +1576,6 @@
       "letterboxd_url": "https://letterboxd.com/film/past-life-2026/"
     },
     {
-      "title": "Valencia - Chapter III: Sabadell",
-      "date": "2026-01-26",
-      "platform": "Limited",
-      "synopsis": "Third entry in The Valencia Saga.  A sitter got hired to take care an overprotected grown teen. While both discussing the up beats of life, their night turns more creepier than just a sitter chat.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/e2NfoXFg952Kq8kszoGK5TmtYUU.jpg",
-      "tmdb_id": 1453554,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/valencia-chapter-iii-sabadell/"
-    },
-    {
       "title": "Fluctuation",
       "date": "2026-01-26",
       "platform": "Limited",
@@ -1585,6 +1585,17 @@
       "tmdb_id": 1472989,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/fluctuation-2026/"
+    },
+    {
+      "title": "Valencia - Chapter III: Sabadell",
+      "date": "2026-01-26",
+      "platform": "Limited",
+      "synopsis": "Third entry in The Valencia Saga.  A sitter got hired to take care an overprotected grown teen. While both discussing the up beats of life, their night turns more creepier than just a sitter chat.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/e2NfoXFg952Kq8kszoGK5TmtYUU.jpg",
+      "tmdb_id": 1453554,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/valencia-chapter-iii-sabadell/"
     }
   ]
 }
