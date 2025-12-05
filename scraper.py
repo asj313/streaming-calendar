@@ -359,98 +359,8 @@ def scrape_calendar_page(month: str, year: int) -> list:
     return releases
 
 def scrape_streaming_month(month: str, year: int) -> list:
-    """Scrape streaming releases for a given month."""
-    all_releases = []
-    
-    # Try preview URL first for the main list
-    url = get_preview_url(month, year)
-    print(f"Fetching streaming preview: {url}")
-    
-    response = None
-    try:
-        response = requests.get(url, timeout=30, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'
-        })
-        response.raise_for_status()
-        
-        # Check if we got actual content (not just homepage)
-        if 'Synopsis:' not in response.text:
-            print(f"  Preview page has no movie data")
-            response = None
-    except Exception as e:
-        print(f"  Preview failed: {e}")
-        response = None
-    
-    # Parse preview page if we got it
-    if response:
-        print(f"  Success! Parsing preview page...")
-        soup = BeautifulSoup(response.text, 'html.parser')
-        text = soup.get_text()
-        lines = [l.strip() for l in text.split('\n') if l.strip()]
-    else:
-        # No preview, just use calendar
-        print(f"  No preview available, using calendar page only...")
-        return scrape_calendar_page(month, year)
-    
-    releases = []
-    current_date = None
-    
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        
-        # Check for date header
-        if re.match(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),\s+\w+\s+\d+', line):
-            parsed = parse_date_header(line)
-            if parsed:
-                current_date = parsed
-            i += 1
-            continue
-        
-        # Check for movie title with platform
-        platform_match = None
-        for platform, pattern in PLATFORM_PATTERNS.items():
-            if re.search(pattern, line, re.IGNORECASE):
-                platform_match = platform
-                break
-        
-        if platform_match and current_date:
-            title_match = re.match(r'^(.+?)\s*\([^)]+\)\s*$', line)
-            if title_match:
-                title = title_match.group(1).strip()
-                title = re.sub(r'^\[|\]$', '', title)
-                
-                if len(title) < 2 or title.lower() in ['synopsis', 'cast']:
-                    i += 1
-                    continue
-                
-                # Look for synopsis
-                synopsis = ""
-                for j in range(i + 1, min(i + 5, len(lines))):
-                    if lines[j].startswith("Synopsis:"):
-                        synopsis = lines[j].replace("Synopsis:", "").strip()
-                        break
-                    if re.match(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),', lines[j]):
-                        break
-                
-                releases.append({
-                    "title": title.title() if title.isupper() else title,
-                    "date": current_date,
-                    "platform": platform_match,
-                    "synopsis": synopsis,
-                    "type": "streaming"
-                })
-        
-        i += 1
-    
-    all_releases.extend(releases)
-    
-    # ALSO check the calendar page for any new additions not in the preview
-    print(f"  Also checking calendar page for updates...")
-    calendar_releases = scrape_calendar_page(month, year)
-    all_releases.extend(calendar_releases)
-    
-    return all_releases
+    """Scrape streaming releases for a given month from the calendar page."""
+    return scrape_calendar_page(month, year)
 
 def get_months_to_scrape():
     """Get current month and next month."""
@@ -476,20 +386,19 @@ def main():
         all_releases.extend(releases)
         print(f"  Found {len(releases)} streaming releases for {month_name.title()} {year}")
     
-    # Deduplicate - prefer specific platforms over VOD/Digital
+    # Deduplicate by normalized title
     seen = {}
     for r in all_releases:
-        key = r['title'].lower()
+        # Normalize title: lowercase, remove punctuation
+        key = re.sub(r'[^\w\s]', '', r['title'].lower())
+        key = re.sub(r'\s+', ' ', key).strip()
+        
         if key not in seen:
             seen[key] = r
         else:
-            # If existing is VOD/Digital but new one is a specific platform, prefer the new one
+            # If same title, prefer specific platforms over VOD/Digital
             if seen[key]['platform'] == 'VOD/Digital' and r['platform'] != 'VOD/Digital':
                 seen[key] = r
-            # If both are specific platforms, prefer the one with the later date (streaming date)
-            elif seen[key]['platform'] != 'VOD/Digital' and r['platform'] != 'VOD/Digital':
-                if r['date'] > seen[key]['date']:
-                    seen[key] = r
     
     unique = list(seen.values())
     unique.sort(key=lambda x: x['date'])
