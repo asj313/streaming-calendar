@@ -238,30 +238,32 @@ def scrape_movie_page(url: str) -> dict:
         
         info = {'url': url}
         distributor = None
+        svod_date = None
+        svod_platform = None
+        vod_date = None
         
         for line in lines:
             # Look for SVOD release date with platform (e.g., "SVOD Release Date: January 9, 2026 (Netflix)")
-            if 'SVOD Release Date:' in line and 'date' not in info:
+            if 'SVOD Release Date:' in line:
                 match = re.search(r'SVOD Release Date:\s*(\w+ \d+, \d+)\s*\(([^)]+)\)', line)
                 if match:
                     date_str = match.group(1)
                     platform = match.group(2)
                     try:
                         dt = datetime.strptime(date_str, "%B %d, %Y")
-                        info['date'] = dt.strftime("%Y-%m-%d")
-                        info['platform'] = platform
+                        svod_date = dt.strftime("%Y-%m-%d")
+                        svod_platform = platform
                     except:
                         pass
             
             # Also check VOD Release Date (e.g., "VOD Release Date: December 9, 2025")
-            if 'VOD Release Date:' in line and 'date' not in info:
+            if 'VOD Release Date:' in line:
                 match = re.search(r'VOD Release Date:\s*(\w+ \d+, \d+)', line)
                 if match:
                     date_str = match.group(1)
                     try:
                         dt = datetime.strptime(date_str, "%B %d, %Y")
-                        info['date'] = dt.strftime("%Y-%m-%d")
-                        info['platform'] = 'VOD/Digital'
+                        vod_date = dt.strftime("%Y-%m-%d")
                     except:
                         pass
             
@@ -277,13 +279,19 @@ def scrape_movie_page(url: str) -> dict:
                     distributor = 'Prime Video'
                 elif 'HBO' in line or 'Max' in line:
                     distributor = 'HBO Max'
+                elif 'Starz' in line:
+                    distributor = 'Starz'
             
             if 'Synopsis:' in line:
                 info['synopsis'] = line.replace('Synopsis:', '').strip()
         
-        # Use distributor as platform if we only have VOD/Digital
-        if info.get('platform') == 'VOD/Digital' and distributor:
-            info['platform'] = distributor
+        # Prefer SVOD date/platform, fall back to VOD
+        if svod_date and svod_platform:
+            info['date'] = svod_date
+            info['platform'] = svod_platform
+        elif vod_date:
+            info['date'] = vod_date
+            info['platform'] = distributor if distributor else 'VOD/Digital'
         
         return info
     except Exception as e:
@@ -295,7 +303,7 @@ def scrape_calendar_page(month: str, year: int) -> list:
     url = get_calendar_url(month, year)
     print(f"Fetching calendar page: {url}")
     
-    # Build target month prefix for filtering (e.g., "2025-12")
+    # Build target month prefix for filtering (e.g., "2026-01")
     month_num = MONTHS.index(month.lower()) + 1
     target_prefix = f"{year}-{month_num:02d}"
     
@@ -309,11 +317,15 @@ def scrape_calendar_page(month: str, year: int) -> list:
     
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # Find movie page links (they have year in URL but aren't calendar pages)
+    # Find movie page links - look for URLs ending in -YYYY/ pattern (any year)
     movie_urls = []
     for link in soup.find_all('a', href=True):
         href = link.get('href', '')
-        if f'-{year}/' in href and 'streaming-' not in href and 'theaters-' not in href and 'whentostream.com' in href:
+        # Skip non-movie pages
+        if any(x in href for x in ['streaming-', 'theaters-', 'archive', 'category', 'author', 'share=', 'whats-streaming', 'preview']):
+            continue
+        # Check if it looks like a movie page (ends with -YYYY/)
+        if 'whentostream.com/' in href and re.search(r'-\d{4}/$', href):
             if href not in movie_urls:
                 movie_urls.append(href)
     
