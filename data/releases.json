@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T01:05:59.433712",
+  "last_updated": "2025-12-05T01:20:02.317774",
   "months": [
     {
       "name": "December",
@@ -12,14 +12,114 @@
   ],
   "releases": [
     {
-      "title": "Play Dirty",
-      "date": "2025-10-01",
-      "platform": "Prime Video",
-      "synopsis": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world\u2019s richest man.",
+      "title": "Eye For An Eye",
+      "date": "2025-06-20",
+      "platform": "VOD/Digital",
+      "synopsis": "Anna, grieving the sudden death of her parents, relocates from New York to a small Florida town to live with the grandmother she has never met. Isolated, vulnerable, and in need of friends, she finds brief solace in the company of two local teens. But when she becomes complicit to their unforgivable act of violence, she finds herself ensnared by Mr. Sandman \u2013 the twisted soul of a tormented child who haunts bullies\u2019 dreams before feasting on their eyeballs when they finally wake \u2013 Anna must right her wrong before becoming a victim of this gruesome curse.",
+      "type": "streaming",
+      "letterboxd_rating": 2.73,
+      "letterboxd_url": "https://letterboxd.com/film/eye-for-an-eye-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/mkfznkTshGBp88SFQQAGsr3R62z.jpg"
+    },
+    {
+      "title": "Mission Impossible The Final Reckoning",
+      "date": "2025-08-19",
+      "platform": "VOD/Digital",
+      "synopsis": "After escaping a calamitous train crash, Ethan realizes The Entity is stashed aboard an old Russian submarine, but a foe from his past named Gabriel is also on the trail.",
+      "type": "streaming",
+      "letterboxd_rating": 3.47,
+      "letterboxd_url": "https://letterboxd.com/film/mission-impossible-the-final-reckoning/",
+      "poster": "https://image.tmdb.org/t/p/w154/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg"
+    },
+    {
+      "title": "F1 The Movie",
+      "date": "2025-08-22",
+      "platform": "VOD/Digital",
+      "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
+      "type": "streaming",
+      "letterboxd_rating": 3.72,
+      "letterboxd_url": "https://letterboxd.com/film/f1-the-movie/",
+      "poster": "https://image.tmdb.org/t/p/w154/vqBmyAj0Xm9LnS1xe1MSlMAJyHq.jpg"
+    },
+    {
+      "title": "Its Never Over Jeff Buckley",
+      "date": "2025-08-26",
+      "platform": "VOD/Digital",
+      "synopsis": "Rising musician Jeff Buckley had only released one album when he died suddenly in 1997. Now, never-before-seen footage, exclusive voice messages, and accounts from those closest to him offer a portrait of the captivating singer.",
+      "type": "streaming",
+      "letterboxd_rating": 4.26,
+      "letterboxd_url": "https://letterboxd.com/film/its-never-over-jeff-buckley/",
+      "poster": "https://image.tmdb.org/t/p/w154/zsb9oJqNa016PeJFL9kkwJ3seil.jpg"
+    },
+    {
+      "title": "Together",
+      "date": "2025-08-26",
+      "platform": "VOD/Digital",
+      "synopsis": "With a move to the countryside already testing the limits of a couple\u2019s relationship, a supernatural encounter begins an extreme transformation of their love, their lives, and their flesh.",
+      "type": "streaming",
+      "letterboxd_rating": 3.32,
+      "letterboxd_url": "https://letterboxd.com/film/together-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/m52XidzKx94bKlToZfEXUnL3pdy.jpg"
+    },
+    {
+      "title": "Ne Zha Ii",
+      "date": "2025-09-16",
+      "platform": "VOD/Digital",
+      "synopsis": "A rebellious young boy, Ne Zha, is feared by the gods and born to mortal parents with wild, uncontrolled powers. Now he\u2019s faced with an ancient force intent on destroying humanity, he must grow up to become the hero the world needs.",
       "type": "streaming",
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/play-dirty-2025/",
-      "poster": "https://image.tmdb.org/t/p/w154/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg"
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/cb5NyNrqiCNNoDkA8FfxHAtypdG.jpg"
+    },
+    {
+      "title": "Aztec Batman Clash Of Empires",
+      "date": "2025-09-19",
+      "platform": "VOD/Digital",
+      "synopsis": "In the time of the Aztec Empire, Yohualli Coatl \u2013 a young Aztec boy \u2013 experiences tragedy when his father and village leader, Toltecatzin, is murdered by Spanish Conquistadors. Yohualli escapes to Tenochtitlan to warn King Moctezuma and his high priest, Yoka, of imminent danger. Using the temple of Tzinacan, the bat god, as a lair, Yohualli trains with his mentor and assistant, Acatzin, developing equipment and weaponry to confront the Spaniard invasion, protect Moctezuma\u2019s temple, and avenge his father\u2019s death.",
+      "type": "streaming",
+      "letterboxd_rating": 3.02,
+      "letterboxd_url": "https://letterboxd.com/film/aztec-batman-clash-of-empires/",
+      "poster": "https://image.tmdb.org/t/p/w154/s0Mlo5w4INp3bUdsJo3RaSSMXWz.jpg"
+    },
+    {
+      "title": "Spinal Tap Ii The End Continues",
+      "date": "2025-09-30",
+      "platform": "VOD/Digital",
+      "synopsis": "Spinal Tap, England\u2019s loudest and most punctual band, reunite following a 15-year hiatus for one final concert.",
+      "type": "streaming",
+      "letterboxd_rating": 3.14,
+      "letterboxd_url": "https://letterboxd.com/film/spinal-tap-ii-the-end-continues/",
+      "poster": "https://image.tmdb.org/t/p/w154/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg"
+    },
+    {
+      "title": "Afterburn",
+      "date": "2025-10-21",
+      "platform": "VOD/Digital",
+      "synopsis": "After a massive solar flare destroys the Earth\u2019s eastern hemisphere, an emboldened treasure hunter for hire adventures to Europe to uncover the coveted Mona Lisa, only to learn the world needs a hero more than it needs a painting.",
+      "type": "streaming",
+      "letterboxd_rating": 2.06,
+      "letterboxd_url": "https://letterboxd.com/film/afterburn-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/hrze9JXp2QJpc2WjLfSUtRxyYSb.jpg"
+    },
+    {
+      "title": "Queens Of The Dead",
+      "date": "2025-11-11",
+      "platform": "VOD/Digital",
+      "synopsis": "When a zombie apocalypse breaks out in Brooklyn on the night of a giant warehouse party, an eclectic group of drag queens, club kids, & frenemies must put aside their drama and use their unique skills to fight against the brain-thirsty, scrolling undead.",
+      "type": "streaming",
+      "letterboxd_rating": 3.27,
+      "letterboxd_url": "https://letterboxd.com/film/queens-of-the-dead/",
+      "poster": "https://image.tmdb.org/t/p/w154/mY8JqSMBSiXZh9EbGqUjpF6aacu.jpg"
+    },
+    {
+      "title": "Megadoc",
+      "date": "2025-11-21",
+      "platform": "VOD/Digital",
+      "synopsis": "A raw, fly-on-the-wall documentary about Francis Ford Coppola\u2019s decades-long journey in creating his self-financed passion project, MEGALOPOLIS. The bold and unrelenting epic returns in Mike Figgis\u2019 portrait of Coppola\u2019s creative process \u2013 weaving together archival material, unfiltered cast interviews, and a close-up view of how the legendary filmmaker drew from Roman history, political allegory, and his own singular vision to shape the world of Megalopolis. This isn\u2019t a record of a production on the brink, it\u2019s a personal memoir unfolding in real time.",
+      "type": "streaming",
+      "letterboxd_rating": 3.53,
+      "letterboxd_url": "https://letterboxd.com/film/megadoc/",
+      "poster": "https://image.tmdb.org/t/p/w154/yjiqwnvgst3ntm25L5heBHjqny9.jpg"
     },
     {
       "title": "The Merchants Of Joy",
@@ -92,6 +192,56 @@
       "poster": "https://image.tmdb.org/t/p/w154/chpWmskl3aKm1aTZqUHRCtviwPy.jpg"
     },
     {
+      "title": "Bau Artist At War",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "Based on the true story of Joseph and Rebecca Bau whose wedding took place in the Plaszow concentration camp during WW2. Using his artistic skills in the camps, Joseph stays alive and helps hundreds to escape. Miraculously, he finds love in the midst of despair. Years later, when called to be a key witness in the trial of the brutal Nazi officer who tortured him and killed his father, Joseph is thrust back into vivid memories of the Holocaust. Now, he calls upon this love and resilience of spirit to face the ultimate demon of his past.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/bau-artist-at-war/",
+      "poster": "https://image.tmdb.org/t/p/w154/tp9pxdzlhXy9UqT7gy758Kx3IQn.jpg"
+    },
+    {
+      "title": "Play Dirty",
+      "date": "2025-12-02",
+      "platform": "Prime Video",
+      "synopsis": "Expert thief Parker gets a shot at a major heist, but to pull it off he and his team must outsmart a South American dictator, the New York mob, and the world\u2019s richest man.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/play-dirty-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/ovZ0zq0NwRghtWI1oLaM0lWuoEw.jpg"
+    },
+    {
+      "title": "Sarahs Oil",
+      "date": "2025-12-02",
+      "platform": "Prime Video",
+      "synopsis": "The true story of Sarah Rector, an African American born in Oklahoma Indian Territory in the early 1900s, who believes there is oil beneath the barren land she\u2019s allotted and whose faith is proven right. As greedy oil sharks close in, Sarah turns to her family, friends and some Texas wildcatters to maintain control of her oil-rich land, eventually becoming one of the nation\u2019s first female African American millionaires \u2014 at 11 years old.",
+      "type": "streaming",
+      "letterboxd_rating": 3.1,
+      "letterboxd_url": "https://letterboxd.com/film/sarahs-oil/",
+      "poster": "https://image.tmdb.org/t/p/w154/Av1CK61z33v2OBFLD1yF5rdRxQ1.jpg"
+    },
+    {
+      "title": "Tron Ares",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind\u2019s first encounter with A.I. beings.",
+      "type": "streaming",
+      "letterboxd_rating": 2.7,
+      "letterboxd_url": "https://letterboxd.com/film/tron-ares/",
+      "poster": "https://image.tmdb.org/t/p/w154/chpWmskl3aKm1aTZqUHRCtviwPy.jpg"
+    },
+    {
+      "title": "Truth Treason",
+      "date": "2025-12-02",
+      "platform": "VOD/Digital",
+      "synopsis": "When loyalty to country becomes loyalty to a lie, one teen risks everything to expose the truth. With the Gestapo closing in, he must decide what it really means to be a good German.",
+      "type": "streaming",
+      "letterboxd_rating": 3.46,
+      "letterboxd_url": "https://letterboxd.com/film/truth-treason/",
+      "poster": "https://image.tmdb.org/t/p/w154/vJdXh0Ezcftep9ft9zvL8eI0EoI.jpg"
+    },
+    {
       "title": "My Secret Santa",
       "date": "2025-12-03",
       "platform": "Netflix",
@@ -128,7 +278,7 @@
       "synopsis": "An extraordinary journey through the material that makes up our habitat: concrete, and its ancestor, stone. Victor Kossakovsky raises a fundamental question: how do we inhabit the world of tomorrow?",
       "type": "streaming",
       "letterboxd_rating": null,
-      "letterboxd_url": null,
+      "letterboxd_url": "https://letterboxd.com/film/architecton/",
       "poster": "https://image.tmdb.org/t/p/w154/ko5fY3Y05u3rRFQUXNGyRybnxqT.jpg"
     },
     {
@@ -143,16 +293,6 @@
     },
     {
       "title": "Mission: Impossible \u2013 The Final Reckoning",
-      "date": "2025-12-04",
-      "platform": "Paramount+",
-      "synopsis": "After escaping a calamitous train crash, Ethan realizes The Entity is stashed aboard an old Russian submarine, but a foe from his past named Gabriel is also on the trail.",
-      "type": "streaming",
-      "letterboxd_rating": 3.47,
-      "letterboxd_url": "https://letterboxd.com/film/mission-impossible-the-final-reckoning/",
-      "poster": "https://image.tmdb.org/t/p/w154/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg"
-    },
-    {
-      "title": "Mission Impossible The Final Reckoning",
       "date": "2025-12-04",
       "platform": "Paramount+",
       "synopsis": "After escaping a calamitous train crash, Ethan realizes The Entity is stashed aboard an old Russian submarine, but a foe from his past named Gabriel is also on the trail.",
@@ -222,6 +362,26 @@
       "poster": "https://image.tmdb.org/t/p/w154/dVs09zkFNeFFZe1EYoZVoyp5SbY.jpg"
     },
     {
+      "title": "Muzzle City Of Wolves",
+      "date": "2025-12-05",
+      "platform": "VOD/Digital",
+      "synopsis": "LAPD officer Jake Rosser endeavors to lead a peaceful life with his family and retired K-9 officer, Socks. However, tranquility dissolves into chaos when a gang targets them in a brutal attack. Alongside his new K-9 partner Argos, Jake launches into a relentless pursuit of justice, determined to protect his loved ones.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/muzzle-city-of-wolves/",
+      "poster": "https://image.tmdb.org/t/p/w154/8qTMRmC07XCGidnKQFLbRM3FoDU.jpg"
+    },
+    {
+      "title": "Pose",
+      "date": "2025-12-05",
+      "platform": "VOD/Digital",
+      "synopsis": "Isolated in a grand country manor, a reclusive artist named Thomas Alexander (James McAvoy) spends a passionate and paranoid weekend with his ex-lover, an obsessive fan, and a potential muse. Thomas engages in a psychological game with his housemates, hoping to spark a new wave of artistic brilliance. Over the course of a few tumultuous days filled with chaos and revelation, not all of them will make it out alive.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/pose-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/qhyyyWrHUbl6QG4udAJj17CBa5.jpg"
+    },
+    {
       "title": "Predators",
       "date": "2025-12-08",
       "platform": "Paramount+",
@@ -269,6 +429,66 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/9JvDJioZk0vkZX6QSPw2Ayq8wzv.jpg"
+    },
+    {
+      "title": "The Carpenters Son",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "A remote village in Roman-era Egypt explodes into spiritual warfare when a carpenter, his wife and their child are targeted by supernatural forces.",
+      "type": "streaming",
+      "letterboxd_rating": 2.7,
+      "letterboxd_url": "https://letterboxd.com/film/the-carpenters-son/",
+      "poster": "https://image.tmdb.org/t/p/w154/9b0Fp7o9i5jqfqfE4pJmp9VPLUO.jpg"
+    },
+    {
+      "title": "Chainsaw Man The Movie Reze Arc",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji\u2019s world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+      "type": "streaming",
+      "letterboxd_rating": 4.35,
+      "letterboxd_url": "https://letterboxd.com/film/chainsaw-man-the-movie-reze-arc/",
+      "poster": "https://image.tmdb.org/t/p/w154/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg"
+    },
+    {
+      "title": "Die My Love",
+      "date": "2025-12-09",
+      "platform": "MUBI",
+      "synopsis": "Grace, a writer and young mother, is slowly slipping into madness. Locked away in an old house in and around Montana, we see her acting increasingly agitated and erratic, leaving her companion, Jackson, increasingly worried and helpless.",
+      "type": "streaming",
+      "letterboxd_rating": 3.25,
+      "letterboxd_url": "https://letterboxd.com/film/die-my-love/",
+      "poster": "https://image.tmdb.org/t/p/w154/iQKbyMTdj8NodLyvUG1nwfA2owL.jpg"
+    },
+    {
+      "title": "Keeper",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "Liz and Malcolm escape for a romantic anniversary weekend at a secluded cabin. When Malcolm suddenly returns to the city, Liz finds herself isolated and in the presence of an unspeakable evil that reveals the cabin\u2019s horrifying secrets.",
+      "type": "streaming",
+      "letterboxd_rating": 2.61,
+      "letterboxd_url": "https://letterboxd.com/film/keeper-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/mbGHijUc0C3fcM12l6ro6FgxIvg.jpg"
+    },
+    {
+      "title": "Koln 75",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "Keith Jarrett\u2019s legendary performance in January 1975 nearly didn\u2019t happen. Based on a true story,\u00a0K\u00f6ln 75\u00a0follows how the concert was conceived and orchestrated by the efforts of a teenage up and coming concert promoter, Vera Brandes, (played by German actress Mala Emde). Her enthusiasm set her to multitasking \u2013 from organizing the concert venue (the Cologne Opera House), promoting the event, and selling the tickets, to convincing Jarrett to perform when he almost dropped out when the B\u00f6sendorfer Imperial Grand piano he was promised was nowhere to be found. John Magaro plays Jarrett with his own intensity, a sublime counterpoint to Mala Emde\u2019s joyful portrayal of the enthusiastic and unstoppable Vera.\u00a0K\u00f6ln 75\u00a0captures the compelling, entertaining and, until now, unknown backstory about Jarrett\u2019s one-hour, entirely improvised concert, which became the best-selling solo album in jazz history.",
+      "type": "streaming",
+      "letterboxd_rating": 3.52,
+      "letterboxd_url": "https://letterboxd.com/film/koln-75/",
+      "poster": "https://image.tmdb.org/t/p/w154/oMeg1capgysYPHVOnZq7HfoIXzE.jpg"
+    },
+    {
+      "title": "A Savage Art The Life Cartoons Of Pat Oliphant",
+      "date": "2025-12-09",
+      "platform": "VOD/Digital",
+      "synopsis": "Patrick Oliphant was a giant slayer, bravely taking on presidents, popes and the American corporate class with his mighty pen. An Australian transplant, Oliphant became America\u2019s most renowned and feared political cartoonist for five decades. With his biting wit and masterful drawing skills, Oliphant attacked individual and institutional corruption, collusion, greed, hypocrisy and arrogance, no matter the size or status of his targets.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/a-savage-art-the-life-cartoons-of-pat-oliphant/",
       "poster": "https://image.tmdb.org/t/p/w154/9JvDJioZk0vkZX6QSPw2Ayq8wzv.jpg"
     },
     {
@@ -342,16 +562,6 @@
       "poster": "https://image.tmdb.org/t/p/w154/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg"
     },
     {
-      "title": "Spinal Tap Ii The End Continues",
-      "date": "2025-12-12",
-      "platform": "HBO Max",
-      "synopsis": "Spinal Tap, England\u2019s loudest and most punctual band, reunite following a 15-year hiatus for one final concert.",
-      "type": "streaming",
-      "letterboxd_rating": 3.14,
-      "letterboxd_url": "https://letterboxd.com/film/spinal-tap-ii-the-end-continues/",
-      "poster": "https://image.tmdb.org/t/p/w154/h6DGrDHlDm6gVOiy3YeOb737jB4.jpg"
-    },
-    {
       "title": "Wake Up Dead Man A Knives Out Mystery",
       "date": "2025-12-12",
       "platform": "Netflix",
@@ -380,6 +590,36 @@
       "letterboxd_rating": 4.07,
       "letterboxd_url": "https://letterboxd.com/film/put-your-soul-on-your-hand-and-walk/",
       "poster": "https://image.tmdb.org/t/p/w154/xC6FfKOMCkC1KlT3GCY3H9Ev6FB.jpg"
+    },
+    {
+      "title": "Now You See Me Now You Dont",
+      "date": "2025-12-16",
+      "platform": "VOD/Digital",
+      "synopsis": "The Four Horsemen return along with a new generation of illusionists performing mind-melding twists, turns, surprises, and magic unlike anything ever captured on film.",
+      "type": "streaming",
+      "letterboxd_rating": 3.03,
+      "letterboxd_url": "https://letterboxd.com/film/now-you-see-me-now-you-dont-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg"
+    },
+    {
+      "title": "The Running Man",
+      "date": "2025-12-16",
+      "platform": "VOD/Digital",
+      "synopsis": "Set in an oppressive future where the government controls the media, Ben Richards volunteers to participate in a deadly game show, which will see him hunted by professional killers over 30 days. Should he survive, he\u2019ll win a cash prize that will help save his sick child and lift his family out of a horrid living situation.",
+      "type": "streaming",
+      "letterboxd_rating": 3.21,
+      "letterboxd_url": "https://letterboxd.com/film/the-running-man-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/dKL78O9zxczVgjtNcQ9UkbYLzqX.jpg"
+    },
+    {
+      "title": "Thieves Highway",
+      "date": "2025-12-16",
+      "platform": "VOD/Digital",
+      "synopsis": "After a deadly confrontation, lawman Frank Bennett (Aaron Eckhart) uncovers a massive smuggling operation. Cut off from cell service and stranded without his truck, Frank is forced to take on a dangerous gang led by a deranged ex-military commander. Stopping them before they reach the border isn\u2019t just his duty, it\u2019s his only shot at survival.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/thieves-highway-2025/",
+      "poster": "https://image.tmdb.org/t/p/w154/78B66xBCgmnh88d10B85uFjC88V.jpg"
     },
     {
       "title": "Queens Of The Dead",
@@ -422,26 +662,6 @@
       "poster": "https://image.tmdb.org/t/p/w154/s0Mlo5w4INp3bUdsJo3RaSSMXWz.jpg"
     },
     {
-      "title": "Afterburn",
-      "date": "2025-12-22",
-      "platform": "MGM+",
-      "synopsis": "After a massive solar flare destroys the Earth\u2019s eastern hemisphere, an emboldened treasure hunter for hire adventures to Europe to uncover the coveted Mona Lisa, only to learn the world needs a hero more than it needs a painting.",
-      "type": "streaming",
-      "letterboxd_rating": 2.06,
-      "letterboxd_url": "https://letterboxd.com/film/afterburn-2025/",
-      "poster": "https://image.tmdb.org/t/p/w154/hrze9JXp2QJpc2WjLfSUtRxyYSb.jpg"
-    },
-    {
-      "title": "Aztec Batman Clash Of Empires",
-      "date": "2025-12-22",
-      "platform": "HBO Max",
-      "synopsis": "In the time of the Aztec Empire, Yohualli Coatl \u2013 a young Aztec boy \u2013 experiences tragedy when his father and village leader, Toltecatzin, is murdered by Spanish Conquistadors. Yohualli escapes to Tenochtitlan to warn King Moctezuma and his high priest, Yoka, of imminent danger. Using the temple of Tzinacan, the bat god, as a lair, Yohualli trains with his mentor and assistant, Acatzin, developing equipment and weaponry to confront the Spaniard invasion, protect Moctezuma\u2019s temple, and avenge his father\u2019s death.",
-      "type": "streaming",
-      "letterboxd_rating": 3.02,
-      "letterboxd_url": "https://letterboxd.com/film/aztec-batman-clash-of-empires/",
-      "poster": "https://image.tmdb.org/t/p/w154/s0Mlo5w4INp3bUdsJo3RaSSMXWz.jpg"
-    },
-    {
       "title": "Eden",
       "date": "2025-12-23",
       "platform": "Netflix",
@@ -460,16 +680,6 @@
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/strange-harvest/",
       "poster": "https://image.tmdb.org/t/p/w154/fYe0FNJNy0EIb8q4JUMLbbSmCth.jpg"
-    },
-    {
-      "title": "Die My Love",
-      "date": "2025-12-23",
-      "platform": "MUBI",
-      "synopsis": "Grace, a writer and young mother, is slowly slipping into madness. Locked away in an old house in and around Montana, we see her acting increasingly agitated and erratic, leaving her companion, Jackson, increasingly worried and helpless.",
-      "type": "streaming",
-      "letterboxd_rating": 3.25,
-      "letterboxd_url": "https://letterboxd.com/film/die-my-love/",
-      "poster": "https://image.tmdb.org/t/p/w154/iQKbyMTdj8NodLyvUG1nwfA2owL.jpg"
     },
     {
       "title": "Goodbye June",
