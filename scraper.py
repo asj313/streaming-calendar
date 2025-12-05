@@ -311,7 +311,9 @@ def scrape_calendar_page(month: str, year: int) -> list:
 
 def scrape_streaming_month(month: str, year: int) -> list:
     """Scrape streaming releases for a given month."""
-    # Try preview URL first
+    all_releases = []
+    
+    # Try preview URL first for the main list
     url = get_preview_url(month, year)
     print(f"Fetching streaming preview: {url}")
     
@@ -324,20 +326,22 @@ def scrape_streaming_month(month: str, year: int) -> list:
         
         # Check if we got actual content (not just homepage)
         if 'Synopsis:' not in response.text:
-            print(f"  Preview page has no movie data, trying calendar...")
+            print(f"  Preview page has no movie data")
             response = None
     except Exception as e:
         print(f"  Preview failed: {e}")
         response = None
     
-    # If preview didn't work, try calendar-style page
-    if not response:
+    # Parse preview page if we got it
+    if response:
+        print(f"  Success! Parsing preview page...")
+        soup = BeautifulSoup(response.text, 'html.parser')
+        text = soup.get_text()
+        lines = [l.strip() for l in text.split('\n') if l.strip()]
+    else:
+        # No preview, just use calendar
+        print(f"  No preview available, using calendar page only...")
         return scrape_calendar_page(month, year)
-    
-    print(f"  Success! Parsing preview page...")
-    soup = BeautifulSoup(response.text, 'html.parser')
-    text = soup.get_text()
-    lines = [l.strip() for l in text.split('\n') if l.strip()]
     
     releases = []
     current_date = None
@@ -390,7 +394,14 @@ def scrape_streaming_month(month: str, year: int) -> list:
         
         i += 1
     
-    return releases
+    all_releases.extend(releases)
+    
+    # ALSO check the calendar page for any new additions not in the preview
+    print(f"  Also checking calendar page for updates...")
+    calendar_releases = scrape_calendar_page(month, year)
+    all_releases.extend(calendar_releases)
+    
+    return all_releases
 
 def get_months_to_scrape():
     """Get current month and next month."""
