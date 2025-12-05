@@ -237,11 +237,11 @@ def scrape_movie_page(url: str) -> dict:
         lines = [l.strip() for l in text.split('\n') if l.strip()]
         
         info = {'url': url}
+        distributor = None
         
         for line in lines:
-            # Look for SVOD release date with platform
-            if 'SVOD Release Date:' in line:
-                # Parse "SVOD Release Date: January 9, 2026 (Netflix)"
+            # Look for SVOD release date with platform (e.g., "SVOD Release Date: January 9, 2026 (Netflix)")
+            if 'SVOD Release Date:' in line and 'date' not in info:
                 match = re.search(r'SVOD Release Date:\s*(\w+ \d+, \d+)\s*\(([^)]+)\)', line)
                 if match:
                     date_str = match.group(1)
@@ -253,8 +253,37 @@ def scrape_movie_page(url: str) -> dict:
                     except:
                         pass
             
+            # Also check VOD Release Date (e.g., "VOD Release Date: December 9, 2025")
+            if 'VOD Release Date:' in line and 'date' not in info:
+                match = re.search(r'VOD Release Date:\s*(\w+ \d+, \d+)', line)
+                if match:
+                    date_str = match.group(1)
+                    try:
+                        dt = datetime.strptime(date_str, "%B %d, %Y")
+                        info['date'] = dt.strftime("%Y-%m-%d")
+                        info['platform'] = 'VOD/Digital'
+                    except:
+                        pass
+            
+            # Capture distributor
+            if 'Distributor' in line:
+                if 'MUBI' in line:
+                    distributor = 'MUBI'
+                elif 'Netflix' in line:
+                    distributor = 'Netflix'
+                elif 'Hulu' in line:
+                    distributor = 'Hulu'
+                elif 'Amazon' in line or 'Prime' in line:
+                    distributor = 'Prime Video'
+                elif 'HBO' in line or 'Max' in line:
+                    distributor = 'HBO Max'
+            
             if 'Synopsis:' in line:
                 info['synopsis'] = line.replace('Synopsis:', '').strip()
+        
+        # Use distributor as platform if we only have VOD/Digital
+        if info.get('platform') == 'VOD/Digital' and distributor:
+            info['platform'] = distributor
         
         return info
     except Exception as e:
