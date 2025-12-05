@@ -295,6 +295,10 @@ def scrape_calendar_page(month: str, year: int) -> list:
     url = get_calendar_url(month, year)
     print(f"Fetching calendar page: {url}")
     
+    # Build target month prefix for filtering (e.g., "2025-12")
+    month_num = MONTHS.index(month.lower()) + 1
+    target_prefix = f"{year}-{month_num:02d}"
+    
     try:
         headers = {'User-Agent': 'Mozilla/5.0 (compatible; StreamingCalendar/1.0)'}
         response = requests.get(url, timeout=30, headers=headers)
@@ -326,13 +330,17 @@ def scrape_calendar_page(month: str, year: int) -> list:
         movie_info = scrape_movie_page(movie_url)
         
         if movie_info and movie_info.get('date') and movie_info.get('platform'):
-            releases.append({
-                'title': title,
-                'date': movie_info['date'],
-                'platform': movie_info['platform'],
-                'synopsis': movie_info.get('synopsis', ''),
-                'type': 'streaming'
-            })
+            # Only include if the date is in the target month
+            if movie_info['date'].startswith(target_prefix):
+                releases.append({
+                    'title': title,
+                    'date': movie_info['date'],
+                    'platform': movie_info['platform'],
+                    'synopsis': movie_info.get('synopsis', ''),
+                    'type': 'streaming'
+                })
+            else:
+                print(f"      Skipping: date {movie_info['date']} not in {target_prefix}")
         
         time.sleep(0.3)  # Rate limiting
     
@@ -456,15 +464,22 @@ def main():
         all_releases.extend(releases)
         print(f"  Found {len(releases)} streaming releases for {month_name.title()} {year}")
     
-    # Deduplicate
-    seen = set()
-    unique = []
+    # Deduplicate - prefer specific platforms over VOD/Digital
+    seen = {}
     for r in all_releases:
-        key = (r['title'].lower(), r['date'])
+        key = r['title'].lower()
         if key not in seen:
-            seen.add(key)
-            unique.append(r)
+            seen[key] = r
+        else:
+            # If existing is VOD/Digital but new one is a specific platform, prefer the new one
+            if seen[key]['platform'] == 'VOD/Digital' and r['platform'] != 'VOD/Digital':
+                seen[key] = r
+            # If both are specific platforms, prefer the one with the later date (streaming date)
+            elif seen[key]['platform'] != 'VOD/Digital' and r['platform'] != 'VOD/Digital':
+                if r['date'] > seen[key]['date']:
+                    seen[key] = r
     
+    unique = list(seen.values())
     unique.sort(key=lambda x: x['date'])
     
     # Fetch Letterboxd ratings and TMDB posters for each movie
