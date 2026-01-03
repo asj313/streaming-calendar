@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-02T10:12:54.315829",
+  "last_updated": "2026-01-03T10:11:27.555576",
   "months": [
     {
       "name": "January",
@@ -57,7 +57,7 @@
       "platform": "VOD/Digital",
       "synopsis": "A group of friends\u2019 fishing boat capsizes off the coast of Mexico and they\u2019re left alone stranded at sea and struggling for survival.",
       "type": "streaming",
-      "letterboxd_rating": 3.06,
+      "letterboxd_rating": 3.05,
       "letterboxd_url": "https://letterboxd.com/film/not-without-hope/",
       "poster": "https://image.tmdb.org/t/p/w154/w5WJMJ6DWPFK0Gx0Ongh0FZBAlK.jpg"
     },
@@ -107,7 +107,7 @@
       "platform": "Disney+",
       "synopsis": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind\u2019s first encounter with A.I. beings.",
       "type": "streaming",
-      "letterboxd_rating": 2.68,
+      "letterboxd_rating": 2.67,
       "letterboxd_url": "https://letterboxd.com/film/tron-ares/",
       "poster": "https://image.tmdb.org/t/p/w154/chpWmskl3aKm1aTZqUHRCtviwPy.jpg"
     },
@@ -297,7 +297,7 @@
       "platform": "AMC+",
       "synopsis": "LAPD officer Jake Rosser endeavors to lead a peaceful life with his family and retired K-9 officer, Socks. However, tranquility dissolves into chaos when a gang targets them in a brutal attack. Alongside his new K-9 partner Argos, Jake launches into a relentless pursuit of justice, determined to protect his loved ones.",
       "type": "streaming",
-      "letterboxd_rating": 2.77,
+      "letterboxd_rating": 2.76,
       "letterboxd_url": "https://letterboxd.com/film/muzzle-city-of-wolves/",
       "poster": "https://image.tmdb.org/t/p/w154/8qTMRmC07XCGidnKQFLbRM3FoDU.jpg"
     },
@@ -341,7 +341,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/hfuxIKRCNsecLmoDdO0HJ1YUvv1.jpg",
       "tmdb_id": 999075,
-      "letterboxd_rating": 3.9,
+      "letterboxd_rating": 3.89,
       "letterboxd_url": "https://letterboxd.com/film/left-handed-girl/"
     },
     {
@@ -400,6 +400,17 @@
       "letterboxd_url": "https://letterboxd.com/film/scarlet-2025/"
     },
     {
+      "title": "Four Rational People",
+      "date": "2025-12-17",
+      "platform": "Limited",
+      "synopsis": "After nearly 50 years of making music together, the Emerson String Quartet plays its final notes.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/v1UkRXkvLVZTEsbNWfXKDXchwQz.jpg",
+      "tmdb_id": 1602062,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/four-rational-people/"
+    },
+    {
       "title": "www.RachelOrmont.com",
       "date": "2025-12-19",
       "platform": "Limited",
@@ -455,25 +466,14 @@
       "letterboxd_url": "https://letterboxd.com/film/rough-2026/"
     },
     {
-      "title": "The Animated Mind of Oliver Sacks",
-      "date": "2026-01-01",
-      "platform": "Limited",
-      "synopsis": "An exploration of the life and work of Dr. Oliver Sacks, the world-renowned neurologist and author who transformed our understanding of the human mind.",
-      "type": "theatrical",
-      "poster": null,
-      "tmdb_id": 1446424,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-animated-mind-of-oliver-sacks/"
-    },
-    {
       "title": "We Bury the Dead",
       "date": "2026-01-02",
       "platform": "Limited",
-      "synopsis": "After a catastrophic military disaster, the dead don't just rise - they hunt. Ava searches for her missing husband, but what she finds is far more terrifying.",
+      "synopsis": "After a catastrophic American military disaster on the Australian island state of Tasmania, the dead don\u2019t just rise, they hunt. The military insists they are harmless and slow-moving, offering hope to grieving families. But when Ava enters a quarantine zone as part of a body retrieval unit and to search for her missing husband, she discovers the undead are growing more violent, relentless and dangerous with every passing hour.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/vWOALCjS3cANciJKkG0qV8k1izW.jpg",
       "tmdb_id": 1198984,
-      "letterboxd_rating": 2.99,
+      "letterboxd_rating": 2.98,
       "letterboxd_url": "https://letterboxd.com/film/we-bury-the-dead/"
     },
     {
@@ -484,7 +484,7 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/oTJwampNPlnJi77alCT4RQqcEeQ.jpg",
       "tmdb_id": 1180417,
-      "letterboxd_rating": 3.18,
+      "letterboxd_rating": 3.09,
       "letterboxd_url": "https://letterboxd.com/film/the-dutchman/"
     },
     {
@@ -559,9 +559,9 @@
       "platform": "Wide Release",
       "synopsis": "Home from college, Lucy reunites with family including pet chimp Ben. Ben contracts rabies during a pool party and turns aggressive. Lucy and friends barricade in pool, devising ways to survive the vicious chimp.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/5Q1zdYe9PYEXMGELzjfjyx8Eb7H.jpg",
       "tmdb_id": 1315303,
-      "letterboxd_rating": 3.25,
+      "letterboxd_rating": 3.24,
       "letterboxd_url": "https://letterboxd.com/film/primate-2026/"
     },
     {
@@ -616,19 +616,8 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/8OTAu88K9r9wqlLXux1mbnHmyPF.jpg",
       "tmdb_id": 1219620,
-      "letterboxd_rating": 4.1,
+      "letterboxd_rating": 4.11,
       "letterboxd_url": "https://letterboxd.com/film/all-thats-left-of-you/"
-    },
-    {
-      "title": "Dead Man's Wire",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "Set in 1977 and based on a true story, Tony Kiritsis, a former real estate developer puts a dead man's switch on himself and the mortgage banker who did him wrong, demanding $5 million and a personal apology.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/8nwiRUHjFfEwGUTFWBZIoqGrlMu.jpg",
-      "tmdb_id": 1263012,
-      "letterboxd_rating": 3.58,
-      "letterboxd_url": "https://letterboxd.com/film/dead-mans-wire/"
     },
     {
       "title": "I Was a Stranger",
@@ -640,6 +629,17 @@
       "tmdb_id": 1193128,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/i-was-a-stranger/"
+    },
+    {
+      "title": "Dead Man's Wire",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "Set in 1977 and based on a true story, Tony Kiritsis, a former real estate developer puts a dead man's switch on himself and the mortgage banker who did him wrong, demanding $5 million and a personal apology.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/8nwiRUHjFfEwGUTFWBZIoqGrlMu.jpg",
+      "tmdb_id": 1263012,
+      "letterboxd_rating": 3.58,
+      "letterboxd_url": "https://letterboxd.com/film/dead-mans-wire/"
     },
     {
       "title": "Magellan",
@@ -752,17 +752,6 @@
       "letterboxd_url": "https://letterboxd.com/film/killer-whale/"
     },
     {
-      "title": "B-Roll",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "A disgraced local TV news reporter enlists the help of a wannabe journalist and a career film student to produce a documentary to revive his career.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qlNM5aMJebqqi2Qx1AVtBAw1c.jpg",
-      "tmdb_id": 424853,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/b-roll/"
-    },
-    {
       "title": "Night Patrol",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -774,15 +763,15 @@
       "letterboxd_url": "https://letterboxd.com/film/night-patrol/"
     },
     {
-      "title": "Miss Moxy",
+      "title": "B-Roll",
       "date": "2026-01-16",
       "platform": "Limited",
-      "synopsis": "From the cobbled streets of Paris to the wild countryside of Europe, follow Miss Moxy \u2014 a pampered cat with a whole lot of cattitude \u2014 as she\u2019s thrown into the adventure of a lifetime. Lost far from home, she must team up with a goofy dog and a wise old bird to find her way back\u2026 and discover who she truly is along the way.",
+      "synopsis": "A disgraced local TV news reporter enlists the help of a wannabe journalist and a career film student to produce a documentary to revive his career.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/62JxXWRqE0uJupjLrt5eYPjlf9e.jpg",
-      "tmdb_id": 587357,
+      "poster": "https://image.tmdb.org/t/p/w154/qlNM5aMJebqqi2Qx1AVtBAw1c.jpg",
+      "tmdb_id": 424853,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/miss-moxy/"
+      "letterboxd_url": "https://letterboxd.com/film/b-roll/"
     },
     {
       "title": "A Useful Ghost",
@@ -794,6 +783,17 @@
       "tmdb_id": 1364904,
       "letterboxd_rating": 3.66,
       "letterboxd_url": "https://letterboxd.com/film/a-useful-ghost/"
+    },
+    {
+      "title": "Miss Moxy",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "From the cobbled streets of Paris to the wild countryside of Europe, follow Miss Moxy \u2014 a pampered cat with a whole lot of cattitude \u2014 as she\u2019s thrown into the adventure of a lifetime. Lost far from home, she must team up with a goofy dog and a wise old bird to find her way back\u2026 and discover who she truly is along the way.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/62JxXWRqE0uJupjLrt5eYPjlf9e.jpg",
+      "tmdb_id": 587357,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/miss-moxy/"
     },
     {
       "title": "Charlie the Wonderdog",
@@ -818,15 +818,15 @@
       "letterboxd_url": "https://letterboxd.com/film/all-you-need-is-kill/"
     },
     {
-      "title": "Signing Tony Raymond",
+      "title": "Leave",
       "date": "2026-01-16",
       "platform": "Limited",
-      "synopsis": "A young college football coach is sent to rural Alabama to try and sign the nation's top high school defensive end and soon finds himself trying to outflank rival recruiters, fight off grifting townsfolk and win over the player's wildly dysfunctional family.",
+      "synopsis": "Architect Jesse Hughes uproots his wife and their two kids to an old house in the countryside, in the middle of nowhere, to try to piece back together an almost broken marriage. But Keith later finds that sometimes a change is not always the best solution when they get some unexpected visitors in their new home.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
-      "tmdb_id": 1555571,
+      "poster": "https://image.tmdb.org/t/p/w154/7HjVWBntzWRdNu8GudupAQGQYoB.jpg",
+      "tmdb_id": 1532688,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/signing-tony-raymond/"
+      "letterboxd_url": "https://letterboxd.com/film/leave-2026/"
     },
     {
       "title": "The Fire Raven",
@@ -1005,6 +1005,17 @@
       "letterboxd_url": "https://letterboxd.com/film/buffalo-kids/"
     },
     {
+      "title": "The Strangers: Chapter 3",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "Tethered by a frightening conclusion, Maya and the Strangers are locked on an unavoidable, unforgiving collision course \u2014 a showdown that proves they\u2019re far from strangers now.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/yPegTig8dQNYiW2UW21LTNChGkK.jpg",
+      "tmdb_id": 1010755,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-strangers-chapter-3/"
+    },
+    {
       "title": "Whistle",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1016,15 +1027,15 @@
       "letterboxd_url": "https://letterboxd.com/film/whistle-2026/"
     },
     {
-      "title": "The Strangers: Chapter 3",
+      "title": "Cold Storage",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "Tethered by a frightening conclusion, Maya and the Strangers are locked on an unavoidable, unforgiving collision course \u2014 a showdown that proves they\u2019re far from strangers now.",
+      "synopsis": "When a mutating, highly contagious fungus escapes a sealed facility, two young employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/yPegTig8dQNYiW2UW21LTNChGkK.jpg",
-      "tmdb_id": 1010755,
+      "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
+      "tmdb_id": 696393,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-strangers-chapter-3/"
+      "letterboxd_url": "https://letterboxd.com/film/cold-storage-2026/"
     },
     {
       "title": "Mimics",
@@ -1049,17 +1060,6 @@
       "letterboxd_url": "https://letterboxd.com/film/jimpa/"
     },
     {
-      "title": "Cold Storage",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "When a mutating, highly contagious fungus escapes a sealed facility, two young employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
-      "tmdb_id": 696393,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/cold-storage-2026/"
-    },
-    {
       "title": "Solo Mio",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1071,15 +1071,15 @@
       "letterboxd_url": "https://letterboxd.com/film/solo-mio/"
     },
     {
-      "title": "Stray Kids: The dominATE Experience",
+      "title": "The President's Cake",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "A combination of concert footage from Stray Kids\u2019 dominATE world tour with behind-the-scenes material.",
+      "synopsis": "In 1990s Iraq, nine-year-old Lamia must bake Saddam Hussein's birthday cake. She scrambles to find ingredients for this compulsory task while facing potential punishment if she fails.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qtpjFm7cyZdOeWRU6ajDBKk6FGK.jpg",
-      "tmdb_id": 1600421,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/stray-kids-the-dominate-experience/"
+      "poster": "https://image.tmdb.org/t/p/w154/abdw51gf1oy3UWllAwqGl6WdkiS.jpg",
+      "tmdb_id": 1464883,
+      "letterboxd_rating": 3.91,
+      "letterboxd_url": "https://letterboxd.com/film/the-presidents-cake/"
     },
     {
       "title": "My Father's Shadow",
@@ -1093,15 +1093,15 @@
       "letterboxd_url": "https://letterboxd.com/film/my-fathers-shadow/"
     },
     {
-      "title": "The President's Cake",
+      "title": "Stray Kids: The dominATE Experience",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "In 1990s Iraq, nine-year-old Lamia must bake Saddam Hussein's birthday cake. She scrambles to find ingredients for this compulsory task while facing potential punishment if she fails.",
+      "synopsis": "A combination of concert footage from Stray Kids\u2019 dominATE world tour with behind-the-scenes material.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/abdw51gf1oy3UWllAwqGl6WdkiS.jpg",
-      "tmdb_id": 1464883,
-      "letterboxd_rating": 3.91,
-      "letterboxd_url": "https://letterboxd.com/film/the-presidents-cake/"
+      "poster": "https://image.tmdb.org/t/p/w154/qtpjFm7cyZdOeWRU6ajDBKk6FGK.jpg",
+      "tmdb_id": 1600421,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/stray-kids-the-dominate-experience/"
     },
     {
       "title": "Knotted",
@@ -1205,7 +1205,7 @@
     {
       "title": "GOAT",
       "date": "2026-02-13",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Will, a small goat with big dreams, gets a once-in-a-lifetime shot to join the pros and play roarball \u2013 a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world. Will's new teammates aren't thrilled about having a little goat on their roster, but Will is determined to revolutionize the sport and prove once and for all that \"smalls can ball!\" He has to do something he has never done before.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/oXIj3R3QxcQ9wkv9YBWouBNmnFZ.jpg",
@@ -1225,17 +1225,6 @@
       "letterboxd_url": "https://letterboxd.com/film/wuthering-heights-2026/"
     },
     {
-      "title": "Hunting Jessica Brok",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "Long before she was a single mother in a sleepy South African town, Jessica Brok was a highly skilled, coldblooded, special ops assassin. She thought she\u2019d left that life behind. She thought her last ill-fated mission was her last. She thought wrong.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/svuIdql5modL08UQtYa4Opi2CtL.jpg",
-      "tmdb_id": 1397335,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/hunting-jessica-brok/"
-    },
-    {
       "title": "Broken Bird",
       "date": "2026-02-13",
       "platform": "Limited",
@@ -1247,15 +1236,15 @@
       "letterboxd_url": "https://letterboxd.com/film/broken-bird/"
     },
     {
-      "title": "By Design",
+      "title": "Hunting Jessica Brok",
       "date": "2026-02-13",
       "platform": "Limited",
-      "synopsis": "A woman swaps bodies with a chair, and everyone likes her better as a chair.",
+      "synopsis": "Long before she was a single mother in a sleepy South African town, Jessica Brok was a highly skilled, coldblooded, special ops assassin. She thought she\u2019d left that life behind. She thought her last ill-fated mission was her last. She thought wrong.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/bF111LXMTw7gZfxC7zxvFkOEKd3.jpg",
-      "tmdb_id": 1355496,
+      "poster": "https://image.tmdb.org/t/p/w154/svuIdql5modL08UQtYa4Opi2CtL.jpg",
+      "tmdb_id": 1397335,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/by-design/"
+      "letterboxd_url": "https://letterboxd.com/film/hunting-jessica-brok/"
     },
     {
       "title": "Crime 101",
@@ -1267,6 +1256,17 @@
       "tmdb_id": 1171145,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/crime-101/"
+    },
+    {
+      "title": "By Design",
+      "date": "2026-02-13",
+      "platform": "Limited",
+      "synopsis": "A woman swaps bodies with a chair, and everyone likes her better as a chair.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/bF111LXMTw7gZfxC7zxvFkOEKd3.jpg",
+      "tmdb_id": 1355496,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/by-design/"
     },
     {
       "title": "Good Luck, Have Fun, Don't Die",
@@ -1412,17 +1412,6 @@
       "letterboxd_url": "https://letterboxd.com/film/epic-elvis-presley-in-concert/"
     },
     {
-      "title": "I Can Only Imagine 2",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "After the breakout success of the song \"I Can Only Imagine,\" MercyMe's Bart Millard is living the dream\u2014sold-out arenas, a devoted fan base, and a thriving career. But behind the spotlight, Bart's past threatens the family he's built, especially the fragile bond with his son, Sam. When hopeful newcomer Tim Timmons joins the band for their biggest tour yet, he unknowingly brings a renewed gratitude to Bart's life through their unlikely friendship. Bart soon discovers that Tim carries hardships\u2014and secrets\u2014of his own, forcing him to face his past and repair his relationships with Sam and his wife, Shannon, before fame costs him what matters most.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qYBCs9nBmdNCLduw5BTlendq89z.jpg",
-      "tmdb_id": 1405769,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/i-can-only-imagine-2/"
-    },
-    {
       "title": "The Third Parent",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1443,6 +1432,17 @@
       "tmdb_id": 1107166,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/psycho-killer-2026/"
+    },
+    {
+      "title": "I Can Only Imagine 2",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "After the breakout success of the song \"I Can Only Imagine,\" MercyMe's Bart Millard is living the dream\u2014sold-out arenas, a devoted fan base, and a thriving career. But behind the spotlight, Bart's past threatens the family he's built, especially the fragile bond with his son, Sam. When hopeful newcomer Tim Timmons joins the band for their biggest tour yet, he unknowingly brings a renewed gratitude to Bart's life through their unlikely friendship. Bart soon discovers that Tim carries hardships\u2014and secrets\u2014of his own, forcing him to face his past and repair his relationships with Sam and his wife, Shannon, before fame costs him what matters most.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/qYBCs9nBmdNCLduw5BTlendq89z.jpg",
+      "tmdb_id": 1405769,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/i-can-only-imagine-2/"
     },
     {
       "title": "This Is Not a Test",
