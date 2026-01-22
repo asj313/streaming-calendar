@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-21T10:17:48.475864",
+  "last_updated": "2026-01-22T10:18:07.893296",
   "months": [
     {
       "name": "January",
@@ -410,6 +410,16 @@
       "letterboxd_rating": null,
       "letterboxd_url": null,
       "poster": null
+    },
+    {
+      "title": "Anaconda",
+      "date": "2026-01-27",
+      "platform": "VOD/Digital",
+      "synopsis": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg"
     },
     {
       "title": "Greenland 2 Migration",
@@ -848,7 +858,7 @@
     {
       "title": "Father Mother Sister Brother",
       "date": "2025-12-24",
-      "platform": "Wide Release",
+      "platform": "Limited",
       "synopsis": "Three stories concerning the relationships between adult children, their somewhat distant parent (or parents), and each other: a reclusive father visited by his grown children in the US, sisters visiting their novelist mother in Dublin, and adult twins called back to their Paris apartment to address a family tragedy.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/zewZA6sL52YSH8xIH4wbG5GadjV.jpg",
@@ -886,17 +896,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/1wleWp6BCniE9RSeaUjUezwZdF8.jpg",
       "tmdb_id": 1401281,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "The Animated Mind of Oliver Sacks",
-      "date": "2026-01-01",
-      "platform": "Limited",
-      "synopsis": "An exploration of the life and work of Dr. Oliver Sacks, the world-renowned neurologist and author who transformed our understanding of the human mind.",
-      "type": "theatrical",
-      "poster": null,
-      "tmdb_id": 1446424,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1000,17 +999,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Oscar Shaw",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "After retiring from the police force, a relentless detective haunted by the tragic loss of his closest friend sets out on a perilous quest for vengeance, seeking redemption and fighting to restore justice to the streets he once swore to protect.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
-      "tmdb_id": 1601243,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "I Was a Stranger",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1022,13 +1010,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Sleepwalker",
+      "title": "Oscar Shaw",
       "date": "2026-01-09",
       "platform": "Limited",
-      "synopsis": "A grieving mother is haunted by the tragic loss of her daughter in a car accident that left her abusive husband in a coma. As she battles a surreal descent into darkness, her sleepwalking episodes intensify. Plagued by haunting visions of her husband inside their home, she grapples with the blurred lines between reality and nightmare.",
+      "synopsis": "After retiring from the police force, a relentless detective haunted by the tragic loss of his closest friend sets out on a perilous quest for vengeance, seeking redemption and fighting to restore justice to the streets he once swore to protect.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/760SP4VsZagpyB9WLfeZykE3DFg.jpg",
-      "tmdb_id": 1432306,
+      "poster": "https://image.tmdb.org/t/p/w154/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
+      "tmdb_id": 1601243,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1044,13 +1032,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Relentless",
+      "title": "Sleepwalker",
       "date": "2026-01-09",
       "platform": "Limited",
-      "synopsis": "A homeless man targets a well-off elite in a home invasion. But it will take an unhinged level of brutality to find out his true motive.",
+      "synopsis": "A grieving mother is haunted by the tragic loss of her daughter in a car accident that left her abusive husband in a coma. As she battles a surreal descent into darkness, her sleepwalking episodes intensify. Plagued by haunting visions of her husband inside their home, she grapples with the blurred lines between reality and nightmare.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/30CJyWxLd7axNOdpuF9L0yAfKa9.jpg",
-      "tmdb_id": 1459276,
+      "poster": "https://image.tmdb.org/t/p/w154/760SP4VsZagpyB9WLfeZykE3DFg.jpg",
+      "tmdb_id": 1432306,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1062,6 +1050,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/eBAb4Lw87b2xqZNgMOjZZEfT1rI.jpg",
       "tmdb_id": 1480860,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Relentless",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "A homeless man targets a well-off elite in a home invasion. But it will take an unhinged level of brutality to find out his true motive.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/30CJyWxLd7axNOdpuF9L0yAfKa9.jpg",
+      "tmdb_id": 1459276,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1090,7 +1089,7 @@
     {
       "title": "Food Truck: Stolen Love... and Moo Deng",
       "date": "2026-01-14",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Jake and Bobby, with the art director by the truck, don't know their vehicle will force Mamiew to face his past once more.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/fOhSmHSEm0iVQ2AdG5SkjXnsvUM.jpg",
@@ -1110,17 +1109,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "28 Years Later: The Bone Temple",
-      "date": "2026-01-16",
-      "platform": "Wide Release",
-      "synopsis": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
-      "tmdb_id": 1272837,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Killer Whale",
       "date": "2026-01-16",
       "platform": "Wide Release",
@@ -1128,6 +1116,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/cqbXxAw9sUr4tJ5ffEwtnz6IL9o.jpg",
       "tmdb_id": 1412598,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "28 Years Later: The Bone Temple",
+      "date": "2026-01-16",
+      "platform": "Wide Release",
+      "synopsis": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+      "tmdb_id": 1272837,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1145,7 +1144,7 @@
     {
       "title": "Sound of Falling",
       "date": "2026-01-16",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Four adolescent girls each spend their youth in the same farmhouse over the last century. Though separated by decades, resonances between their lives emerge: their desires and distress, secrets and truths, encounters with another\u2019s gaze and defiant gaze in return.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/bggoSnlqfhagCSwqg6Vf7JFwM2p.jpg",
@@ -1231,6 +1230,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "B-Roll",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "A disgraced local TV news reporter enlists the help of a wannabe journalist and a career film student to produce a documentary to revive his career.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/qlNM5aMJebqqi2Qx1AVtBAw1c.jpg",
+      "tmdb_id": 424853,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "The Fire Raven",
       "date": "2026-01-18",
       "platform": "Limited",
@@ -1245,7 +1255,7 @@
       "title": "Mercy",
       "date": "2026-01-19",
       "platform": "Wide Release",
-      "synopsis": "In the near future, a detective stands on trial accused of murdering his wife. He has 90 minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
+      "synopsis": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
       "tmdb_id": 1236153,
@@ -1398,7 +1408,7 @@
     {
       "title": "The President's Cake",
       "date": "2026-02-06",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "In 1990s Iraq, it's 'draw day', when schools select students for the honour of bringing items to their mandatory local celebrations of President Saddam Hussein's birthday. Nine-year-old Lamia lives in the historic marshes with her spirited grandmother, Bibi. Before school, Bibi teaches Lamia clever tricks to avoid being chosen for the baking duties. However, when Musa, the authoritative teacher, calls Lamia's name for the most challenging task\u2013the birthday cake\u2013she has no choice but to accept. Refusing could mean imprisonment or even death.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/abdw51gf1oy3UWllAwqGl6WdkiS.jpg",
@@ -1440,17 +1450,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Roaring Game",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "High school janitor Rickey loses everything when his girlfriend, Kelly, is selected to play hockey for Team USA and compete in the World Games. To win her back, Rickey creates a misfit curling team and uses his sweeping skills to compete for gold and complete a comic quest for redemption that captivates the nation.\u2028",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/nApe9sH3n9j9fbCzuzEjsNj6QJb.jpg",
-      "tmdb_id": 1367670,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Stray Kids: The dominATE Experience",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1458,6 +1457,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/f1MvTJ25dq924ww9UOnLkj3qqs8.jpg",
       "tmdb_id": 1600421,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Roaring Game",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "High school janitor Rickey loses everything when his girlfriend, Kelly, is selected to play hockey for Team USA and compete in the World Games. To win her back, Rickey creates a misfit curling team and uses his sweeping skills to compete for gold and complete a comic quest for redemption that captivates the nation.\u2028",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/nApe9sH3n9j9fbCzuzEjsNj6QJb.jpg",
+      "tmdb_id": 1367670,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1473,13 +1483,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Huntsman",
+      "title": "Jimpa",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "When an ICU nurse volunteers to help a coma patient accused of murdering six women, he\u2019s drawn into a chilling web of lies, obsession, and deadly secrets as a detective races to stop the killer.",
+      "synopsis": "Hannah takes her nonbinary teenager, Frances, to Amsterdam to visit their gay grandfather, Jim \u2014 lovingly known as Jimpa. But Frances\u2019 desire to stay abroad with Jimpa for a year means Hannah is forced to reconsider her beliefs about parenting and finally confront old stories about the past.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg",
-      "tmdb_id": 1288246,
+      "poster": "https://image.tmdb.org/t/p/w154/giSERsYBGUcfj9ctB0h9d5ympo8.jpg",
+      "tmdb_id": 1286491,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1495,13 +1505,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Jimpa",
+      "title": "The Huntsman",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "Hannah takes her nonbinary teenager, Frances, to Amsterdam to visit their gay grandfather, Jim \u2014 lovingly known as Jimpa. But Frances\u2019 desire to stay abroad with Jimpa for a year means Hannah is forced to reconsider her beliefs about parenting and finally confront old stories about the past.",
+      "synopsis": "When an ICU nurse volunteers to help a coma patient accused of murdering six women, he\u2019s drawn into a chilling web of lies, obsession, and deadly secrets as a detective races to stop the killer.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/giSERsYBGUcfj9ctB0h9d5ympo8.jpg",
-      "tmdb_id": 1286491,
+      "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg",
+      "tmdb_id": 1288246,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1524,28 +1534,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/1ORLmavJReSm0Avy1weIQtEE0vy.jpg",
       "tmdb_id": 1461211,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Axeman at Cutter's Creek 3: Absolution",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "Haunted and trapped in a sun-drenched nightmare, Bill must unravel the origins of his torment-and fight his urges-to save his mother and brother from eternal damnation, as guilt and addiction threaten to consume what remains of his soul.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/vDihZh0YSydwvnofb4lmNFz33Uw.jpg",
-      "tmdb_id": 1552241,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Time Hoppers: The Silk Road",
-      "date": "2026-02-07",
-      "platform": "Limited",
-      "synopsis": "Time Hoppers follows the adventures of four gifted children from Vancouver\u2019s Aqli Academy in the year 2050. When Abdullah, Aysha, Khalid and Layla stumble upon the ability to time travel, they are thrust into an adventure along the historic Silk Road to save the great scientists of that era from an evil time travelling alchemist named Fasid. Will the Time Hoppers be able to save the foundations of modern science and safely return home?",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/70ODcITd32uMzdROyw6AC5v41dt.jpg",
-      "tmdb_id": 1559535,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1577,19 +1565,8 @@
       "platform": "Wide Release",
       "synopsis": "Young orphan Heathcliff is adopted by the wealthy Earnshaw family and moves into their estate, Wuthering Heights. Soon, the new resident falls for his compassionate foster sister, Cathy. The two share a remarkable bond that seems unbreakable until Cathy, feeling the pressure of social convention, suppresses her feelings and marries Edgar Linton, a man of means who befits her stature. Heathcliff vows to win her back.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/ywRO5dyE8RyyXJd6cvd69jLZeic.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/gnzGrAelt0d8Iqu6AmiaMWVi1ag.jpg",
       "tmdb_id": 1316092,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Palestine 36",
-      "date": "2026-02-13",
-      "platform": "Wide Release",
-      "synopsis": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
-      "tmdb_id": 1432596,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1605,9 +1582,20 @@
       "letterboxd_url": null
     },
     {
+      "title": "Palestine 36",
+      "date": "2026-02-13",
+      "platform": "Wide Release",
+      "synopsis": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
+      "tmdb_id": 1432596,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "The Mortuary Assistant",
       "date": "2026-02-13",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward \u2014 embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts working the night shift, things take a dark turn.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/iqzDIhDTXhlGUctcomJVO1kCNQ.jpg",
@@ -1618,7 +1606,7 @@
     {
       "title": "Crime 101",
       "date": "2026-02-13",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
@@ -1634,6 +1622,28 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
       "tmdb_id": 696393,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Nirvanna the Band the Show the Movie",
+      "date": "2026-02-13",
+      "platform": "Limited",
+      "synopsis": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/9WkexO37PNWKi8HUuX95BAWS5g3.jpg",
+      "tmdb_id": 1154538,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Good Luck, Have Fun, Don't Die",
+      "date": "2026-02-13",
+      "platform": "Limited",
+      "synopsis": "A man from the future arrives at a diner in Los Angeles where he must recruit the precise combination of disgruntled patrons to join him on a one-night-six-block quest to save the world from the terminal threat of a rogue artificial intelligence.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/a9Ke9lqGdjK3onlce3ZgyJb0yGf.jpg",
+      "tmdb_id": 1119449,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1656,28 +1666,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xcwWEOuSsdddcx4eb0lksr7cAiZ.jpg",
       "tmdb_id": 1316077,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Good Luck, Have Fun, Don't Die",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "A man from the future arrives at a diner in Los Angeles where he must recruit the precise combination of disgruntled patrons to join him on a one-night-six-block quest to save the world from the terminal threat of a rogue artificial intelligence.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/a9Ke9lqGdjK3onlce3ZgyJb0yGf.jpg",
-      "tmdb_id": 1119449,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Nirvanna the Band the Show the Movie",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/dVRKt0XbHihEvijLn17a5yg4Kv0.jpg",
-      "tmdb_id": 1154538,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1759,17 +1747,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Dreadful",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "Set against the backdrop of the War of the Roses follows Anne and her mother-in-law Morwen, who live a solitary, harsh life on the outskirts of society. But when a man from their past returns, he will set off a sequence of events that become a turning point for Anne.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/As1SkUenVWlIZjiYnWZbMuzNRle.jpg",
-      "tmdb_id": 1242937,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "I Can Only Imagine 2",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1777,6 +1754,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/qYBCs9nBmdNCLduw5BTlendq89z.jpg",
       "tmdb_id": 1405769,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Dreadful",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "Set against the backdrop of the War of the Roses follows Anne and her mother-in-law Morwen, who live a solitary, harsh life on the outskirts of society. But when a man from their past returns, he will set off a sequence of events that become a turning point for Anne.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/As1SkUenVWlIZjiYnWZbMuzNRle.jpg",
+      "tmdb_id": 1242937,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1836,17 +1824,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Teenage Mutant Ninja Turtles: Echoes of the Ooze",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "Splinter is kidnapped by a mysterious new villain or faction who wants to weaponize the mutagen ooze. While trapped, Splinter reveals to the turtles a hidden past - something he's never shared before about the ooze.",
-      "type": "theatrical",
-      "poster": null,
-      "tmdb_id": 1583962,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Billy Preston: That's the Way God Planned It",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1854,6 +1831,28 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/bfb1T0BNkDVqrOrQmUPsaNsj7o1.jpg",
       "tmdb_id": 1242018,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Hail Mary",
+      "date": "2026-02-21",
+      "platform": "Limited",
+      "synopsis": "Sister Kathy finds an angry loner in need of redemption and leads him to his atonement by conning him into creating a football team for her Catholic School.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/u0jo6gwhaaoDzthfOcjpNWAHuk7.jpg",
+      "tmdb_id": 1493611,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Homecoming: The Tokyo Series",
+      "date": "2026-02-23",
+      "platform": "Limited",
+      "synopsis": "In 2025, as MLB's Dodgers and Cubs clash in Tokyo for a historic season opener, their games become a lens into Japan's passionate baseball culture and the values that bind two nations through America's pastime.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/eVLBoQkBxeyuh7akvDWHdhnJvNI.jpg",
+      "tmdb_id": 1584911,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1924,17 +1923,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Napa Boys",
-      "date": "2026-02-27",
-      "platform": "Limited",
-      "synopsis": "Jack Jr, Miles Jr and the whole gang are back for one last wine-soaked journey prompted by the mysterious \"Sommelier.\" Joined this time by Puck, a fan of The Napa Boys comics, the group will learn about love, loss, friendship and viticulture.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/1JeYOqNB3jlMLT1uZxKvk3WYqsw.jpg",
-      "tmdb_id": 1517305,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Undercard",
       "date": "2026-02-27",
       "platform": "Limited",
@@ -1942,6 +1930,28 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/5QRH0zH0rCYHuEkwz5vAVORfSji.jpg",
       "tmdb_id": 1245084,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Idiotka",
+      "date": "2026-02-27",
+      "platform": "Limited",
+      "synopsis": "In this sharp, irreverent comedy, a disgraced fashion designer with a dangerously low credit score, Margarita enters a reality show with a six-figure cash prize to save her babushka\u2019s West Hollywood apartment. But as the competition intensifies, slick producer Nicol pushes her to spin her family\u2019s struggle into spectacle, forcing Margarita to decide whether to play along or take control of her own narrative, one unhinged look at a time.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/mxa6MGgZOd1PKlYWNJ1iOQsy9PN.jpg",
+      "tmdb_id": 1430968,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Napa Boys",
+      "date": "2026-02-27",
+      "platform": "Limited",
+      "synopsis": "Jack Jr, Miles Jr and the whole gang are back for one last wine-soaked journey prompted by the mysterious \"Sommelier.\" Joined this time by Puck, a fan of The Napa Boys comics, the group will learn about love, loss, friendship and viticulture.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/1JeYOqNB3jlMLT1uZxKvk3WYqsw.jpg",
+      "tmdb_id": 1517305,
       "letterboxd_rating": null,
       "letterboxd_url": null
     }
