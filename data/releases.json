@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-23T10:17:11.338579",
+  "last_updated": "2026-01-24T10:13:54.648977",
   "months": [
     {
       "name": "January",
@@ -442,16 +442,6 @@
       "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg"
     },
     {
-      "title": "The Secret Agent",
-      "date": "2026-01-27",
-      "platform": "VOD/Digital",
-      "synopsis": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. He arrives in Recife during carnival week, hoping to reunite with his son but soon realizes that the city is far from being the non violent refuge he seeks.",
-      "type": "streaming",
-      "letterboxd_rating": null,
-      "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/rZqolYhxMEe6TZZTjSmFw9crDTD.jpg"
-    },
-    {
       "title": "Untitled Home Invasion Romance",
       "date": "2026-01-27",
       "platform": "VOD/Digital",
@@ -562,6 +552,16 @@
       "poster": "https://image.tmdb.org/t/p/w154/7lFG1WrCwAxBfyGK8ahlBVzXno7.jpg"
     },
     {
+      "title": "The Housemaid",
+      "date": "2026-02-03",
+      "platform": "VOD/Digital",
+      "synopsis": "Millie is a struggling woman who is relieved to get a fresh start as a housemaid to Nina and Andrew, an upscale, wealthy couple. She soon learns that the family\u2019s secrets are far more dangerous than her own.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/qwc6wH49pDytMsYGtcaVM1haYIr.jpg"
+    },
+    {
       "title": "Marty Supreme",
       "date": "2026-02-03",
       "platform": "VOD/Digital",
@@ -580,6 +580,16 @@
       "letterboxd_rating": null,
       "letterboxd_url": null,
       "poster": "https://image.tmdb.org/t/p/w154/s5oNGHGZLE1pIhspvOoTD8IQjAp.jpg"
+    },
+    {
+      "title": "The Secret Agent",
+      "date": "2026-02-03",
+      "platform": "VOD/Digital",
+      "synopsis": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. He arrives in Recife during carnival week, hoping to reunite with his son but soon realizes that the city is far from being the non violent refuge he seeks.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/rZqolYhxMEe6TZZTjSmFw9crDTD.jpg"
     },
     {
       "title": "Relationship Goals",
@@ -699,7 +709,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/zc8n3hm3S2VxFxlNH1MNN28LVMa.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/1a5upDGAScp2HL3vOyl2dGg6SeR.jpg"
     },
     {
       "title": "The Astronaut",
@@ -814,7 +824,7 @@
       "platform": "Wide Release",
       "synopsis": "Nagasaki, 1964: Following the death of his yakuza father, 15-year-old Kikuo is taken under the wing of a famous kabuki actor. Alongside Shunsuke, the actor\u2019s only son, he decides to dedicate himself to this traditional form of theatre. For decades, the two young men grow and evolve together \u2013 and one will become the greatest Japanese master of the art of kabuki.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/wl16Z3Krq53O5gxgvnDTqAUmxm0.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/a15F5KJ4mleusJR1YKP4zUyZaxG.jpg",
       "tmdb_id": 1379266,
       "letterboxd_rating": null,
       "letterboxd_url": null
@@ -853,17 +863,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Resurrection",
-      "date": "2025-12-12",
-      "platform": "Limited",
-      "synopsis": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/wBXvXc7CoE1TCEL96VzMkMQKYG9.jpg",
-      "tmdb_id": 878608,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Dead Man's Wire",
       "date": "2025-12-12",
       "platform": "Limited",
@@ -871,6 +870,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/71FPde8V7DbnAHgUZfwrpxPOFG6.jpg",
       "tmdb_id": 1263012,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Resurrection",
+      "date": "2025-12-12",
+      "platform": "Limited",
+      "synopsis": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/wBXvXc7CoE1TCEL96VzMkMQKYG9.jpg",
+      "tmdb_id": 878608,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -941,17 +951,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Mother and the Bear",
-      "date": "2026-01-02",
-      "platform": "Limited",
-      "synopsis": "When her daughter falls into a temporary coma after an accident at her home in Winnipeg, Sara, an overbearing Korean mother travels from Seoul to Canada and vows to keep her daughter safe forever by catfishing a husband for her online.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/5gS0Jif1hIHhqhqLkur29tjdaOJ.jpg",
-      "tmdb_id": 1192730,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Lupin the IIIRD: The Movie - The Immortal Bloodline",
       "date": "2026-01-04",
       "platform": "Limited",
@@ -996,17 +995,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Parasakthi",
-      "date": "2026-01-09",
-      "platform": "Wide Release",
-      "synopsis": "In a time of civil disobedience in the erstwhile Madras state, a ruthless intelligent officer turns up with a duty to track down rebels. Chezhian and his brother Chinndurai are of different personalities, one a hardworking fireman, the other a rebel. A deadly game of cat and mouse ensues as Chezhian is forced to abandon his peaceful ways to protect his people and takes on the mighty forces, culminating in a fierce battle for justice.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
-      "tmdb_id": 965483,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "All That's Left of You",
       "date": "2026-01-09",
       "platform": "Wide Release",
@@ -1014,6 +1002,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/8OTAu88K9r9wqlLXux1mbnHmyPF.jpg",
       "tmdb_id": 1219620,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Parasakthi",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "In a time of civil disobedience in the erstwhile Madras state, a ruthless intelligent officer turns up with a duty to track down rebels. Chezhian and his brother Chinndurai are of different personalities, one a hardworking fireman, the other a rebel. A deadly game of cat and mouse ensues as Chezhian is forced to abandon his peaceful ways to protect his people and takes on the mighty forces, culminating in a fierce battle for justice.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
+      "tmdb_id": 965483,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1029,17 +1028,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "I Was a Stranger",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "A Syrian doctor and her daughter flee Aleppo, setting off a chain of events that binds five strangers together. A smuggler, a soldier, a poet, and a coast guard captain collide in a crisis that tests their courage, their choices, and their humanity.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/4PsyWVELCnBHkocrj3rMeJcYQ7F.jpg",
-      "tmdb_id": 1193128,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "OBEX",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1047,6 +1035,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/989voQxc9qAJKuBaoBHngqnpLsD.jpg",
       "tmdb_id": 1212461,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "I Was a Stranger",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "A Syrian doctor and her daughter flee Aleppo, setting off a chain of events that binds five strangers together. A smuggler, a soldier, a poet, and a coast guard captain collide in a crisis that tests their courage, their choices, and their humanity.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/4PsyWVELCnBHkocrj3rMeJcYQ7F.jpg",
+      "tmdb_id": 1193128,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1106,17 +1105,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Southside Kev",
-      "date": "2026-01-12",
-      "platform": "Limited",
-      "synopsis": "South-Side Kev follows a misguided teenager as he navigates the mean streets of South Jamaica Queens, struggling to find the balance between earning respect and maintaining his innocence.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/bVH0Lk7qF1OWPTpSN5Q27YWTPhC.jpg",
-      "tmdb_id": 1436102,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Food Truck: Stolen Love... and Moo Deng",
       "date": "2026-01-14",
       "platform": "Wide Release",
@@ -1172,17 +1160,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Charlie the Wonderdog",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "Timid nine year old Danny teams up with his beloved family dog Charlie, who gets abducted by aliens and returns with superpowers, to thwart a plan by the neighbor's sinister cat Puddy to destroy humanity.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
-      "tmdb_id": 1276521,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "A Private Life",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -1201,6 +1178,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg",
       "tmdb_id": 1432547,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Charlie the Wonderdog",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "Timid nine year old Danny teams up with his beloved family dog Charlie, who gets abducted by aliens and returns with superpowers, to thwart a plan by the neighbor's sinister cat Puddy to destroy humanity.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
+      "tmdb_id": 1276521,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1256,17 +1244,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
       "tmdb_id": 1555571,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "B-Roll",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "A disgraced local TV news reporter enlists the help of a wannabe journalist and a career film student to produce a documentary to revive his career.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qlNM5aMJebqqi2Qx1AVtBAw1c.jpg",
-      "tmdb_id": 424853,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1370,17 +1347,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "In Cold Light",
-      "date": "2026-01-23",
-      "platform": "Limited",
-      "synopsis": "Fresh out of prison, Ava's attempt to reclaim her drug operation collapses when she witnesses a brutal crime, forcing her to flee into a nightmarish underworld where allies are scarce and enemies multiply by the minute.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/rfudugD3s3VqGoavq05EKXOphEj.jpg",
-      "tmdb_id": 1128377,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Project Y",
       "date": "2026-01-23",
       "platform": "Limited",
@@ -1388,6 +1354,28 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/1KMG1inDAnKaGZ1W8Ac3wn6bdXu.jpg",
       "tmdb_id": 1401542,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "He's Watching You",
+      "date": "2026-01-23",
+      "platform": "Limited",
+      "synopsis": "The film transports us to the sleepy town of Page Hollow, where a string of gruesome murders shatters the quiet community. Shortly after the first killings, outcast high school photographer Cameron discovers a collection of mysterious VHS tapes that may contain cryptic clues to the murders. His discovery launches him into a harrowing race against time, down a path of terrifying revelations - where the killer may be closer than he ever imagined.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/lGrxMTGzoO120uuHuYxwbv5Ypcw.jpg",
+      "tmdb_id": 1370424,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "In Cold Light",
+      "date": "2026-01-23",
+      "platform": "Limited",
+      "synopsis": "Fresh out of prison, Ava's attempt to reclaim her drug operation collapses when she witnesses a brutal crime, forcing her to flee into a nightmarish underworld where allies are scarce and enemies multiply by the minute.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/rfudugD3s3VqGoavq05EKXOphEj.jpg",
+      "tmdb_id": 1128377,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1447,17 +1435,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Strangers: Chapter 3",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "Tethered by a frightening conclusion, Maya and the Strangers are locked on an unavoidable, unforgiving collision course \u2014 a showdown that proves they\u2019re far from strangers now.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/yPegTig8dQNYiW2UW21LTNChGkK.jpg",
-      "tmdb_id": 1010755,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Whistle",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1465,6 +1442,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/ieOiiCBbf0SNwR39iiA2xnGOnab.jpg",
       "tmdb_id": 1193501,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Strangers: Chapter 3",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "Tethered by a frightening conclusion, Maya and the Strangers are locked on an unavoidable, unforgiving collision course \u2014 a showdown that proves they\u2019re far from strangers now.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/yPegTig8dQNYiW2UW21LTNChGkK.jpg",
+      "tmdb_id": 1010755,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1513,17 +1501,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Roaring Game",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "High school janitor Rickey loses everything when his girlfriend, Kelly, is selected to play hockey for Team USA and compete in the World Games. To win her back, Rickey creates a misfit curling team and uses his sweeping skills to compete for gold and complete a comic quest for redemption that captivates the nation.\u2028",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/nApe9sH3n9j9fbCzuzEjsNj6QJb.jpg",
-      "tmdb_id": 1367670,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Jimpa",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1531,6 +1508,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/giSERsYBGUcfj9ctB0h9d5ympo8.jpg",
       "tmdb_id": 1286491,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Roaring Game",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "High school janitor Rickey loses everything when his girlfriend, Kelly, is selected to play hockey for Team USA and compete in the World Games. To win her back, Rickey creates a misfit curling team and uses his sweeping skills to compete for gold and complete a comic quest for redemption that captivates the nation.\u2028",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/nApe9sH3n9j9fbCzuzEjsNj6QJb.jpg",
+      "tmdb_id": 1367670,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1546,17 +1534,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Huntsman",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "When an ICU nurse volunteers to help a coma patient accused of murdering six women, he\u2019s drawn into a chilling web of lies, obsession, and deadly secrets as a detective races to stop the killer.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg",
-      "tmdb_id": 1288246,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Mimics",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1568,6 +1545,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "The Huntsman",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "When an ICU nurse volunteers to help a coma patient accused of murdering six women, he\u2019s drawn into a chilling web of lies, obsession, and deadly secrets as a detective races to stop the killer.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg",
+      "tmdb_id": 1288246,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Axeman at Cutter's Creek 3: Absolution",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1575,17 +1563,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/vDihZh0YSydwvnofb4lmNFz33Uw.jpg",
       "tmdb_id": 1552241,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Brother Unknown",
-      "date": "2026-02-10",
-      "platform": "Limited",
-      "synopsis": "With a dark past in the foster system, a lonely woman questions if her new found half-brother is also the violent stalker wracking havoc on her.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/ujhUXdY1B5fp8OgQBSJQo1jTQs6.jpg",
-      "tmdb_id": 1617115,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1634,20 +1611,9 @@
       "letterboxd_url": null
     },
     {
-      "title": "Crime 101",
-      "date": "2026-02-13",
-      "platform": "Wide Release",
-      "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
-      "tmdb_id": 1171145,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "The Mortuary Assistant",
       "date": "2026-02-13",
-      "platform": "Wide Release",
+      "platform": "Limited",
       "synopsis": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward \u2014 embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts working the night shift, things take a dark turn.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/iqzDIhDTXhlGUctcomJVO1kCNQ.jpg",
@@ -1656,9 +1622,20 @@
       "letterboxd_url": null
     },
     {
-      "title": "Cold Storage",
+      "title": "Crime 101",
       "date": "2026-02-13",
       "platform": "Limited",
+      "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
+      "tmdb_id": 1171145,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Cold Storage",
+      "date": "2026-02-13",
+      "platform": "Wide Release",
       "synopsis": "When a mutating, highly contagious fungus escapes a sealed facility, two young employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
@@ -1689,17 +1666,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "F Valentine's Day",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "Gina hates her Valentine's Day birthday and travels to Greece to prevent her boyfriend's proposal. With help from vacationers Johnny and his sister Mickey, she schemes to delay it \u2013 while questioning her relationship.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/8zPExowfpfZOTpS1W4J7G27lH4H.jpg",
-      "tmdb_id": 1429605,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Hunting Jessica Brok",
       "date": "2026-02-13",
       "platform": "Limited",
@@ -1707,6 +1673,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xRcGnwShS9wpqlTc6KvK4WUY55A.jpg",
       "tmdb_id": 1397335,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "F Valentine's Day",
+      "date": "2026-02-13",
+      "platform": "Limited",
+      "synopsis": "Gina hates her Valentine's Day birthday and travels to Greece to prevent her boyfriend's proposal. With help from vacationers Johnny and his sister Mickey, she schemes to delay it \u2013 while questioning her relationship.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/8zPExowfpfZOTpS1W4J7G27lH4H.jpg",
+      "tmdb_id": 1429605,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1777,17 +1754,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Midwinter Break",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "A stirring meditation on faith, commitment, and the enduring power of love, as a longtime couple takes a life-changing trip to Amsterdam.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/6rVqtRTY1HFxYwgj8Ovtnwsq1vo.jpg",
-      "tmdb_id": 1125701,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "I Can Only Imagine 2",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1799,13 +1765,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "EPiC: Elvis Presley in Concert",
+      "title": "Midwinter Break",
       "date": "2026-02-20",
       "platform": "Limited",
-      "synopsis": "A mix of a documentary and concert film made using unused footage from Elvis: That's the Way It Is, the film of Elvis' legendary 1970 Summer Festival in Las Vegas and Elvis's road concert film from two years later, Elvis on Tour, that were found during the production of 2022's Elvis.",
+      "synopsis": "A stirring meditation on faith, commitment, and the enduring power of love, as a longtime couple takes a life-changing trip to Amsterdam.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
-      "tmdb_id": 1445363,
+      "poster": "https://image.tmdb.org/t/p/w154/6rVqtRTY1HFxYwgj8Ovtnwsq1vo.jpg",
+      "tmdb_id": 1125701,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1821,13 +1787,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Psycho Killer",
+      "title": "EPiC: Elvis Presley in Concert",
       "date": "2026-02-20",
       "platform": "Limited",
-      "synopsis": "Following the brutal murder of her husband, a Kansas highway patrol officer sets out on a journey to track down the perpetrator. As the hunt progresses, she comes to realize the man responsible is a sadistic serial killer, and the depth of his mental depravity and his sinister agenda is more twisted than anyone could have imagined.",
+      "synopsis": "A mix of a documentary and concert film made using unused footage from Elvis: That's the Way It Is, the film of Elvis' legendary 1970 Summer Festival in Las Vegas and Elvis's road concert film from two years later, Elvis on Tour, that were found during the production of 2022's Elvis.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/tuBrjxDhcFcXQjlXnAILFLxzeAz.jpg",
-      "tmdb_id": 1107166,
+      "poster": "https://image.tmdb.org/t/p/w154/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
+      "tmdb_id": 1445363,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1839,6 +1805,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/4Ep7jV6IlLfCnWe6LCBs7n0n3Q9.jpg",
       "tmdb_id": 1375831,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Psycho Killer",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "Following the brutal murder of her husband, a Kansas highway patrol officer sets out on a journey to track down the perpetrator. As the hunt progresses, she comes to realize the man responsible is a sadistic serial killer, and the depth of his mental depravity and his sinister agenda is more twisted than anyone could have imagined.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/6G5SxR4zzxBEEbAowsTGm2BiRZZ.jpg",
+      "tmdb_id": 1107166,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1861,6 +1838,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/p8o3dtzoN5pkkm0oWxu4PuAzOjp.jpg",
       "tmdb_id": 1206628,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Billy Preston: That's the Way God Planned It",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "With his signature gospel sound on the Hammond B3, Billy Preston doublehandedly elevated the greatest artists of his time \u2013 from the Beatles to the Rolling Stones, from Aretha Franklin to Eric Clapton, from Ray Charles to Barbra Streisand to Sly and the Family Stone. In our film, we explore Billy's career and influence on generations of musicians, as he scored several number one hits of his own and became one of the most sought-after musicians in the world. He did all of this as a soul divided -- by his deep roots in the church, in constant conflict with his identity as a gay Black man, searching for a family of his own that would accept him for who he was.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/bfb1T0BNkDVqrOrQmUPsaNsj7o1.jpg",
+      "tmdb_id": 1242018,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
