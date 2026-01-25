@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T10:13:54.648977",
+  "last_updated": "2026-01-25T10:14:05.464304",
   "months": [
     {
       "name": "January",
@@ -639,7 +639,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/dajA8YGBTuYEikCtbaTW76MlYDQ.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/ag5TZNcK3vHdCCpZIY8syjwzgfr.jpg"
     },
     {
       "title": "Splitsville",
@@ -775,17 +775,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "31 Candles",
-      "date": "2025-11-07",
-      "platform": "Limited",
-      "synopsis": "Leo, a 30-year-old New Yorker who is having a Bar Mitzvah after meeting Eva, his longtime summer camp crush. In order to finish his mitzvah assignment and perhaps mature, he has to deal with, ex-partners, family members, and more.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/2si5krYdGNZiZpgyacaoZK1Xtwp.jpg",
-      "tmdb_id": 1214056,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Arco",
       "date": "2025-11-14",
       "platform": "Limited",
@@ -824,7 +813,7 @@
       "platform": "Wide Release",
       "synopsis": "Nagasaki, 1964: Following the death of his yakuza father, 15-year-old Kikuo is taken under the wing of a famous kabuki actor. Alongside Shunsuke, the actor\u2019s only son, he decides to dedicate himself to this traditional form of theatre. For decades, the two young men grow and evolve together \u2013 and one will become the greatest Japanese master of the art of kabuki.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/a15F5KJ4mleusJR1YKP4zUyZaxG.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/egDmNUBcSvu6aqQPCfyd1UneCYr.jpg",
       "tmdb_id": 1379266,
       "letterboxd_rating": null,
       "letterboxd_url": null
@@ -909,7 +898,7 @@
     {
       "title": "The Plague",
       "date": "2025-12-24",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "A socially awkward tween endures the ruthless hierarchy at a water polo camp, his anxiety spiraling into psychological turmoil over the summer.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/s5oNGHGZLE1pIhspvOoTD8IQjAp.jpg",
@@ -1008,7 +997,7 @@
     {
       "title": "Parasakthi",
       "date": "2026-01-09",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "In a time of civil disobedience in the erstwhile Madras state, a ruthless intelligent officer turns up with a duty to track down rebels. Chezhian and his brother Chinndurai are of different personalities, one a hardworking fireman, the other a rebel. A deadly game of cat and mouse ensues as Chezhian is forced to abandon his peaceful ways to protect his people and takes on the mighty forces, culminating in a fierce battle for justice.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
@@ -1072,17 +1061,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Bulls",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "Two down-on-their-luck half-brothers run a failing dive bar in Indiana and get a shot at taking on England\u2019s elite darts champions.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/eBAb4Lw87b2xqZNgMOjZZEfT1rI.jpg",
-      "tmdb_id": 1480860,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Relentless",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1094,9 +1072,20 @@
       "letterboxd_url": null
     },
     {
+      "title": "Bulls",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "Two down-on-their-luck half-brothers run a failing dive bar in Indiana and get a shot at taking on England\u2019s elite darts champions.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/eBAb4Lw87b2xqZNgMOjZZEfT1rI.jpg",
+      "tmdb_id": 1480860,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Gundam Wing: The Endless Waltz",
       "date": "2026-01-12",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "After Colony (A.C.) 196, one year following the end of the battles between the Earth Sphere and the space colonies, peace has spread throughout. The Gundam pilots find themselves attempting to rebuild their lives. No longer having need of their weapons of war, their Gundams are sent into the sun to be destroyed. But suddenly, Relena Darlian, now a high-ranking government official, is kidnapped by a colony with aspirations of total dominance. The pilots and their allies find themselves called into action once again. The Endless Waltz has resumed...",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xbnN0pQwbveJnMi7xKkUEX8rjbr.jpg",
@@ -1171,13 +1160,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "ALL YOU NEED IS KILL",
+      "title": "A Useful Ghost",
       "date": "2026-01-16",
       "platform": "Limited",
-      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
+      "synopsis": "After dying from a respiratory disease, a mother's spirit possesses a vacuum cleaner to protect her husband when he begins showing the same symptoms.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg",
-      "tmdb_id": 1432547,
+      "poster": "https://image.tmdb.org/t/p/w154/2PteNeb8LYFtZP7eowANUXs9feC.jpg",
+      "tmdb_id": 1364904,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1193,17 +1182,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "A Useful Ghost",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "After dying from a respiratory disease, a mother's spirit possesses a vacuum cleaner to protect her husband when he begins showing the same symptoms.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/2PteNeb8LYFtZP7eowANUXs9feC.jpg",
-      "tmdb_id": 1364904,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Sheepdog",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -1211,6 +1189,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/a5dezw0c6y7wzdFgDAE7bNrtZYr.jpg",
       "tmdb_id": 1359462,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "ALL YOU NEED IS KILL",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg",
+      "tmdb_id": 1432547,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1237,13 +1226,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Signing Tony Raymond",
+      "title": "B-Roll",
       "date": "2026-01-16",
       "platform": "Limited",
-      "synopsis": "A young college football coach is sent to rural Alabama to try and sign the nation's top high school defensive end and soon finds himself trying to outflank rival recruiters, fight off grifting townsfolk and win over the player's wildly dysfunctional family.",
+      "synopsis": "A disgraced local TV news reporter enlists the help of a wannabe journalist and a career film student to produce a documentary to revive his career.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/hqdP3i97vefXDlBVp8bfepW3IPU.jpg",
-      "tmdb_id": 1555571,
+      "poster": "https://image.tmdb.org/t/p/w154/qlNM5aMJebqqi2Qx1AVtBAw1c.jpg",
+      "tmdb_id": 424853,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1338,7 +1327,7 @@
     {
       "title": "Clika",
       "date": "2026-01-23",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Aspiring small-town musician Chito is determined to make it big. When a clip of him performing one of his songs goes viral, he seizes the opportunity and pushes to carve out a place for himself in the new wave of Mexican-American music... and ultimately gets caught in a game more dangerous than anticipated.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
@@ -1360,7 +1349,7 @@
     {
       "title": "He's Watching You",
       "date": "2026-01-23",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "The film transports us to the sleepy town of Page Hollow, where a string of gruesome murders shatters the quiet community. Shortly after the first killings, outcast high school photographer Cameron discovers a collection of mysterious VHS tapes that may contain cryptic clues to the murders. His discovery launches him into a harrowing race against time, down a path of terrifying revelations - where the killer may be closer than he ever imagined.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/lGrxMTGzoO120uuHuYxwbv5Ypcw.jpg",
@@ -1376,6 +1365,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/rfudugD3s3VqGoavq05EKXOphEj.jpg",
       "tmdb_id": 1128377,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Standout: The Ben Kjar Story",
+      "date": "2026-01-23",
+      "platform": "Limited",
+      "synopsis": "Standout tells the powerful story of Ben Kjar, born with Crouzon Syndrome, a rare craniofacial disorder. From birth, doctors warn that his life will be overshadowed by limitations. Ben yearns for an ordinary life free from the harsh scrutiny he faces daily.  However, each experience of adversity, including relentless bullying and a series of painful surgeries, ignites a fire within him. Wrestling becomes his proving ground, a place where he learns to transform his facial difference into a source of power. Determined to succeed, he pushes himself relentlessly, breaking through physical, social, and even romantic barriers that once seemed insurmountable. But as unexpected challenges arise and ridicule resurfaces, Ben finds himself at a defining crossroads: fade into the background of a \u201cnormal\u201d life, or fully embrace his unique path and boldly stand out.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/6jUG8yfFkSkJTj467lDmRVvFj4o.jpg",
+      "tmdb_id": 1235409,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1426,7 +1426,7 @@
     {
       "title": "The President's Cake",
       "date": "2026-02-06",
-      "platform": "Wide Release",
+      "platform": "Limited",
       "synopsis": "In 1990s Iraq, it's 'draw day', when schools select students for the honour of bringing items to their mandatory local celebrations of President Saddam Hussein's birthday. Nine-year-old Lamia lives in the historic marshes with her spirited grandmother, Bibi. Before school, Bibi teaches Lamia clever tricks to avoid being chosen for the baking duties. However, when Musa, the authoritative teacher, calls Lamia's name for the most challenging task\u2013the birthday cake\u2013she has no choice but to accept. Refusing could mean imprisonment or even death.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/abdw51gf1oy3UWllAwqGl6WdkiS.jpg",
@@ -1437,7 +1437,7 @@
     {
       "title": "Whistle",
       "date": "2026-02-06",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "When a group of misfit teenagers stumble upon an ancient Aztec death whistle, they learn that by blowing it, its terrifying sound will invoke their future deaths to hunt them down. As the body count rises, the friends investigate the origins of the deadly artifact in a desperate effort to stop the horrifying chain of events that they've set in motion.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/ieOiiCBbf0SNwR39iiA2xnGOnab.jpg",
@@ -1512,6 +1512,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "My Father's Shadow",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/aLQYyqWlIBBU3L8L84txbh0x1nq.jpg",
+      "tmdb_id": 1432605,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "The Roaring Game",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1523,13 +1534,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "My Father's Shadow",
+      "title": "Axeman at Cutter's Creek 3: Absolution",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+      "synopsis": "Haunted and trapped in a sun-drenched nightmare, Bill must unravel the origins of his torment-and fight his urges-to save his mother and brother from eternal damnation, as guilt and addiction threaten to consume what remains of his soul.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/aLQYyqWlIBBU3L8L84txbh0x1nq.jpg",
-      "tmdb_id": 1432605,
+      "poster": "https://image.tmdb.org/t/p/w154/vDihZh0YSydwvnofb4lmNFz33Uw.jpg",
+      "tmdb_id": 1552241,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1556,13 +1567,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Axeman at Cutter's Creek 3: Absolution",
-      "date": "2026-02-06",
+      "title": "Crime 101",
+      "date": "2026-02-09",
       "platform": "Limited",
-      "synopsis": "Haunted and trapped in a sun-drenched nightmare, Bill must unravel the origins of his torment-and fight his urges-to save his mother and brother from eternal damnation, as guilt and addiction threaten to consume what remains of his soul.",
+      "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/vDihZh0YSydwvnofb4lmNFz33Uw.jpg",
-      "tmdb_id": 1552241,
+      "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
+      "tmdb_id": 1171145,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1600,9 +1611,20 @@
       "letterboxd_url": null
     },
     {
-      "title": "Palestine 36",
+      "title": "Cold Storage",
       "date": "2026-02-13",
       "platform": "Wide Release",
+      "synopsis": "When a mutating, highly contagious fungus escapes a sealed facility, two young employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
+      "tmdb_id": 696393,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Palestine 36",
+      "date": "2026-02-13",
+      "platform": "Limited",
       "synopsis": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
@@ -1618,28 +1640,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/iqzDIhDTXhlGUctcomJVO1kCNQ.jpg",
       "tmdb_id": 1470130,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Crime 101",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
-      "tmdb_id": 1171145,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Cold Storage",
-      "date": "2026-02-13",
-      "platform": "Wide Release",
-      "synopsis": "When a mutating, highly contagious fungus escapes a sealed facility, two young employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg",
-      "tmdb_id": 696393,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1710,17 +1710,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Metropolitan Opera: Cinderella",
-      "date": "2026-02-14",
-      "platform": "Limited",
-      "synopsis": "In this New Year\u2019s Day performance, Laurent Pelly\u2019s storybook staging of Massenet\u2019s Cendrillon, a hit of the 2017\u201318 season, is presented with an all-new English translation in an abridged 90-minute adaptation, with mezzo-soprano Isabel Leonard as its rags-to-riches princess. Maestro Emmanuel Villaume leads a delightful cast, which includes mezzo-soprano Emily D\u2019Angelo as Cinderella\u2019s Prince Charming, soprano Jessica Pratt as her Fairy Godmother, and mezzo-soprano Stephanie Blythe and bass-baritone Laurent Naouri as her feuding guardians. This live cinema transmission is part of the Met\u2019s award-winning Live in HD series, bringing opera to movie theaters across the globe.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/6yOZrCz2j53NCFWoItaQ5zL5JEH.jpg",
-      "tmdb_id": 869183,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Fate",
       "date": "2026-02-14",
       "platform": "Limited",
@@ -1728,6 +1717,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xQqWlcAVIvgJw30IWAWy0kkeyu8.jpg",
       "tmdb_id": 1286659,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Metropolitan Opera: Cinderella",
+      "date": "2026-02-14",
+      "platform": "Limited",
+      "synopsis": "In this New Year\u2019s Day performance, Laurent Pelly\u2019s storybook staging of Massenet\u2019s Cendrillon, a hit of the 2017\u201318 season, is presented with an all-new English translation in an abridged 90-minute adaptation, with mezzo-soprano Isabel Leonard as its rags-to-riches princess. Maestro Emmanuel Villaume leads a delightful cast, which includes mezzo-soprano Emily D\u2019Angelo as Cinderella\u2019s Prince Charming, soprano Jessica Pratt as her Fairy Godmother, and mezzo-soprano Stephanie Blythe and bass-baritone Laurent Naouri as her feuding guardians. This live cinema transmission is part of the Met\u2019s award-winning Live in HD series, bringing opera to movie theaters across the globe.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/6yOZrCz2j53NCFWoItaQ5zL5JEH.jpg",
+      "tmdb_id": 869183,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1776,17 +1776,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Dreadful",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "Set against the backdrop of the War of the Roses follows Anne and her mother-in-law Morwen, who live a solitary, harsh life on the outskirts of society. But when a man from their past returns, he will set off a sequence of events that become a turning point for Anne.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/As1SkUenVWlIZjiYnWZbMuzNRle.jpg",
-      "tmdb_id": 1242937,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "EPiC: Elvis Presley in Concert",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1805,6 +1794,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/4Ep7jV6IlLfCnWe6LCBs7n0n3Q9.jpg",
       "tmdb_id": 1375831,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "The Dreadful",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "Set against the backdrop of the War of the Roses follows Anne and her mother-in-law Morwen, who live a solitary, harsh life on the outskirts of society. But when a man from their past returns, he will set off a sequence of events that become a turning point for Anne.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/As1SkUenVWlIZjiYnWZbMuzNRle.jpg",
+      "tmdb_id": 1242937,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1959,17 +1959,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/mxa6MGgZOd1PKlYWNJ1iOQsy9PN.jpg",
       "tmdb_id": 1430968,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "The Napa Boys",
-      "date": "2026-02-27",
-      "platform": "Limited",
-      "synopsis": "Jack Jr, Miles Jr and the whole gang are back for one last wine-soaked journey prompted by the mysterious \"Sommelier.\" Joined this time by Puck, a fan of The Napa Boys comics, the group will learn about love, loss, friendship and viticulture.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/1JeYOqNB3jlMLT1uZxKvk3WYqsw.jpg",
-      "tmdb_id": 1517305,
       "letterboxd_rating": null,
       "letterboxd_url": null
     }
