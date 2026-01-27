@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-26T10:18:05.487171",
+  "last_updated": "2026-01-27T10:19:25.244124",
   "months": [
     {
       "name": "January",
@@ -422,6 +422,16 @@
       "poster": "https://image.tmdb.org/t/p/w154/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg"
     },
     {
+      "title": "David",
+      "date": "2026-01-27",
+      "platform": "VOD/Digital",
+      "synopsis": "From the songs of his mother\u2019s heart to the whispers of a faithful God, David\u2019s story begins in quiet devotion. When the giant Goliath rises to terrorize a nation, a young shepherd armed with only a sling, a few stones, and unshakable faith steps forward. Pursued by power and driven by purpose, his journey tests the limits of loyalty, love, and courage\u2014culminating in a battle not just for a crown, but for the soul of a kingdom.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/7lFG1WrCwAxBfyGK8ahlBVzXno7.jpg"
+    },
+    {
       "title": "Greenland 2 Migration",
       "date": "2026-01-27",
       "platform": "VOD/Digital",
@@ -430,16 +440,6 @@
       "letterboxd_rating": null,
       "letterboxd_url": null,
       "poster": "https://image.tmdb.org/t/p/w154/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg"
-    },
-    {
-      "title": "Primate",
-      "date": "2026-01-27",
-      "platform": "VOD/Digital",
-      "synopsis": "Home from college, Lucy reunites with family including pet chimp Ben. Ben contracts rabies during a pool party and turns aggressive. Lucy and friends barricade in pool, devising ways to survive the vicious chimp.",
-      "type": "streaming",
-      "letterboxd_rating": null,
-      "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg"
     },
     {
       "title": "Untitled Home Invasion Romance",
@@ -542,16 +542,6 @@
       "poster": null
     },
     {
-      "title": "David",
-      "date": "2026-02-03",
-      "platform": "VOD/Digital",
-      "synopsis": "From the songs of his mother\u2019s heart to the whispers of a faithful God, David\u2019s story begins in quiet devotion. When the giant Goliath rises to terrorize a nation, a young shepherd armed with only a sling, a few stones, and unshakable faith steps forward. Pursued by power and driven by purpose, his journey tests the limits of loyalty, love, and courage\u2014culminating in a battle not just for a crown, but for the soul of a kingdom.",
-      "type": "streaming",
-      "letterboxd_rating": null,
-      "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/7lFG1WrCwAxBfyGK8ahlBVzXno7.jpg"
-    },
-    {
       "title": "The Housemaid",
       "date": "2026-02-03",
       "platform": "VOD/Digital",
@@ -559,7 +549,7 @@
       "type": "streaming",
       "letterboxd_rating": null,
       "letterboxd_url": null,
-      "poster": "https://image.tmdb.org/t/p/w154/qwc6wH49pDytMsYGtcaVM1haYIr.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/cWsBscZzwu5brg9YjNkGewRUvJX.jpg"
     },
     {
       "title": "Marty Supreme",
@@ -622,6 +612,16 @@
       "poster": "https://image.tmdb.org/t/p/w154/iQCtK477yqp6xnHHrQG2P0lXoow.jpg"
     },
     {
+      "title": "Boys Go To Jupiter",
+      "date": "2026-02-06",
+      "platform": "HBO Max",
+      "synopsis": "It\u2019s the day after Christmas in suburban Florida, and Billy 5000 (Jack Corbett) and his friends drift through the sun-bleached limbo between holidays by slacking, shoplifting, and beatboxing. In between sneaking into pools and zoning out on the beach, Billy hustles for tips on the food-on-demand app Grubster, determined to make exactly $5,000 before New Year\u2019s Eve. As he zigzags across town on his hoverboard delivering fast food to a cast of oddball locals, a routine drop-off at the Dolphin Groves Juice Company leads to an unexpected reunion with Rozebud (Miya Folick), his childhood crush, and a mysterious alien creature named Donut that\u2019s stowed away in his backpack. The surprise encounter sets off a surreal chain of events that puts Billy in the crosshairs of Dr. Dolphin (Janeane Garofalo), a ruthless juice mogul who will stop at nothing to reclaim her extraterrestrial property.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": null
+    },
+    {
       "title": "La Grazia",
       "date": "2026-02-06",
       "platform": "MUBI",
@@ -682,6 +682,16 @@
       "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg"
     },
     {
+      "title": "Primate",
+      "date": "2026-02-10",
+      "platform": "VOD/Digital",
+      "synopsis": "Home from college, Lucy reunites with family including pet chimp Ben. Ben contracts rabies during a pool party and turns aggressive. Lucy and friends barricade in pool, devising ways to survive the vicious chimp.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg"
+    },
+    {
       "title": "Eternity",
       "date": "2026-02-13",
       "platform": "Apple TV",
@@ -730,6 +740,16 @@
       "letterboxd_rating": null,
       "letterboxd_url": null,
       "poster": "https://image.tmdb.org/t/p/w154/souvvkJHYhztC1UqZ8lEVUiJa3J.jpg"
+    },
+    {
+      "title": "Dead Of Winter",
+      "date": "2026-02-20",
+      "platform": "HBO Max",
+      "synopsis": "A grief-stricken loner (Emma Thompson) caught in a brutal Minnesotan blizzard discovers a young woman imprisoned by a desperate armed couple, forcing this unlikely hero into a dangerous fight for her and the victim\u2019s survival.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": null,
+      "poster": "https://image.tmdb.org/t/p/w154/5DcrN62sGAiRJxt8rXSRlSRLwIE.jpg"
     },
     {
       "title": "The Dreadful",
@@ -834,7 +854,7 @@
       "platform": "Limited",
       "synopsis": "After losing her beloved father, Helen finds herself saved by an unlikely friendship with a stubborn hawk named Mabel. Through the bond, Helen rediscovers the beauty of being alive.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/5y4SP0rffxekrQ7dekJNZK1cP7h.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/brjbQSdxvXfXDLSRA26NH2Qa5gP.jpg",
       "tmdb_id": 1243006,
       "letterboxd_rating": null,
       "letterboxd_url": null
@@ -851,6 +871,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "Resurrection",
+      "date": "2025-12-12",
+      "platform": "Limited",
+      "synopsis": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/2kuh8g1JLwI5RAqATUhcAkyaLw3.jpg",
+      "tmdb_id": 878608,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Dead Man's Wire",
       "date": "2025-12-12",
       "platform": "Limited",
@@ -858,17 +889,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/71FPde8V7DbnAHgUZfwrpxPOFG6.jpg",
       "tmdb_id": 1263012,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Resurrection",
-      "date": "2025-12-12",
-      "platform": "Limited",
-      "synopsis": "In a future where humanity has surrendered its ability to dream in exchange for immortality, an outcast finds illusion, nightmarish visions, and beauty in an intoxicating world of his own making.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/wBXvXc7CoE1TCEL96VzMkMQKYG9.jpg",
-      "tmdb_id": 878608,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -983,17 +1003,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "All That's Left of You",
-      "date": "2026-01-09",
-      "platform": "Wide Release",
-      "synopsis": "In the Occupied West Bank of the 1980s, a Palestinian teenager is swept into a protest that changes the course of his family's life. Reeling from its aftermath, his mother, Hanan, shares the story that led them to that fateful moment. Spanning seven decades, this epic drama traces the hopes and heartaches of one uprooted family, revealing not only the scars of displacement, but the unbreakable spirit of survival.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/8OTAu88K9r9wqlLXux1mbnHmyPF.jpg",
-      "tmdb_id": 1219620,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Parasakthi",
       "date": "2026-01-09",
       "platform": "Wide Release",
@@ -1001,6 +1010,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/cpKJGYU8Z1iSXzkgDl8vhazk5EQ.jpg",
       "tmdb_id": 965483,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "All That's Left of You",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "In the Occupied West Bank of the 1980s, a Palestinian teenager is swept into a protest that changes the course of his family's life. Reeling from its aftermath, his mother, Hanan, shares the story that led them to that fateful moment. Spanning seven decades, this epic drama traces the hopes and heartaches of one uprooted family, revealing not only the scars of displacement, but the unbreakable spirit of survival.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/8OTAu88K9r9wqlLXux1mbnHmyPF.jpg",
+      "tmdb_id": 1219620,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1027,17 +1047,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "I Was a Stranger",
-      "date": "2026-01-09",
-      "platform": "Limited",
-      "synopsis": "A Syrian doctor and her daughter flee Aleppo, setting off a chain of events that binds five strangers together. A smuggler, a soldier, a poet, and a coast guard captain collide in a crisis that tests their courage, their choices, and their humanity.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/4PsyWVELCnBHkocrj3rMeJcYQ7F.jpg",
-      "tmdb_id": 1193128,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Oscar Shaw",
       "date": "2026-01-09",
       "platform": "Limited",
@@ -1045,6 +1054,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/tsE3nySukwrfUjouz8vzvKTcXNC.jpg",
       "tmdb_id": 1601243,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "I Was a Stranger",
+      "date": "2026-01-09",
+      "platform": "Limited",
+      "synopsis": "A Syrian doctor and her daughter flee Aleppo, setting off a chain of events that binds five strangers together. A smuggler, a soldier, a poet, and a coast guard captain collide in a crisis that tests their courage, their choices, and their humanity.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/4PsyWVELCnBHkocrj3rMeJcYQ7F.jpg",
+      "tmdb_id": 1193128,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1060,13 +1080,13 @@
       "letterboxd_url": null
     },
     {
-      "title": "Relentless",
+      "title": "Magellan",
       "date": "2026-01-09",
       "platform": "Limited",
-      "synopsis": "A homeless man targets a well-off elite in a home invasion. But it will take an unhinged level of brutality to find out his true motive.",
+      "synopsis": "In the 16th century, young and ambitious Portuguese navigator Fern\u00e3o de Magalh\u00e3es rebels against the power of King Manuel I, who doesn't support his dream of discovering the world. He persuades the Spanish Crown to fund his bold expedition to the fabled lands of the East. The voyage is exhausting beyond expectations, with hunger and mutiny pushing the crew to their limits. Upon reaching the islands of the Malayan Archipelago, Magalh\u00e3es' mind changes. He becomes obsessed with conquest and conversion, which sparks violent uprisings beyond his control.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/30CJyWxLd7axNOdpuF9L0yAfKa9.jpg",
-      "tmdb_id": 1459276,
+      "poster": "https://image.tmdb.org/t/p/w154/kA5trayJ6UICmTvSGrtWRftNRUJ.jpg",
+      "tmdb_id": 975335,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1084,7 +1104,7 @@
     {
       "title": "Gundam Wing: The Endless Waltz",
       "date": "2026-01-12",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "After Colony (A.C.) 196, one year following the end of the battles between the Earth Sphere and the space colonies, peace has spread throughout. The Gundam pilots find themselves attempting to rebuild their lives. No longer having need of their weapons of war, their Gundams are sent into the sun to be destroyed. But suddenly, Relena Darlian, now a high-ranking government official, is kidnapped by a colony with aspirations of total dominance. The pilots and their allies find themselves called into action once again. The Endless Waltz has resumed...",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xbnN0pQwbveJnMi7xKkUEX8rjbr.jpg",
@@ -1181,28 +1201,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Charlie the Wonderdog",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "Timid nine year old Danny teams up with his beloved family dog Charlie, who gets abducted by aliens and returns with superpowers, to thwart a plan by the neighbor's sinister cat Puddy to destroy humanity.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
-      "tmdb_id": 1276521,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "ALL YOU NEED IS KILL",
-      "date": "2026-01-16",
-      "platform": "Limited",
-      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg",
-      "tmdb_id": 1432547,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Night Patrol",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -1214,6 +1212,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "Charlie the Wonderdog",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "Timid nine year old Danny teams up with his beloved family dog Charlie, who gets abducted by aliens and returns with superpowers, to thwart a plan by the neighbor's sinister cat Puddy to destroy humanity.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
+      "tmdb_id": 1276521,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Miss Moxy",
       "date": "2026-01-16",
       "platform": "Limited",
@@ -1221,6 +1230,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/1evGutuoFIbK62RymPNKuMzT8EZ.jpg",
       "tmdb_id": 587357,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "ALL YOU NEED IS KILL",
+      "date": "2026-01-16",
+      "platform": "Limited",
+      "synopsis": "When a massive alien flower known as \"Darol\" unexpectedly erupts in a deadly event, unleashing monstrous creatures that decimate the population of Japan, Rita is caught in the destruction\u2014and killed. But then she wakes up again. And again. Caught in an endless time loop, Rita must navigate the trauma and repetition of death until she crosses paths with Keiji, a shy young man trapped in the same cycle. Together, they fight to break free from the loop and find meaning in the chaos around them.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg",
+      "tmdb_id": 1432547,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1313,17 +1333,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Once We Were Us",
-      "date": "2026-01-23",
-      "platform": "Wide Release",
-      "synopsis": "Seoul, 2008. On a bus heading to their hometown, fate brings Eun-ho and Jeong-won together, sparking an unlikely friendship. While battling  a bustling and weary city life, they find themselves sharing lofty dreams and a love that comes to feel extraordinary. But, eventually, the harsh realities of life lead them to part ways. Over a decade after the separation, the two unexpectedly reunite on a flight back to Korea, where they reflect on their lost time.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/ivBI8FRQPIKzoZAryZK93xriOT.jpg",
-      "tmdb_id": 1264805,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Clika",
       "date": "2026-01-23",
       "platform": "Wide Release",
@@ -1331,6 +1340,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/82Vh8PSzWtBi0CLWrnJdRhGYxEr.jpg",
       "tmdb_id": 1450257,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Once We Were Us",
+      "date": "2026-01-23",
+      "platform": "Wide Release",
+      "synopsis": "Seoul, 2008. On a bus heading to their hometown, fate brings Eun-ho and Jeong-won together, sparking an unlikely friendship. While battling  a bustling and weary city life, they find themselves sharing lofty dreams and a love that comes to feel extraordinary. But, eventually, the harsh realities of life lead them to part ways. Over a decade after the separation, the two unexpectedly reunite on a flight back to Korea, where they reflect on their lost time.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/ivBI8FRQPIKzoZAryZK93xriOT.jpg",
+      "tmdb_id": 1264805,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1395,7 +1415,7 @@
       "platform": "Limited",
       "synopsis": "A rising pop sensation navigates fame and industry pressures while preparing for her arena tour debut, revealing the transformation of underground culture into mainstream success.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/avSmjRR43HRySStk6jkl1zaCQ2H.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/txnHhq3GA1zDxZQMk2igq9CyA8v.jpg",
       "tmdb_id": 1422562,
       "letterboxd_rating": null,
       "letterboxd_url": null
@@ -1478,17 +1498,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Jimpa",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "Hannah takes her nonbinary teenager, Frances, to Amsterdam to visit their gay grandfather, Jim \u2014 lovingly known as Jimpa. But Frances\u2019 desire to stay abroad with Jimpa for a year means Hannah is forced to reconsider her beliefs about parenting and finally confront old stories about the past.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/giSERsYBGUcfj9ctB0h9d5ympo8.jpg",
-      "tmdb_id": 1286491,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Twisted",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1496,17 +1505,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/hluMzOgA98EXRRyc7qcXW3UgkO5.jpg",
       "tmdb_id": 1373198,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Stray Kids: The dominATE Experience",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "Featuring the global K-Pop sensation Stray Kids and a live performance from their record-breaking world tour, alongside exclusive behind-the-scenes footage and intimate interviews with the band, Stray Kids: The dominATE Experience is an epic concert film that gives fans both a spectacular front-row seat and unique access to their favourite band.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/f1MvTJ25dq924ww9UOnLkj3qqs8.jpg",
-      "tmdb_id": 1600421,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1522,13 +1520,24 @@
       "letterboxd_url": null
     },
     {
-      "title": "My Father's Shadow",
+      "title": "Jimpa",
       "date": "2026-02-06",
       "platform": "Limited",
-      "synopsis": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+      "synopsis": "Hannah takes her nonbinary teenager, Frances, to Amsterdam to visit their gay grandfather, Jim \u2014 lovingly known as Jimpa. But Frances\u2019 desire to stay abroad with Jimpa for a year means Hannah is forced to reconsider her beliefs about parenting and finally confront old stories about the past.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/aLQYyqWlIBBU3L8L84txbh0x1nq.jpg",
-      "tmdb_id": 1432605,
+      "poster": "https://image.tmdb.org/t/p/w154/giSERsYBGUcfj9ctB0h9d5ympo8.jpg",
+      "tmdb_id": 1286491,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Stray Kids: The dominATE Experience",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "Featuring the global K-Pop sensation Stray Kids and a live performance from their record-breaking world tour, alongside exclusive behind-the-scenes footage and intimate interviews with the band, Stray Kids: The dominATE Experience is an epic concert film that gives fans both a spectacular front-row seat and unique access to their favourite band.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/f1MvTJ25dq924ww9UOnLkj3qqs8.jpg",
+      "tmdb_id": 1600421,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1544,6 +1553,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "My Father's Shadow",
+      "date": "2026-02-06",
+      "platform": "Limited",
+      "synopsis": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/aLQYyqWlIBBU3L8L84txbh0x1nq.jpg",
+      "tmdb_id": 1432605,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Axeman at Cutter's Creek 3: Absolution",
       "date": "2026-02-06",
       "platform": "Limited",
@@ -1555,31 +1575,9 @@
       "letterboxd_url": null
     },
     {
-      "title": "The Roaring Game",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "High school janitor Rickey loses everything when his girlfriend, Kelly, is selected to play hockey for Team USA and compete in the World Games. To win her back, Rickey creates a misfit curling team and uses his sweeping skills to compete for gold and complete a comic quest for redemption that captivates the nation.\u2028",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/nApe9sH3n9j9fbCzuzEjsNj6QJb.jpg",
-      "tmdb_id": 1367670,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "The Huntsman",
-      "date": "2026-02-06",
-      "platform": "Limited",
-      "synopsis": "When an ICU nurse volunteers to help a coma patient accused of murdering six women, he\u2019s drawn into a chilling web of lies, obsession, and deadly secrets as a detective races to stop the killer.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/la1CvCbIaXj9Xd9BOSgEBM15uO0.jpg",
-      "tmdb_id": 1288246,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Crime 101",
       "date": "2026-02-09",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads, forcing the two to collaborate. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/fDj8ZATOTmiFy7BF43L3XLIOrf0.jpg",
@@ -1595,17 +1593,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/vysEQvmPwh2yJVLzOe21bZlECOy.jpg",
       "tmdb_id": 1555243,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "\"Wuthering Heights\"",
-      "date": "2026-02-13",
-      "platform": "Wide Release",
-      "synopsis": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
-      "tmdb_id": 1316092,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1632,24 +1619,24 @@
       "letterboxd_url": null
     },
     {
-      "title": "Nirvanna the Band the Show the Movie",
+      "title": "\"Wuthering Heights\"",
       "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
+      "platform": "Wide Release",
+      "synopsis": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
-      "tmdb_id": 1154538,
+      "poster": "https://image.tmdb.org/t/p/w154/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+      "tmdb_id": 1316092,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
     {
-      "title": "Palestine 36",
+      "title": "Nirvanna the Band the Show the Movie",
       "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
+      "platform": "Wide Release",
+      "synopsis": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
-      "tmdb_id": 1432596,
+      "poster": "https://image.tmdb.org/t/p/w154/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
+      "tmdb_id": 1154538,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1661,6 +1648,17 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/iqzDIhDTXhlGUctcomJVO1kCNQ.jpg",
       "tmdb_id": 1470130,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Palestine 36",
+      "date": "2026-02-13",
+      "platform": "Limited",
+      "synopsis": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/ajeiriNRFPLESjGZ0vdp4MVardZ.jpg",
+      "tmdb_id": 1432596,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1709,17 +1707,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "Broken Bird",
-      "date": "2026-02-13",
-      "platform": "Limited",
-      "synopsis": "Whilst working at a funeral parlour, a lonely mortician develops a dark obsession with a local man.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/xcwWEOuSsdddcx4eb0lksr7cAiZ.jpg",
-      "tmdb_id": 1316077,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Fate",
       "date": "2026-02-14",
       "platform": "Limited",
@@ -1753,6 +1740,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "The Apocalypse of St. John",
+      "date": "2026-02-15",
+      "platform": "Limited",
+      "synopsis": "The Apocalypse of St. John invites viewers on an epic journey through the visions revealed to the Apostle John on Patmos. This cinematic experience brings the Book of Revelation to life through striking visuals, immersive sound, and powerful dramatizations that draw audiences deep into the apocalyptic narrative. Beyond its spectacle, the film offers clear and engaging explanations of each vision, illuminating their theological meaning through the lens of ancient Christian tradition. It presents Revelation not as distant symbolism, but as a living prophecy with profound relevance for our age. Blending drama, documentary insight, and faithful exegesis, the film guides viewers through the mysteries of the End Times and the great spiritual battle at the heart of the prophecy.",
+      "type": "theatrical",
+      "poster": null,
+      "tmdb_id": 1593691,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "The Dangers in My Heart: The Movie",
       "date": "2026-02-16",
       "platform": "Limited",
@@ -1775,6 +1773,17 @@
       "letterboxd_url": null
     },
     {
+      "title": "EPiC: Elvis Presley in Concert",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "A mix of a documentary and concert film made using unused footage from Elvis: That's the Way It Is, the film of Elvis' legendary 1970 Summer Festival in Las Vegas and Elvis's road concert film from two years later, Elvis on Tour, that were found during the production of 2022's Elvis.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/433YxgwVpX8sUPbqzjTAQjLkPX0.jpg",
+      "tmdb_id": 1445363,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Midwinter Break",
       "date": "2026-02-20",
       "platform": "Limited",
@@ -1782,17 +1791,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/6rVqtRTY1HFxYwgj8Ovtnwsq1vo.jpg",
       "tmdb_id": 1125701,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "EPiC: Elvis Presley in Concert",
-      "date": "2026-02-20",
-      "platform": "Limited",
-      "synopsis": "A mix of a documentary and concert film made using unused footage from Elvis: That's the Way It Is, the film of Elvis' legendary 1970 Summer Festival in Las Vegas and Elvis's road concert film from two years later, Elvis on Tour, that were found during the production of 2022's Elvis.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
-      "tmdb_id": 1445363,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
@@ -1852,6 +1850,28 @@
       "letterboxd_url": null
     },
     {
+      "title": "Redux Redux",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "A woman travels the multiverse, killing her daughter\u2019s murderer over and over again. She grows addicted to the revenge streak, putting her own humanity in jeopardy.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/nDO9RIorCX6OxzZfUjbkcMGx7cK.jpg",
+      "tmdb_id": 1340110,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
+      "title": "Billy Preston: That's the Way God Planned It",
+      "date": "2026-02-20",
+      "platform": "Limited",
+      "synopsis": "With his signature gospel sound on the Hammond B3, Billy Preston doublehandedly elevated the greatest artists of his time \u2013 from the Beatles to the Rolling Stones, from Aretha Franklin to Eric Clapton, from Ray Charles to Barbra Streisand to Sly and the Family Stone. In our film, we explore Billy's career and influence on generations of musicians, as he scored several number one hits of his own and became one of the most sought-after musicians in the world. He did all of this as a soul divided -- by his deep roots in the church, in constant conflict with his identity as a gay Black man, searching for a family of his own that would accept him for who he was.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/bfb1T0BNkDVqrOrQmUPsaNsj7o1.jpg",
+      "tmdb_id": 1242018,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
+    },
+    {
       "title": "Homecoming: The Tokyo Series",
       "date": "2026-02-23",
       "platform": "Limited",
@@ -1870,17 +1890,6 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/4awhWx8MOS6bQhzbicXRFdyFDIG.jpg",
       "tmdb_id": 1612063,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Lydia and the Mist Rider",
-      "date": "2026-02-26",
-      "platform": "Limited",
-      "synopsis": "When her older brother Thaddeus is mysteriously kidnapped by the Spellbinder, 11-year-old Lydia sets off to find him in the Misty Sea. Picked up by the crew of a flying ship, the Dolphin, Lydia becomes the apprentice of Ambrosia, a Stargazer. Ambrosia is trying to find other children who have disappeared, including her own son. Determined to solve the mystery, Lydia must learn stargazing magic and ready herself to confront the Spellbinder.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qkrv6Eqq33eVzorc7LNacjwPUPv.jpg",
-      "tmdb_id": 1594694,
       "letterboxd_rating": null,
       "letterboxd_url": null
     },
