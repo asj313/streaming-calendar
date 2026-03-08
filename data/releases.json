@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T10:14:47.233509",
+  "last_updated": "2026-03-08T10:15:19.349058",
   "months": [
     {
       "name": "March",
@@ -47,7 +47,7 @@
       "platform": "VOD/Digital",
       "synopsis": "A rising pop star navigates the complexities of fame and industry pressure while preparing for her arena tour debut.",
       "type": "streaming",
-      "letterboxd_rating": 3.49,
+      "letterboxd_rating": 3.48,
       "letterboxd_url": "https://letterboxd.com/film/the-moment-2026/",
       "poster": "https://image.tmdb.org/t/p/w154/dYgCgTqqMnWdsnP2XirdcFB28ch.jpg"
     },
@@ -69,7 +69,7 @@
       "type": "streaming",
       "letterboxd_rating": 2.39,
       "letterboxd_url": "https://letterboxd.com/film/whistle-2026/",
-      "poster": "https://image.tmdb.org/t/p/w154/bRnTZCjHHMc7cM0HgNkQMB27GYT.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/84vAcFwxoObBuMWANWQXCg0Umg8.jpg"
     },
     {
       "title": "100 Nights Of Hero",
@@ -89,7 +89,7 @@
       "type": "streaming",
       "letterboxd_rating": 2.85,
       "letterboxd_url": "https://letterboxd.com/film/cold-storage-2026/",
-      "poster": "https://image.tmdb.org/t/p/w154/pfqkETJ2A3zXZJuNcufZbAJNnKA.jpg"
+      "poster": "https://image.tmdb.org/t/p/w154/cspe06anYq41h44nE0dLSGkTucC.jpg"
     },
     {
       "title": "Fackham Hall",
@@ -97,7 +97,7 @@
       "platform": "HBO Max",
       "synopsis": "A new porter who embarks on an unlikely relationship with the youngest daughter of a prominent UK family. At the same time, rivalries are spilling over in the Davenport family, led by Lord and Lady Davenport as they also weather the epic failure of the wedding of their eldest daughter to her caddish cousin.",
       "type": "streaming",
-      "letterboxd_rating": 3.09,
+      "letterboxd_rating": 3.08,
       "letterboxd_url": "https://letterboxd.com/film/fackham-hall/",
       "poster": "https://image.tmdb.org/t/p/w154/fwpdRe6WGmzqXFEJYJVepDQ6jrw.jpg"
     },
@@ -127,7 +127,7 @@
       "platform": "VOD/Digital",
       "synopsis": "Tethered by a frightening conclusion, Maya and the Strangers are locked on an unavoidable, unforgiving collision course \u2014 a showdown that proves they\u2019re far from strangers now.",
       "type": "streaming",
-      "letterboxd_rating": 1.7,
+      "letterboxd_rating": 1.67,
       "letterboxd_url": "https://letterboxd.com/film/the-strangers-chapter-3/",
       "poster": "https://image.tmdb.org/t/p/w154/yPHwX78mcwJw3I6YOJ9qh2wQBFr.jpg"
     },
@@ -137,7 +137,7 @@
       "platform": "Netflix",
       "synopsis": "During the final stage of US Army Ranger selection, an elite team\u2019s training exercise turns into a fight for survival against an unimaginable threat.",
       "type": "streaming",
-      "letterboxd_rating": 2.9,
+      "letterboxd_rating": 2.82,
       "letterboxd_url": "https://letterboxd.com/film/war-machine-2026/",
       "poster": "https://image.tmdb.org/t/p/w154/rFhKkXhk7ClU03jQ5rHIApJDwev.jpg"
     },
@@ -190,6 +190,16 @@
       "letterboxd_rating": 3.53,
       "letterboxd_url": "https://letterboxd.com/film/the-testament-of-ann-lee/",
       "poster": "https://image.tmdb.org/t/p/w154/hBGg3IGRM7LM6ydMmDrl8mEx33Y.jpg"
+    },
+    {
+      "title": "Anniversary",
+      "date": "2026-03-13",
+      "platform": "Hulu",
+      "synopsis": "When Ellen and Paul\u2019s son introduces his new girlfriend one lovely afternoon at their 25th anniversary party, no one suspects that it is the beginning of the end for this happy family. The new girlfriend is Liz, Ellen\u2019s former student expelled from the university some years before for her radical views.",
+      "type": "streaming",
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/anniversary/",
+      "poster": "https://image.tmdb.org/t/p/w154/sSdpXGBNt3mQzjZZVK6eV5NcPdc.jpg"
     },
     {
       "title": "Bodycam",
@@ -267,7 +277,7 @@
       "platform": "Hulu",
       "synopsis": "Based on extensive research involving law enforcement and gang members, a never-before-seen, authentic look inside the underworld of fentanyl trafficking from gangs inside the Oklahoma State Penitentiary at McAlester a.k.a. \u201cBig Mac.\u201d",
       "type": "streaming",
-      "letterboxd_rating": 3.09,
+      "letterboxd_rating": 3.08,
       "letterboxd_url": "https://letterboxd.com/film/king-ivory/",
       "poster": null
     },
@@ -277,7 +287,7 @@
       "platform": "Netflix",
       "synopsis": "Academy Award winner Cillian Murphy reprises his role as the iconic Tommy Shelby in this swaggering Peaky Blinders feature from creator Steven Knight.",
       "type": "streaming",
-      "letterboxd_rating": 3.8,
+      "letterboxd_rating": 3.77,
       "letterboxd_url": "https://letterboxd.com/film/peaky-blinders-the-immortal-man/",
       "poster": "https://image.tmdb.org/t/p/w154/gRMalasZEzsZi4w2VFuYusfSfqf.jpg"
     },
@@ -290,6 +300,16 @@
       "letterboxd_rating": 3.43,
       "letterboxd_url": "https://letterboxd.com/film/wicked-for-good/",
       "poster": "https://image.tmdb.org/t/p/w154/si9tolnefLSUKaqQEGz1bWArOaL.jpg"
+    },
+    {
+      "title": "Sisu Road To Revenge",
+      "date": "2026-03-21",
+      "platform": "Netflix",
+      "synopsis": "Returning to the house where his family was brutally murdered during the war, \u2018the man who refuses to die\u2019 dismantles it, loads it on a truck, and is determined to rebuild it somewhere safe in their honor. When the Red Army commander who killed his family comes back hellbent on finishing the job, a relentless, eye-popping cross-country chase ensues \u2013 a fight to the death.",
+      "type": "streaming",
+      "letterboxd_rating": 3.26,
+      "letterboxd_url": "https://letterboxd.com/film/sisu-road-to-revenge/",
+      "poster": "https://image.tmdb.org/t/p/w154/jNsttCWZyPtW66MjhUozBzVsRb7.jpg"
     },
     {
       "title": "Mercy",
@@ -357,7 +377,7 @@
       "platform": "Shudder",
       "synopsis": "Newly certified mortician Rebecca Owens takes a job at the River Field Mortuary and is tasked with embalming bodies alone on the night shift, but something sinister lurks beneath the surface. She must navigate demonic rituals, unravel the secrets of her enigmatic mentor and confront her own buried traumas to survive the night \u2013 and prevent her body from becoming a vessel for possession.",
       "type": "streaming",
-      "letterboxd_rating": 1.93,
+      "letterboxd_rating": 1.92,
       "letterboxd_url": "https://letterboxd.com/film/the-mortuary-assistant/",
       "poster": "https://image.tmdb.org/t/p/w154/72AoFPC5TY4DfJwXXS9rPwPeReD.jpg"
     },
@@ -522,17 +542,6 @@
       "letterboxd_url": "https://letterboxd.com/film/gone/"
     },
     {
-      "title": "The Bride!",
-      "date": "2026-03-06",
-      "platform": "Wide Release",
-      "synopsis": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
-      "tmdb_id": 1159831,
-      "letterboxd_rating": 3.03,
-      "letterboxd_url": "https://letterboxd.com/film/the-bride-2026/"
-    },
-    {
       "title": "Hoppers",
       "date": "2026-03-06",
       "platform": "Wide Release",
@@ -540,8 +549,19 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
       "tmdb_id": 1327819,
-      "letterboxd_rating": 3.88,
+      "letterboxd_rating": 3.9,
       "letterboxd_url": "https://letterboxd.com/film/hoppers/"
+    },
+    {
+      "title": "The Bride!",
+      "date": "2026-03-06",
+      "platform": "Wide Release",
+      "synopsis": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
+      "tmdb_id": 1159831,
+      "letterboxd_rating": 3.0,
+      "letterboxd_url": "https://letterboxd.com/film/the-bride-2026/"
     },
     {
       "title": "Peaky Blinders: The Immortal Man",
@@ -551,8 +571,19 @@
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
       "tmdb_id": 875828,
-      "letterboxd_rating": 3.8,
+      "letterboxd_rating": 3.77,
       "letterboxd_url": "https://letterboxd.com/film/peaky-blinders-the-immortal-man/"
+    },
+    {
+      "title": "The Good Boy",
+      "date": "2026-03-06",
+      "platform": "Wide Release",
+      "synopsis": "Tommy, a volatile 19-year-old, revels in drugs, parties and violence. After getting separated from his friends on a drunken bender, he is abducted by a shadowy figure. He wakes to find himself imprisoned in the basement of a remote Yorkshire house, inhabited by a very strange family. But what unfolds is not what he could possibly expect.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/nXWewAZxRAr9jYNe2uypLlyPehl.jpg",
+      "tmdb_id": 1381027,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-good-boy/"
     },
     {
       "title": "Youngblood",
@@ -566,20 +597,9 @@
       "letterboxd_url": "https://letterboxd.com/film/youngblood/"
     },
     {
-      "title": "Protector",
-      "date": "2026-03-06",
-      "platform": "Limited",
-      "synopsis": "Former war hero Nikki's peaceful life is shattered when her daughter is kidnapped. Thrust into the criminal underworld while hunted by cops and military, she must fight to rescue her child.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/hUv1DarjEMmQM38i9DvW9pHYPZ4.jpg",
-      "tmdb_id": 1383731,
-      "letterboxd_rating": 2.88,
-      "letterboxd_url": "https://letterboxd.com/film/protector-2026/"
-    },
-    {
       "title": "Dolly",
       "date": "2026-03-06",
-      "platform": "Limited",
+      "platform": "Wide Release",
       "synopsis": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
       "type": "theatrical",
       "poster": "https://image.tmdb.org/t/p/w154/sTPUg3XtdcKRAS5Vwsi1GYPFhNZ.jpg",
@@ -588,15 +608,15 @@
       "letterboxd_url": "https://letterboxd.com/film/dolly/"
     },
     {
-      "title": "The Good Boy",
+      "title": "Protector",
       "date": "2026-03-06",
-      "platform": "Wide Release",
-      "synopsis": "Tommy, a volatile 19-year-old, revels in drugs, parties and violence. After getting separated from his friends on a drunken bender, he is abducted by a shadowy figure. He wakes to find himself imprisoned in the basement of a remote Yorkshire house, inhabited by a very strange family. But what unfolds is not what he could possibly expect.",
+      "platform": "Limited",
+      "synopsis": "Former war hero Nikki's peaceful life is shattered when her daughter is kidnapped. Thrust into the criminal underworld while hunted by cops and military, she must fight to rescue her child.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/nXWewAZxRAr9jYNe2uypLlyPehl.jpg",
-      "tmdb_id": 1381027,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-good-boy/"
+      "poster": "https://image.tmdb.org/t/p/w154/hUv1DarjEMmQM38i9DvW9pHYPZ4.jpg",
+      "tmdb_id": 1383731,
+      "letterboxd_rating": 2.74,
+      "letterboxd_url": "https://letterboxd.com/film/protector-2026/"
     },
     {
       "title": "Masthishka Maranam",
@@ -621,15 +641,37 @@
       "letterboxd_url": "https://letterboxd.com/film/nawi/"
     },
     {
-      "title": "Implant",
+      "title": "Pompei: Below the Clouds",
       "date": "2026-03-06",
       "platform": "Limited",
-      "synopsis": "An ambitious neurosurgeon creates a brain implant that lets him control patients, but his breakthrough turns abusive. As one victim unravels under forced commands, a colleague races to stop the experiment before it becomes deadly.",
+      "synopsis": "Naples faces dual volcanic threats from Vesuvius and Campi Flegrei. Amid increasing tremors, archaeologists work as residents live anxiously, haunted by Pompeii's fate while emergency services strain.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/7kQTVOBAYA6fKgvmZt7h2QLmxzD.jpg",
-      "tmdb_id": 1639384,
+      "poster": "https://image.tmdb.org/t/p/w154/xmTTrWGbw2wIHBw0ht5Oo6AJGZd.jpg",
+      "tmdb_id": 1457188,
+      "letterboxd_rating": 3.46,
+      "letterboxd_url": "https://letterboxd.com/film/pompei-below-the-clouds/"
+    },
+    {
+      "title": "Imposters",
+      "date": "2026-03-06",
+      "platform": "Limited",
+      "synopsis": "After a couple's baby is taken, the desperate mother learns of a way to \"get their baby back.\" However, the husband begins to suspect that what she brought back isn't their son.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/kMPyMBbXJQCZyusyGSH4fAXotmu.jpg",
+      "tmdb_id": 1439881,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/implant/"
+      "letterboxd_url": "https://letterboxd.com/film/imposters/"
+    },
+    {
+      "title": "Andr\u00e9 Is an Idiot",
+      "date": "2026-03-06",
+      "platform": "Limited",
+      "synopsis": "Andr\u00e9, a brilliant idiot, is dying because he didn\u2019t get a colonoscopy. His sobering diagnosis, complete irreverence, and insatiable curiosity, send him on an unexpected journey learning how to die happily and ridiculously without losing his sense of humor.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/hGXJQiZjFspvhGhzM1bzlgOg7Ib.jpg",
+      "tmdb_id": 1400731,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
     },
     {
       "title": "Dusk",
@@ -641,17 +683,6 @@
       "tmdb_id": 7181,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/dusk-2026/"
-    },
-    {
-      "title": "Grind",
-      "date": "2026-03-12",
-      "platform": "Limited",
-      "synopsis": "Four interconnected stories center around the gig economy, hustle culture, and evils of late-stage capitalism.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/aojDApI09WU0LfqN7C1CGPc7280.jpg",
-      "tmdb_id": 1329467,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/grind-2026/"
     },
     {
       "title": "undertone",
@@ -670,7 +701,7 @@
       "platform": "Wide Release",
       "synopsis": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction\u2026 but an unexpected friendship means he may not have to do it alone.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/iOb2fjXLbpJgyQXe46n1WtGCnaa.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/vOhW7Lbt4kZAqe0vJhVC4Ced9x2.jpg",
       "tmdb_id": 687163,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/project-hail-mary/"
@@ -681,7 +712,7 @@
       "platform": "Wide Release",
       "synopsis": "When Diem's custodial grandparents adamantly refuse Kenna's attempts to see her daughter, Kenna discovers unexpected compassion, and then something truer and deeper, with former NFL player and local bar owner Ledger. As their secret romance develops, so do the dangers for both of them, leading Kenna toward heartbreak and, ultimately, the hope for a second chance.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/oR80dLGjaQ9HVsfWUQeJ04uOSR.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/8hEBaGD2sx4uVe4A1E44NkFIrDm.jpg",
       "tmdb_id": 1367642,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/reminders-of-him/"
@@ -709,17 +740,6 @@
       "letterboxd_url": "https://letterboxd.com/film/sunshine-womens-choir/"
     },
     {
-      "title": "Storm Rider: Legend of Hammerhead",
-      "date": "2026-03-13",
-      "platform": "Limited",
-      "synopsis": "Centuries after the Great Flood, riders compete in death races on the water to secure shelter for their people behind the walls of Argos. Rebellious storm riders Neb and Ana look to uncover hidden truths by breaking through the storm.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/l9JjrKhJRmL0PNpnCmMidf9JAt1.jpg",
-      "tmdb_id": 874860,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/storm-rider-legend-of-hammerhead/"
-    },
-    {
       "title": "Saipan",
       "date": "2026-03-13",
       "platform": "Limited",
@@ -729,6 +749,17 @@
       "tmdb_id": 1322692,
       "letterboxd_rating": 3.43,
       "letterboxd_url": "https://letterboxd.com/film/saipan/"
+    },
+    {
+      "title": "Storm Rider: Legend of Hammerhead",
+      "date": "2026-03-13",
+      "platform": "Limited",
+      "synopsis": "Centuries after the Great Flood, riders compete in death races on the water to secure shelter for their people behind the walls of Argos. Rebellious storm riders Neb and Ana look to uncover hidden truths by breaking through the storm.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/l9JjrKhJRmL0PNpnCmMidf9JAt1.jpg",
+      "tmdb_id": 874860,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/storm-rider-legend-of-hammerhead/"
     },
     {
       "title": "Slanted",
@@ -742,17 +773,6 @@
       "letterboxd_url": "https://letterboxd.com/film/slanted/"
     },
     {
-      "title": "The Gates",
-      "date": "2026-03-13",
-      "platform": "Limited",
-      "synopsis": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/le5eG0G4GgFUs55WAZ1aGKCq8PU.jpg",
-      "tmdb_id": 1366906,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-gates-2026/"
-    },
-    {
       "title": "Scared to Death",
       "date": "2026-03-13",
       "platform": "Limited",
@@ -764,15 +784,15 @@
       "letterboxd_url": "https://letterboxd.com/film/scared-to-death/"
     },
     {
-      "title": "Stairs",
-      "date": "2026-03-16",
+      "title": "The Gates",
+      "date": "2026-03-13",
       "platform": "Limited",
-      "synopsis": "A woman\u2019s life unravels after she becomes addicted to throwing herself down flights of stairs.",
+      "synopsis": "Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/cgmOlqUimLEmj0UqzLMNsEudffN.jpg",
-      "tmdb_id": 1514803,
-      "letterboxd_rating": 3.41,
-      "letterboxd_url": "https://letterboxd.com/film/stairs-2026/"
+      "poster": "https://image.tmdb.org/t/p/w154/le5eG0G4GgFUs55WAZ1aGKCq8PU.jpg",
+      "tmdb_id": 1366906,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-gates-2026/"
     },
     {
       "title": "Dhurandhar: The Revenge",
@@ -797,17 +817,6 @@
       "letterboxd_url": "https://letterboxd.com/film/dead-lover/"
     },
     {
-      "title": "Maya & Samar",
-      "date": "2026-03-20",
-      "platform": "Wide Release",
-      "synopsis": "Set in contemporary Athens, Maya and Samar tells the story of two young women from conflicting cultures whose brief yet torrid affair endangers the life of one, while propelling the other to instant online fame.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/j2wXgIr06YcEhX5TETWdmGEFYeX.jpg",
-      "tmdb_id": 1513996,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Ready or Not 2: Here I Come",
       "date": "2026-03-20",
       "platform": "Wide Release",
@@ -817,6 +826,17 @@
       "tmdb_id": 1266127,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/ready-or-not-2-here-i-come/"
+    },
+    {
+      "title": "Maya & Samar",
+      "date": "2026-03-20",
+      "platform": "Wide Release",
+      "synopsis": "Set in contemporary Athens, Maya and Samar tells the story of two young women from conflicting cultures whose brief yet torrid affair endangers the life of one, while propelling the other to instant online fame.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/j2wXgIr06YcEhX5TETWdmGEFYeX.jpg",
+      "tmdb_id": 1513996,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
     },
     {
       "title": "Two Prosecutors",
@@ -830,17 +850,6 @@
       "letterboxd_url": "https://letterboxd.com/film/two-prosecutors/"
     },
     {
-      "title": "Tow",
-      "date": "2026-03-20",
-      "platform": "Limited",
-      "synopsis": "Amanda Ogle is a woman living in her aging Toyota Camry on the streets of Seattle. When her car \u2014 her only lifeline \u2014 is stolen and impounded, Amanda is thrust into a relentless legal battle against an indifferent system. What begins as a fight to reclaim her car evolves into a deeply human story of resilience, dignity, and the power of one woman\u2019s voice in the face of systemic failure.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/qQ0C4htE6zZKsarE34kafLLyjii.jpg",
-      "tmdb_id": 1244517,
-      "letterboxd_rating": 2.53,
-      "letterboxd_url": "https://letterboxd.com/film/tow/"
-    },
-    {
       "title": "Late Shift",
       "date": "2026-03-20",
       "platform": "Limited",
@@ -852,15 +861,15 @@
       "letterboxd_url": "https://letterboxd.com/film/late-shift/"
     },
     {
-      "title": "Miroirs No. 3",
+      "title": "Tow",
       "date": "2026-03-20",
       "platform": "Limited",
-      "synopsis": "On a weekend trip to the countryside, Laura miraculously survives a car crash. Physically unhurt but deeply shaken, she is taken in by a local woman who witnessed the accident and now cares for Laura with motherly devotion. When her husband and adult son also give up their initial resistance to Laura's presence, the four of them slowly build up some family-like routine. But soon they can no longer ignore their past...",
+      "synopsis": "Amanda Ogle is a woman living in her aging Toyota Camry on the streets of Seattle. When her car \u2014 her only lifeline \u2014 is stolen and impounded, Amanda is thrust into a relentless legal battle against an indifferent system. What begins as a fight to reclaim her car evolves into a deeply human story of resilience, dignity, and the power of one woman\u2019s voice in the face of systemic failure.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/fcy6ZmdrwzW8TtiDY4ZxDEDk6yl.jpg",
-      "tmdb_id": 1178602,
-      "letterboxd_rating": 3.44,
-      "letterboxd_url": "https://letterboxd.com/film/miroirs-no-3/"
+      "poster": "https://image.tmdb.org/t/p/w154/qQ0C4htE6zZKsarE34kafLLyjii.jpg",
+      "tmdb_id": 1244517,
+      "letterboxd_rating": 2.53,
+      "letterboxd_url": "https://letterboxd.com/film/tow/"
     },
     {
       "title": "The Pout-Pout Fish",
@@ -874,6 +883,17 @@
       "letterboxd_url": "https://letterboxd.com/film/the-pout-pout-fish/"
     },
     {
+      "title": "Marc by Sofia",
+      "date": "2026-03-20",
+      "platform": "Limited",
+      "synopsis": "An intimate, unconventional portrait of Marc Jacobs, crafted by Sofia Coppola to capture the genius and singular universe of the iconic American designer.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/oFIW0VvoxPWCC15trTNzaMzpc7r.jpg",
+      "tmdb_id": 1517069,
+      "letterboxd_rating": 3.25,
+      "letterboxd_url": "https://letterboxd.com/film/marc-by-sofia/"
+    },
+    {
       "title": "Touch Me",
       "date": "2026-03-20",
       "platform": "Limited",
@@ -885,15 +905,15 @@
       "letterboxd_url": "https://letterboxd.com/film/touch-me/"
     },
     {
-      "title": "Marc by Sofia",
+      "title": "Miroirs No. 3",
       "date": "2026-03-20",
       "platform": "Limited",
-      "synopsis": "An intimate, unconventional portrait of Marc Jacobs, crafted by Sofia Coppola to capture the genius and singular universe of the iconic American designer.",
+      "synopsis": "On a weekend trip to the countryside, Laura miraculously survives a car crash. Physically unhurt but deeply shaken, she is taken in by a local woman who witnessed the accident and now cares for Laura with motherly devotion. When her husband and adult son also give up their initial resistance to Laura's presence, the four of them slowly build up some family-like routine. But soon they can no longer ignore their past...",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/oFIW0VvoxPWCC15trTNzaMzpc7r.jpg",
-      "tmdb_id": 1517069,
-      "letterboxd_rating": 3.25,
-      "letterboxd_url": "https://letterboxd.com/film/marc-by-sofia/"
+      "poster": "https://image.tmdb.org/t/p/w154/fcy6ZmdrwzW8TtiDY4ZxDEDk6yl.jpg",
+      "tmdb_id": 1178602,
+      "letterboxd_rating": 3.44,
+      "letterboxd_url": "https://letterboxd.com/film/miroirs-no-3/"
     },
     {
       "title": "The Cure",
@@ -918,15 +938,15 @@
       "letterboxd_url": "https://letterboxd.com/film/vampires-of-the-velvet-lounge/"
     },
     {
-      "title": "Past Life",
+      "title": "Dry Leaf",
       "date": "2026-03-20",
       "platform": "Limited",
-      "synopsis": "When an unemployed reporter is hypnotized as part of a past life regression event, he wakes not with memories of life as royalty or some other glamorous person, but instead finds himself haunted by the memories of a serial killer.",
+      "synopsis": "Lisa, a photographer, has gone missing. The last known detail is that she had been photographing rural football stadiums in villages across Georgia. Her father, Irakli, sets out to search for her, traveling from place to place. Levani, Lisa's best friend \u2013 and an invisible person \u2013 also sets off to help.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/9Nysr3PzUVdevMEJDW8iIdB4Z8w.jpg",
-      "tmdb_id": 1533222,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/past-life-2026/"
+      "poster": "https://image.tmdb.org/t/p/w154/8yoTbPfrcqxNWkIIo7bayF2N8hl.jpg",
+      "tmdb_id": 1057888,
+      "letterboxd_rating": 3.85,
+      "letterboxd_url": "https://letterboxd.com/film/dry-leaf/"
     },
     {
       "title": "Wardriver",
@@ -940,6 +960,17 @@
       "letterboxd_url": "https://letterboxd.com/film/wardriver/"
     },
     {
+      "title": "Past Life",
+      "date": "2026-03-20",
+      "platform": "Limited",
+      "synopsis": "When an unemployed reporter is hypnotized as part of a past life regression event, he wakes not with memories of life as royalty or some other glamorous person, but instead finds himself haunted by the memories of a serial killer.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/9Nysr3PzUVdevMEJDW8iIdB4Z8w.jpg",
+      "tmdb_id": 1533222,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/past-life-2026/"
+    },
+    {
       "title": "Do Not Enter",
       "date": "2026-03-20",
       "platform": "Limited",
@@ -949,17 +980,6 @@
       "tmdb_id": 999136,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/do-not-enter-2026/"
-    },
-    {
-      "title": "Dry Leaf",
-      "date": "2026-03-20",
-      "platform": "Limited",
-      "synopsis": "Lisa, a photographer, has gone missing. The last known detail is that she had been photographing rural football stadiums in villages across Georgia. Her father, Irakli, sets out to search for her, traveling from place to place. Levani, Lisa's best friend \u2013 and an invisible person \u2013 also sets off to help.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/8yoTbPfrcqxNWkIIo7bayF2N8hl.jpg",
-      "tmdb_id": 1057888,
-      "letterboxd_rating": 3.85,
-      "letterboxd_url": "https://letterboxd.com/film/dry-leaf/"
     },
     {
       "title": "The Metropolitan Opera: Tristan und Isolde",
@@ -995,17 +1015,6 @@
       "letterboxd_url": "https://letterboxd.com/film/they-will-kill-you/"
     },
     {
-      "title": "Holy Days",
-      "date": "2026-03-27",
-      "platform": "Limited",
-      "synopsis": "When young Brian discovers plans to close a convent of delightfully eccentric nuns, he sets off with them on a wild road trip across New Zealand to save their home.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/bQuH4CVkdKoHtOksYu8q4g3nsNa.jpg",
-      "tmdb_id": 1381151,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/holy-days-2026/"
-    },
-    {
       "title": "Forbidden Fruits",
       "date": "2026-03-27",
       "platform": "Limited",
@@ -1017,15 +1026,15 @@
       "letterboxd_url": "https://letterboxd.com/film/forbidden-fruits-2026/"
     },
     {
-      "title": "A Magnificent Life",
+      "title": "Holy Days",
       "date": "2026-03-27",
       "platform": "Limited",
-      "synopsis": "In 1955, 60-year-old Marcel Pagnol is a well-known and acclaimed playwright and filmmaker. When the editor-in-chief of ELLE magazine commissions a weekly column about Pagnol's childhood, he sees this as a great opportunity to go back to his artistic roots: writing. Realizing his memory is failing him and deeply affected by the disappointing results of his last two plays, Pagnol starts doubting his ability to pursue his work. That is until Little Marcel - the young boy he used to be - appears to him as if by magic. Together, they will explore Marcel Pagnol's incredible life and bring back to life his most cherished encounters and memories...",
+      "synopsis": "When young Brian discovers plans to close a convent of delightfully eccentric nuns, he sets off with them on a wild road trip across New Zealand to save their home.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/8RDzFr9kGPJU2D5pOOzk0W1ATJq.jpg",
-      "tmdb_id": 840873,
-      "letterboxd_rating": 3.52,
-      "letterboxd_url": "https://letterboxd.com/film/a-magnificent-life/"
+      "poster": "https://image.tmdb.org/t/p/w154/bQuH4CVkdKoHtOksYu8q4g3nsNa.jpg",
+      "tmdb_id": 1381151,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/holy-days-2026/"
     },
     {
       "title": "Yes",
@@ -1039,15 +1048,15 @@
       "letterboxd_url": "https://letterboxd.com/film/yes/"
     },
     {
-      "title": "Our Hero, Balthazar",
+      "title": "A Magnificent Life",
       "date": "2026-03-27",
       "platform": "Limited",
-      "synopsis": "Eager to impress his activist crush, a wealthy New York teenager follows an online connection to Texas, where he's convinced he can stop an act of extreme violence.",
+      "synopsis": "In 1955, 60-year-old Marcel Pagnol is a well-known and acclaimed playwright and filmmaker. When the editor-in-chief of ELLE magazine commissions a weekly column about Pagnol's childhood, he sees this as a great opportunity to go back to his artistic roots: writing. Realizing his memory is failing him and deeply affected by the disappointing results of his last two plays, Pagnol starts doubting his ability to pursue his work. That is until Little Marcel - the young boy he used to be - appears to him as if by magic. Together, they will explore Marcel Pagnol's incredible life and bring back to life his most cherished encounters and memories...",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/mxVTarvl5OLoU9YWIYygby6R0KI.jpg",
-      "tmdb_id": 1465557,
-      "letterboxd_rating": 3.63,
-      "letterboxd_url": "https://letterboxd.com/film/our-hero-balthazar/"
+      "poster": "https://image.tmdb.org/t/p/w154/8RDzFr9kGPJU2D5pOOzk0W1ATJq.jpg",
+      "tmdb_id": 840873,
+      "letterboxd_rating": 3.52,
+      "letterboxd_url": "https://letterboxd.com/film/a-magnificent-life/"
     },
     {
       "title": "Kontinental '25",
@@ -1059,6 +1068,17 @@
       "tmdb_id": 1410189,
       "letterboxd_rating": 3.53,
       "letterboxd_url": "https://letterboxd.com/film/kontinental-25/"
+    },
+    {
+      "title": "Our Hero, Balthazar",
+      "date": "2026-03-27",
+      "platform": "Limited",
+      "synopsis": "Eager to impress his activist crush, a wealthy New York teenager follows an online connection to Texas, where he's convinced he can stop an act of extreme violence.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/mxVTarvl5OLoU9YWIYygby6R0KI.jpg",
+      "tmdb_id": 1465557,
+      "letterboxd_rating": 3.63,
+      "letterboxd_url": "https://letterboxd.com/film/our-hero-balthazar/"
     },
     {
       "title": "She Dances",
@@ -1099,7 +1119,7 @@
       "platform": "Wide Release",
       "synopsis": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/yfGXTVSeyRTt9TnQV4pAyoSAv69.jpg",
+      "poster": "https://image.tmdb.org/t/p/w154/4msKOk5QsvZk7AHY5c3vgbUN8WB.jpg",
       "tmdb_id": 1226863,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/the-super-mario-galaxy-movie/"
@@ -1226,17 +1246,6 @@
       "letterboxd_url": "https://letterboxd.com/film/exit-8/"
     },
     {
-      "title": "Newborn",
-      "date": "2026-04-10",
-      "platform": "Limited",
-      "synopsis": "After serving seven years in solitary confinement, Chris Newborn seeks to rebuild his life and reconnect with his family only to find that freedom has become a terrifying psychological battleground.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/g3fTSiQ19uIpYDHVAHLHvgLwzPD.jpg",
-      "tmdb_id": 787844,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/newborn-2026/"
-    },
-    {
       "title": "Faces of Death",
       "date": "2026-04-10",
       "platform": "Wide Release",
@@ -1246,6 +1255,17 @@
       "tmdb_id": 855435,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/faces-of-death-2026/"
+    },
+    {
+      "title": "Newborn",
+      "date": "2026-04-10",
+      "platform": "Limited",
+      "synopsis": "After serving seven years in solitary confinement, Chris Newborn seeks to rebuild his life and reconnect with his family only to find that freedom has become a terrifying psychological battleground.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/g3fTSiQ19uIpYDHVAHLHvgLwzPD.jpg",
+      "tmdb_id": 787844,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/newborn-2026/"
     },
     {
       "title": "You, Me & Tuscany",
@@ -1270,17 +1290,6 @@
       "letterboxd_url": "https://letterboxd.com/film/hamlet/"
     },
     {
-      "title": "Nika & Madison",
-      "date": "2026-04-10",
-      "platform": "Limited",
-      "synopsis": "Fearing they won't be believed, two young Indigenous women go on the run after one's defense of the other results in a violent attack against a police officer.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/j3x9UqLLhAESI75TCjOszArBHFW.jpg",
-      "tmdb_id": 1514056,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
       "title": "Beast",
       "date": "2026-04-10",
       "platform": "Limited",
@@ -1292,15 +1301,15 @@
       "letterboxd_url": "https://letterboxd.com/film/beast-2026/"
     },
     {
-      "title": "The Christophers",
+      "title": "Nika & Madison",
       "date": "2026-04-10",
       "platform": "Limited",
-      "synopsis": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death.",
+      "synopsis": "Fearing they won't be believed, two young Indigenous women go on the run after one's defense of the other results in a violent attack against a police officer.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/uLRr3sVVqzcexegoCMrhb2AsVZn.jpg",
-      "tmdb_id": 1400357,
-      "letterboxd_rating": 3.48,
-      "letterboxd_url": "https://letterboxd.com/film/the-christophers/"
+      "poster": "https://image.tmdb.org/t/p/w154/j3x9UqLLhAESI75TCjOszArBHFW.jpg",
+      "tmdb_id": 1514056,
+      "letterboxd_rating": null,
+      "letterboxd_url": null
     },
     {
       "title": "ChaO",
@@ -1312,6 +1321,17 @@
       "tmdb_id": 1419053,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/chao/"
+    },
+    {
+      "title": "The Christophers",
+      "date": "2026-04-10",
+      "platform": "Limited",
+      "synopsis": "The estranged children of a once-famous artist hire a forger to complete his unfinished works so they can be \"discovered\" and sold after his death.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/uLRr3sVVqzcexegoCMrhb2AsVZn.jpg",
+      "tmdb_id": 1400357,
+      "letterboxd_rating": 3.48,
+      "letterboxd_url": "https://letterboxd.com/film/the-christophers/"
     },
     {
       "title": "The Yeti",
@@ -1336,6 +1356,17 @@
       "letterboxd_url": "https://letterboxd.com/film/bunnylovr/"
     },
     {
+      "title": "At a Time Like This",
+      "date": "2026-04-10",
+      "platform": "Limited",
+      "synopsis": "Two friends argue in the midst of the apocalypse.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/fkEEBoBiYOm22eIMcw46sB55g3t.jpg",
+      "tmdb_id": 1596184,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/at-a-time-like-this/"
+    },
+    {
       "title": "Burnout",
       "date": "2026-04-11",
       "platform": "Limited",
@@ -1358,17 +1389,6 @@
       "letterboxd_url": "https://letterboxd.com/film/spacetime-chronicles/"
     },
     {
-      "title": "The Daoxian Incident",
-      "date": "2026-04-14",
-      "platform": "Limited",
-      "synopsis": "The result of years of fieldwork and research, \"The Daoxian Incident\" examines the causes of armed struggle and mass killings in Dao County, Hunan, at the height of the Cultural Revolution. Between August 13 and October 17, 1967, 7,696 people were killed and 1,397 were forced to commit suicide. An additional 2,146 were permanently injured or disabled. Most of the victims were labeled \u201cclass enemies\u201d and belonged to the so-called \u201cFive Black Categories,\u201d while at least 14,000 people participated in the killings. Through interviews with survivors, participants, and family members, this documentary reconstructs the complex sequence of political campaigns that culminated in one of the bloodiest episodes in the PRC's history.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/7cTg0BgZLFaLlwu9XEX2VsaWJ4F.jpg",
-      "tmdb_id": 1642746,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/the-daoxian-incident/"
-    },
-    {
       "title": "Brunello: The Gracious Visionary",
       "date": "2026-04-14",
       "platform": "Limited",
@@ -1378,6 +1398,17 @@
       "tmdb_id": 1498729,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/brunello-the-gracious-visionary/"
+    },
+    {
+      "title": "The Daoxian Incident",
+      "date": "2026-04-14",
+      "platform": "Limited",
+      "synopsis": "The result of years of fieldwork and research, \"The Daoxian Incident\" examines the causes of armed struggle and mass killings in Dao County, Hunan, at the height of the Cultural Revolution. Between August 13 and October 17, 1967, 7,696 people were killed and 1,397 were forced to commit suicide. An additional 2,146 were permanently injured or disabled. Most of the victims were labeled \u201cclass enemies\u201d and belonged to the so-called \u201cFive Black Categories,\u201d while at least 14,000 people participated in the killings. Through interviews with survivors, participants, and family members, this documentary reconstructs the complex sequence of political campaigns that culminated in one of the bloodiest episodes in the PRC's history.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/7cTg0BgZLFaLlwu9XEX2VsaWJ4F.jpg",
+      "tmdb_id": 1642746,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-daoxian-incident/"
     },
     {
       "title": "Hansel and Gretel",
@@ -1413,28 +1444,6 @@
       "letterboxd_url": null
     },
     {
-      "title": "A man made of diamonds.",
-      "date": "2026-04-16",
-      "platform": "Limited",
-      "synopsis": "Diamond Made Man\" spans epochs and galaxies, marking a cinematic milestone as potentially the first Hollywood production to feature an epic confrontation between prehistoric dinosaurs and advanced robotics.c31a9d Key scenes include intense battles in modern city streets where Dr. Sreehari, inside a colossal golden robot, clashes with a life-sized T-Rex using groundbreaking practical effects, animatronics, and motion capture technology.The story delves into ancient times around 4700 BC, where humanity's early struggles intertwine with futuristic elements, such as discovering billions in gold aboard a ship in the sea or confronting demonic forces reminiscent of mythological.",
-      "type": "theatrical",
-      "poster": null,
-      "tmdb_id": 1633575,
-      "letterboxd_rating": null,
-      "letterboxd_url": null
-    },
-    {
-      "title": "Blue Heron",
-      "date": "2026-04-17",
-      "platform": "Limited",
-      "synopsis": "In the late 1990s, a family of six settles into their new home on Vancouver Island, as internal dynamics are slowly revealed through the experiences of the youngest child, Sasha. Their fresh start is interrupted by the increasingly dangerous behavior of Jeremy, the family's oldest child.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/e46aXBgHdnr7wrPtqBhzvV5GWUY.jpg",
-      "tmdb_id": 1184941,
-      "letterboxd_rating": 3.86,
-      "letterboxd_url": "https://letterboxd.com/film/blue-heron/"
-    },
-    {
       "title": "4 Kids Walk Into a Bank",
       "date": "2026-04-17",
       "platform": "Wide Release",
@@ -1444,6 +1453,17 @@
       "tmdb_id": 1341341,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/4-kids-walk-into-a-bank/"
+    },
+    {
+      "title": "Mile End Kicks",
+      "date": "2026-04-17",
+      "platform": "Wide Release",
+      "synopsis": "In 2011, Montreal\u2019s indie music scene, Grace Pine, a 24-year-old music critic moves to the Canadian city to write a book on Alanis Morissette\u2019s classic 'Jagged Little Pill' album. But her plans take an unexpected turn when she gets romantically involved with members of an indie band for whom she serves as their publicist.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/43MWCvPawXXnyvMRf6J9hvZ7wf0.jpg",
+      "tmdb_id": 1177767,
+      "letterboxd_rating": 3.49,
+      "letterboxd_url": "https://letterboxd.com/film/mile-end-kicks/"
     },
     {
       "title": "Lee Cronin's The Mummy",
@@ -1468,26 +1488,15 @@
       "letterboxd_url": "https://letterboxd.com/film/eagles-of-the-republic/"
     },
     {
-      "title": "Mile End Kicks",
+      "title": "Blue Heron",
       "date": "2026-04-17",
       "platform": "Limited",
-      "synopsis": "In 2011, Montreal\u2019s indie music scene, Grace Pine, a 24-year-old music critic moves to the Canadian city to write a book on Alanis Morissette\u2019s classic 'Jagged Little Pill' album. But her plans take an unexpected turn when she gets romantically involved with members of an indie band for whom she serves as their publicist.",
+      "synopsis": "In the late 1990s, a family of six settles into their new home on Vancouver Island, as internal dynamics are slowly revealed through the experiences of the youngest child, Sasha. Their fresh start is interrupted by the increasingly dangerous behavior of Jeremy, the family's oldest child.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/43MWCvPawXXnyvMRf6J9hvZ7wf0.jpg",
-      "tmdb_id": 1177767,
-      "letterboxd_rating": 3.49,
-      "letterboxd_url": "https://letterboxd.com/film/mile-end-kicks/"
-    },
-    {
-      "title": "Normal",
-      "date": "2026-04-17",
-      "platform": "Limited",
-      "synopsis": "Interim sheriff Ulysses, called to the snowbound town of Normal, MN, uncovers an international criminal conspiracy at the heart of the seemingly quaint whistle-stop when he comes to the aid of a bank-robbing couple caught up in a deadly mess.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/dHP7nurzOYGHNcNK1O4naVzsGCv.jpg",
-      "tmdb_id": 1242332,
-      "letterboxd_rating": 3.3,
-      "letterboxd_url": "https://letterboxd.com/film/normal/"
+      "poster": "https://image.tmdb.org/t/p/w154/e46aXBgHdnr7wrPtqBhzvV5GWUY.jpg",
+      "tmdb_id": 1184941,
+      "letterboxd_rating": 3.86,
+      "letterboxd_url": "https://letterboxd.com/film/blue-heron/"
     },
     {
       "title": "Wasteman",
@@ -1512,15 +1521,15 @@
       "letterboxd_url": "https://letterboxd.com/film/mother-mary-2026/"
     },
     {
-      "title": "Lorne",
+      "title": "Normal",
       "date": "2026-04-17",
       "platform": "Limited",
-      "synopsis": "A documentary on the life of Lorne Michaels, the enigmatic creator of Saturday Night Live.",
+      "synopsis": "Interim sheriff Ulysses, called to the snowbound town of Normal, MN, uncovers an international criminal conspiracy at the heart of the seemingly quaint whistle-stop when he comes to the aid of a bank-robbing couple caught up in a deadly mess.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/u1Jdy5JfQpYUFA76hX5qcZyLKXD.jpg",
-      "tmdb_id": 1634949,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/lorne-2026/"
+      "poster": "https://image.tmdb.org/t/p/w154/dHP7nurzOYGHNcNK1O4naVzsGCv.jpg",
+      "tmdb_id": 1242332,
+      "letterboxd_rating": 3.3,
+      "letterboxd_url": "https://letterboxd.com/film/normal/"
     },
     {
       "title": "Erupcja",
@@ -1534,6 +1543,17 @@
       "letterboxd_url": "https://letterboxd.com/film/erupcja/"
     },
     {
+      "title": "Lorne",
+      "date": "2026-04-17",
+      "platform": "Limited",
+      "synopsis": "A documentary on the life of Lorne Michaels, the enigmatic creator of Saturday Night Live.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/u1Jdy5JfQpYUFA76hX5qcZyLKXD.jpg",
+      "tmdb_id": 1634949,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/lorne-2026/"
+    },
+    {
       "title": "Everyone Is Lying to You for Money",
       "date": "2026-04-17",
       "platform": "Limited",
@@ -1543,6 +1563,17 @@
       "tmdb_id": 1472844,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/everyone-is-lying-to-you-for-money/"
+    },
+    {
+      "title": "The Gardener",
+      "date": "2026-04-17",
+      "platform": "Limited",
+      "synopsis": "Cosmetics heiress Sabena Weathers, battling a hostile takeover of her company, finds solace and renewal at a remote mountain cottage, where she connects with a mysterious gardener.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/3v2vttsSVOAaJEmYmnHLik05790.jpg",
+      "tmdb_id": 1647277,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/the-gardener-2026/"
     },
     {
       "title": "The Candy World Movie",
@@ -1578,17 +1609,6 @@
       "letterboxd_url": "https://letterboxd.com/film/i-swear/"
     },
     {
-      "title": "Michael",
-      "date": "2026-04-24",
-      "platform": "Wide Release",
-      "synopsis": "Discover the story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music, tracing his journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
-      "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
-      "tmdb_id": 936075,
-      "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/michael-2026/"
-    },
-    {
       "title": "Over Your Dead Body",
       "date": "2026-04-24",
       "platform": "Wide Release",
@@ -1600,15 +1620,15 @@
       "letterboxd_url": "https://letterboxd.com/film/over-your-dead-body-2026/"
     },
     {
-      "title": "Original Sound",
+      "title": "Michael",
       "date": "2026-04-24",
       "platform": "Limited",
-      "synopsis": "A down on his luck aspiring musician gets his big break at the big time when an up and coming singer agrees to collaborate with him after she is caught stealing his song.",
+      "synopsis": "Discover the story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music, tracing his journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
       "type": "theatrical",
-      "poster": "https://image.tmdb.org/t/p/w154/f4zm6xgjWoZRymAQP7CKI75kT7M.jpg",
-      "tmdb_id": 1472304,
+      "poster": "https://image.tmdb.org/t/p/w154/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+      "tmdb_id": 936075,
       "letterboxd_rating": null,
-      "letterboxd_url": "https://letterboxd.com/film/original-sound/"
+      "letterboxd_url": "https://letterboxd.com/film/michael-2026/"
     },
     {
       "title": "Kangaroo Island",
@@ -1620,6 +1640,17 @@
       "tmdb_id": 1307029,
       "letterboxd_rating": null,
       "letterboxd_url": "https://letterboxd.com/film/kangaroo-island/"
+    },
+    {
+      "title": "Original Sound",
+      "date": "2026-04-24",
+      "platform": "Limited",
+      "synopsis": "A down on his luck aspiring musician gets his big break at the big time when an up and coming singer agrees to collaborate with him after she is caught stealing his song.",
+      "type": "theatrical",
+      "poster": "https://image.tmdb.org/t/p/w154/f4zm6xgjWoZRymAQP7CKI75kT7M.jpg",
+      "tmdb_id": 1472304,
+      "letterboxd_rating": null,
+      "letterboxd_url": "https://letterboxd.com/film/original-sound/"
     },
     {
       "title": "Omaha",
