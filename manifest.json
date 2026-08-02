@@ -1,0 +1,16 @@
+{
+  "name": "Releases — Your movie radar",
+  "short_name": "Releases",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0b1010",
+  "theme_color": "#0b1010",
+  "description": "A personal radar for upcoming theatrical and streaming movie releases.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

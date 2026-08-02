@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 import time
+import calendar
 from datetime import datetime
 from pathlib import Path
 
@@ -444,10 +445,8 @@ def main():
         month_num = MONTHS.index(month_name.lower()) + 1
         # Get first and last day of month
         start_date = f"{year}-{month_num:02d}-01"
-        if month_num == 12:
-            end_date = f"{year}-12-31"
-        else:
-            end_date = f"{year}-{month_num:02d}-28"  # Safe end date
+        last_day = calendar.monthrange(year, month_num)[1]
+        end_date = f"{year}-{month_num:02d}-{last_day:02d}"
         
         month_releases = get_tmdb_theatrical_releases(start_date, end_date)
         theatrical_releases.extend(month_releases)
