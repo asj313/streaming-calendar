@@ -948,15 +948,19 @@
     }
 
     function visibleCatalog() {
-      let items = state.catalog.filter(item => parseDate(item.date) >= today);
+      let items = state.catalog;
+      if (state.range === "month") {
+        items = items.filter(item => {
+          const date = parseDate(item.date);
+          return date.getMonth() === today.getMonth() && date.getFullYear() === today.getFullYear();
+        });
+      } else {
+        items = items.filter(item => parseDate(item.date) >= today);
+        if (state.range === "next30") items = items.filter(item => daysFromToday(item.date) < 30);
+      }
       if (state.mode === "theatrical") items = items.filter(item => item.kind === "theatrical");
       if (state.mode === "streaming") items = items.filter(item => item.kind === "streaming");
       if (state.mode === "watchlist") items = items.filter(item => state.watchlist.has(item.id));
-      if (state.range === "next30") items = items.filter(item => daysFromToday(item.date) < 30);
-      if (state.range === "month") items = items.filter(item => {
-        const date = parseDate(item.date);
-        return date.getMonth() === today.getMonth() && date.getFullYear() === today.getFullYear();
-      });
       if (state.platform !== "all") items = items.filter(item => item.platform === state.platform);
       if (state.query) {
         const query = state.query.toLowerCase();
